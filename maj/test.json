@@ -1,20 +1,20 @@
 {
- "version": "0.2.0",
+ "version": "0.2.2",
  "date": "2026-11-07",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.0/iris-app-0.2.0.zip",
-  "sha256": "75ede7046d422dffdc4f20c7537af441bf8b0a2d39516f2109a6a143adab43b9",
-  "taille": 1695294
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.2/iris-app-0.2.2.zip",
+  "sha256": "8ef259d6caf4af4944f5e61efe57cb68201c3cb5ace80563bf04300878924d30",
+  "taille": 1695471
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.0/IrisGhost-Setup.exe",
-  "sha256": "9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67",
-  "taille": 29718430
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.2/IrisGhost-Setup.exe",
+  "sha256": "be8965140625365c603229004469461c368552a829ba54ad21a27125a9f21600",
+  "taille": 29717015
  },
  "notes": {
-  "fr": "Première version publiée d'Iris Ghost, sur le canal Test.\n\nÀ partir d'ici, Iris se met à jour toute seule : les prochaines versions se téléchargent en arrière-plan, se vérifient, et s'appliquent au lancement suivant. Rien à retélécharger, rien à réinstaller.\n\nCe qu'elle apporte\n\n- Une interface entièrement refaite : accueil, coffre, personnages, règles, builds, godrolls, journal et système.\n- Iris, ton Spectre, devient une mécanique à diaphragme qui réagit à ce qui se passe. Couleur, forme, couronne et nombre de lamelles se règlent depuis Système.\n- Les mises à jour automatiques : chaque version est signée et vérifiée avant d'être appliquée, et une version qui ne démarre pas est abandonnée d'elle-même au profit de la précédente.\n- Français et anglais de bout en bout, les données comprises.\n\nInstallation\n\nTélécharge IrisGhost-Setup.exe. Il n'est pas signé : Windows affichera un avertissement SmartScreen. Clique sur « Informations complémentaires », puis « Exécuter quand même ».\n\nEmpreinte SHA-256 de l'installateur :\n9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67\n\nVersion de test : elle sert à trouver ce qui cloche avant que ça atteigne le canal stable. Dis ce que tu vois.",
-  "en": "The first published version of Iris Ghost, on the Test channel.\n\nFrom here on, Iris updates itself: the next versions download in the background, verify themselves, and apply at the following launch. Nothing to download again, nothing to reinstall.\n\nWhat it brings\n\n- A completely rebuilt interface: home, vault, characters, rules, builds, godrolls, log and system.\n- Iris, your Ghost, becomes an iris mechanism that reacts to what is going on. Colour, shape, crown and number of blades are set from System.\n- Automatic updates: every version is signed and verified before it is applied, and a version that fails to start steps aside on its own in favour of the previous one.\n- English and French throughout, data included.\n\nInstalling\n\nDownload IrisGhost-Setup.exe. It is not signed, so Windows will show a SmartScreen warning. Click \"More info\", then \"Run anyway\".\n\nSHA-256 of the installer:\n9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67\n\nThis is a test build: it exists to find what is wrong before it reaches the stable channel. Tell us what you see."
+  "fr": "Correctif important sur les mises à jour elles-mêmes.\n\nLa 0.2.0 cherchait ses mises à jour sur le canal stable, qui n'existait pas encore. Une installation neuve lisait donc un fichier absent, l'ignorait sans rien dire, et n'aurait plus jamais rien reçu. Si tu es en 0.2.0, cette version te retrouve : installe-la une fois, et tout ce qui suivra viendra tout seul.\n\nUne installation suit désormais le canal d'où vient sa propre version. Si tu as choisi un canal dans Système, ton choix reste le tien : rien ne le change.\n\nEmpreinte SHA-256 de l'installateur : voir ci-dessous.\n\nWindows affichera un avertissement SmartScreen, l'installateur n'étant pas signé : « Informations complémentaires », puis « Exécuter quand même ».",
+  "en": "An important fix to the updates themselves.\n\n0.2.0 looked for its updates on the stable channel, which did not exist yet. A fresh install therefore read a file that was not there, ignored it without a word, and would never have received anything again. If you are on 0.2.0, this version finds you: install it once, and everything after it will arrive on its own.\n\nAn install now follows the channel its own version came from. If you picked a channel in System, your choice stays yours: nothing overrides it.\n\nSHA-256 of the installer: see below.\n\nWindows will show a SmartScreen warning, as the installer is not signed: click \"More info\", then \"Run anyway\"."
  },
- "signature": "jj8yEFvAW+bAD6nTSZ3Ab2A2ak/UkORD5m4V0dts8jgDX/Qz7ztYjdHFe6fx496Nz/DUt2Y9NaGmqRRxVhkRBg=="
+ "signature": "ZqWgeDF4V6j5cpVoonxC6DZSyWWTfEQ+yRlMk8BQWvZaHpF0C/enQRocHLcsINNkRDPYKygI3lQkbgDS3IXpBg=="
 }
