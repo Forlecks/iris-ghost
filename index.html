@@ -15,6 +15,15 @@
   p, li { color: #c9c9d4; }
   footer { border-top: 1px solid #2a2b33; margin-top: 3rem; padding-top: 1rem; font-size: .85rem; color: #85858f; }
   a { color: #8ab4ff; }
+
+  .telecharger { display: inline-block; margin: .25rem 0 .5rem; padding: .7rem 1.2rem; border-radius: .5rem;
+                 background: #2f6df6; color: #fff; font-weight: 600; text-decoration: none; }
+  .telecharger:hover { background: #4b82ff; }
+  .discret { font-size: .85rem; color: #85858f; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: .8rem; word-break: break-all; color: #b9b9c4; }
+  details { margin: .75rem 0; }
+  summary { cursor: pointer; color: #b9b9c4; }
+  .langue { border-top: 1px solid #2a2b33; margin-top: 2.5rem; padding-top: 1.5rem; }
 </style>
 </head>
 <body>
@@ -25,13 +34,95 @@
   <p>Iris range ton coffre selon <strong>tes</strong> règles — pas les siennes — et te dit chaque jour ce
     qui tourne, ce qui vaut le coup, et ce que les marchands ont pour toi.</p>
 
-  <h2>Bientôt</h2>
-  <p>L'application n'est pas encore publiée. Cette page existe pour le moment parce que la connexion à
-    Bungie passe par elle.</p>
+  <h2>Télécharger</h2>
+  <!-- La version, l'adresse et l'empreinte viennent du manifeste de mise à jour : il est publié,
+       signé, et il est déjà la source de vérité pour les applications installées. Les écrire en dur
+       ici, c'est publier une empreinte fausse le jour où on oublie de la changer. -->
+  <p id="telechargement">
+    <noscript>
+      <a class="telecharger" href="https://github.com/Forlecks/iris-ghost/releases/latest">Dernière version</a>
+    </noscript>
+  </p>
+  <p class="discret">Windows 10 ou 11. Iris tourne sur ton PC : rien de ce qu'elle lit ne part ailleurs
+    que chez Bungie.</p>
+
+  <details>
+    <summary>Windows affiche « Windows a protégé votre ordinateur »</summary>
+    <p>C'est attendu : l'installateur n'est pas signé par un certificat payant. Clique sur
+      <strong>Informations complémentaires</strong>, puis sur <strong>Exécuter quand même</strong>.
+      L'empreinte SHA-256 publiée ci-dessus permet de vérifier que le fichier téléchargé est bien
+      celui-là — dans PowerShell : <code>Get-FileHash IrisGhost-Setup.exe</code>.</p>
+  </details>
+
+  <p class="discret">Une fois installée, Iris se met à jour toute seule : les versions suivantes se
+    téléchargent en arrière-plan et s'appliquent au lancement suivant. Il n'y a rien à refaire.</p>
+
+  <section class="langue" lang="en">
+    <h2>Download</h2>
+    <p id="download">
+      <noscript>
+        <a class="telecharger" href="https://github.com/Forlecks/iris-ghost/releases/latest">Latest release</a>
+      </noscript>
+    </p>
+    <p class="discret">Windows 10 or 11. Iris runs on your own PC: nothing it reads goes anywhere but
+      to Bungie.</p>
+    <details>
+      <summary>Windows says "Windows protected your PC"</summary>
+      <p>That is expected: the installer is not signed with a paid certificate. Click
+        <strong>More info</strong>, then <strong>Run anyway</strong>. The SHA-256 published above lets
+        you check the file you downloaded is the right one — in PowerShell:
+        <code>Get-FileHash IrisGhost-Setup.exe</code>.</p>
+    </details>
+    <p class="discret">Once installed, Iris updates itself: later versions download in the background
+      and apply at the next launch. There is nothing to redo.</p>
+  </section>
 
   <footer>
     Iris Spectre n'est pas affilié à Bungie, Inc. Destiny et Destiny 2 sont des marques de Bungie.
   </footer>
 </main>
+
+<script>
+  // Le manifeste du canal stable dit tout ce qu'il faut : version, adresse, taille, empreinte. On ne
+  // vérifie pas sa signature ici — une page ne peut pas garder un secret, et ce n'est pas elle qui
+  // applique les mises à jour. Elle ne fait que montrer ce qui est publié.
+  const MOTS = {
+    fr: { bouton: "Télécharger Iris Spectre", version: "version", empreinte: "SHA-256 de l'installateur",
+          rate: "La dernière version est sur la page des releases." },
+    en: { bouton: "Download Iris Ghost", version: "version", empreinte: "SHA-256 of the installer",
+          rate: "The latest version is on the releases page." },
+  };
+  const RELEASES = "https://github.com/Forlecks/iris-ghost/releases/latest";
+
+  function poser(noeud, m, mots) {
+    noeud.replaceChildren();
+    const a = document.createElement("a");
+    a.className = "telecharger";
+    a.href = m ? m.installateur.url : RELEASES;
+    a.textContent = mots.bouton;
+    noeud.append(a);
+    const ligne = document.createElement("span");
+    ligne.className = "discret";
+    if (m) {
+      const mo = (m.installateur.taille / 1e6).toFixed(1);
+      ligne.textContent = ` ${mots.version} ${m.version} · ${mo} Mo`;
+      noeud.append(ligne, document.createElement("br"));
+      const sha = document.createElement("code");
+      sha.textContent = `${mots.empreinte} : ${m.installateur.sha256}`;
+      noeud.append(sha);
+    } else {
+      ligne.textContent = ` ${mots.rate}`;
+      noeud.append(ligne);
+    }
+  }
+
+  fetch("maj/stable.json", { cache: "no-cache" })
+    .then((r) => (r.ok ? r.json() : null))
+    .catch(() => null)
+    .then((m) => {
+      poser(document.getElementById("telechargement"), m, MOTS.fr);
+      poser(document.getElementById("download"), m, MOTS.en);
+    });
+</script>
 </body>
 </html>
