@@ -1,0 +1,20 @@
+{
+ "version": "0.2.0",
+ "date": "2026-11-07",
+ "socle": 1,
+ "paquet": {
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.0/iris-app-0.2.0.zip",
+  "sha256": "75ede7046d422dffdc4f20c7537af441bf8b0a2d39516f2109a6a143adab43b9",
+  "taille": 1695294
+ },
+ "installateur": {
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.0/IrisGhost-Setup.exe",
+  "sha256": "9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67",
+  "taille": 29718430
+ },
+ "notes": {
+  "fr": "- P7b : publier lance les tests dans le venv de travail\n- P7b : publier pousse le site et relit ce qui est servi\n- P7b : la clé publique de publication est gravée\n- P7b : les mises à jour s'appliquent toutes seules\n- P6 bis : l'icône Windows, dessinée sans rastériseur\n- P6 bis : l'emblème d'Iris, en trois niveaux de détail\n- P6 bis : régler l'apparence d'Iris depuis Système\n- P6 bis : Iris devient une mécanique à diaphragme",
+  "en": "- P7b : publier lance les tests dans le venv de travail\n- P7b : publier pousse le site et relit ce qui est servi\n- P7b : la clé publique de publication est gravée\n- P7b : les mises à jour s'appliquent toutes seules\n- P6 bis : l'icône Windows, dessinée sans rastériseur\n- P6 bis : l'emblème d'Iris, en trois niveaux de détail\n- P6 bis : régler l'apparence d'Iris depuis Système\n- P6 bis : Iris devient une mécanique à diaphragme"
+ },
+ "signature": "s8YSQk9umZiGuFs08OF9/7AAcE7DSqjYfR0Ujpg73WjCiqy3Qa4fSJiA8QS64j2I+Slk5y+OS9vjHJTVcxh3Cg=="
+}
