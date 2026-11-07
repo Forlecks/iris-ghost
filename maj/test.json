@@ -1,20 +1,20 @@
 {
- "version": "0.2.4",
+ "version": "0.2.5",
  "date": "2026-11-07",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.4/iris-app-0.2.4.zip",
-  "sha256": "88a72ac2df0555902b35e059c1df591ed69b1a433e70f69947a46c524c150a05",
-  "taille": 1700714
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.5/iris-app-0.2.5.zip",
+  "sha256": "3193cc9207922de32a0d91dd0ff4ef72773d1015ececc85cf41b9b0f2ea253ce",
+  "taille": 1702503
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.4/IrisGhost-Setup.exe",
-  "sha256": "a4a99ec6b21c648fb34d84f4f5f0fceafbc6ae0ff31dfd19135a630a517f22fa",
-  "taille": 29723672
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.5/IrisGhost-Setup.exe",
+  "sha256": "e2d92daed3fb03c8335588a8a6eb99443b467e69265f0facf10ca28740d4d681",
+  "taille": 29723267
  },
  "notes": {
-  "fr": "La connexion ne se cherche plus.\n\nTant qu'aucun compte Bungie n'est connecté, Iris ne montre que ça : un écran qui demande la connexion, et rien d'autre. Elle ne sait rien de ton coffre avant, alors lui faire traverser huit écrans vides n'avait pas de sens.\n\nLe retour de connexion ramène maintenant la fenêtre d'Iris au premier plan. Avant, tu te connectais dans ton navigateur et l'application continuait d'afficher « pas connecté » : elle n'allait jamais revérifier.\n\nSi ton navigateur ne revient pas, l'écran de connexion propose de coller le code à la main. La langue s'y règle aussi, sans avoir à atteindre Système.\n\nC'est la première version qui s'installe toute seule, sans que tu aies rien à télécharger.",
-  "en": "Signing in is no longer something to look for.\n\nUntil a Bungie account is connected, Iris shows one thing only: a screen asking you to sign in, and nothing else. It knows nothing about your vault before that, so walking you through eight empty screens made no sense.\n\nComing back from the sign-in page now brings the Iris window to the front. Before, you signed in inside your browser and the application went on showing \"not connected\": it never looked again.\n\nIf your browser does not come back, the sign-in screen offers to paste the code by hand. The language can be set there too, without having to reach System.\n\nThis is the first version that installs itself, with nothing for you to download."
+  "fr": "« Redémarrer » redémarre vraiment.\n\nDans la 0.2.4, le bouton fermait Iris et ne la rallumait pas — la mise à jour était bien appliquée, mais il fallait relancer l'application à la main. Elle revient maintenant d'elle-même, dans la nouvelle version.\n\nSi jamais elle n'y parvient pas, elle le dit au lieu de promettre un retour qui n'aura pas lieu.\n\nRien d'autre ne change : c'est un correctif, et il arrive tout seul.",
+  "en": "\"Restart\" now really restarts.\n\nIn 0.2.4 the button closed Iris and never brought it back — the update was applied, but you had to start the application again by hand. It now comes back on its own, in the new version.\n\nIf it ever cannot, it says so instead of promising a return that will not happen.\n\nNothing else changes: this is a fix, and it arrives on its own."
  },
- "signature": "YkGGHcoJIsyN9o/KEy1qKCwywdcAM8q3kT8TvCDo8vCCRWW6SjPitmKqWKmrXMTFpB1GCrIBYxLcFLPP8fYYAg=="
+ "signature": "qEkH1FDZd3pfsE/U7KwJPfF4P3I5VQ2Ib8P8IFAZQ/7bbu5OOd35f8LQnEWRk1U3sy0lbEFhKTwadds9Ld8iCg=="
 }
