@@ -1,0 +1,20 @@
+{
+ "version": "0.2.0",
+ "date": "2026-11-07",
+ "socle": 1,
+ "paquet": {
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.0/iris-app-0.2.0.zip",
+  "sha256": "75ede7046d422dffdc4f20c7537af441bf8b0a2d39516f2109a6a143adab43b9",
+  "taille": 1695294
+ },
+ "installateur": {
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.0/IrisGhost-Setup.exe",
+  "sha256": "9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67",
+  "taille": 29718430
+ },
+ "notes": {
+  "fr": "Première version publiée d'Iris Ghost, sur le canal Test.\n\nÀ partir d'ici, Iris se met à jour toute seule : les prochaines versions se téléchargent en arrière-plan, se vérifient, et s'appliquent au lancement suivant. Rien à retélécharger, rien à réinstaller.\n\nCe qu'elle apporte\n\n- Une interface entièrement refaite : accueil, coffre, personnages, règles, builds, godrolls, journal et système.\n- Iris, ton Spectre, devient une mécanique à diaphragme qui réagit à ce qui se passe. Couleur, forme, couronne et nombre de lamelles se règlent depuis Système.\n- Les mises à jour automatiques : chaque version est signée et vérifiée avant d'être appliquée, et une version qui ne démarre pas est abandonnée d'elle-même au profit de la précédente.\n- Français et anglais de bout en bout, les données comprises.\n\nInstallation\n\nTélécharge IrisGhost-Setup.exe. Il n'est pas signé : Windows affichera un avertissement SmartScreen. Clique sur « Informations complémentaires », puis « Exécuter quand même ».\n\nEmpreinte SHA-256 de l'installateur :\n9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67\n\nVersion de test : elle sert à trouver ce qui cloche avant que ça atteigne le canal stable. Dis ce que tu vois.",
+  "en": "The first published version of Iris Ghost, on the Test channel.\n\nFrom here on, Iris updates itself: the next versions download in the background, verify themselves, and apply at the following launch. Nothing to download again, nothing to reinstall.\n\nWhat it brings\n\n- A completely rebuilt interface: home, vault, characters, rules, builds, godrolls, log and system.\n- Iris, your Ghost, becomes an iris mechanism that reacts to what is going on. Colour, shape, crown and number of blades are set from System.\n- Automatic updates: every version is signed and verified before it is applied, and a version that fails to start steps aside on its own in favour of the previous one.\n- English and French throughout, data included.\n\nInstalling\n\nDownload IrisGhost-Setup.exe. It is not signed, so Windows will show a SmartScreen warning. Click \"More info\", then \"Run anyway\".\n\nSHA-256 of the installer:\n9d7ec7dd9a2a99ca29900106069bd6da3eb246b139008401221fb3de73e76c67\n\nThis is a test build: it exists to find what is wrong before it reaches the stable channel. Tell us what you see."
+ },
+ "signature": "jj8yEFvAW+bAD6nTSZ3Ab2A2ak/UkORD5m4V0dts8jgDX/Qz7ztYjdHFe6fx496Nz/DUt2Y9NaGmqRRxVhkRBg=="
+}
