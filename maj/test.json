@@ -1,20 +1,20 @@
 {
- "version": "0.2.3",
+ "version": "0.2.4",
  "date": "2026-11-07",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.3/iris-app-0.2.3.zip",
-  "sha256": "0712328a830ca7306c977082de2143bc225e6a326c436b71dc2f6cbec4971bf9",
-  "taille": 1696390
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.4/iris-app-0.2.4.zip",
+  "sha256": "88a72ac2df0555902b35e059c1df591ed69b1a433e70f69947a46c524c150a05",
+  "taille": 1700714
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.3/IrisGhost-Setup.exe",
-  "sha256": "cfa1ed0e642f909d178728cf56eaa91cba9d7371b8396ba4e869acb849b2b5e2",
-  "taille": 29719129
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.4/IrisGhost-Setup.exe",
+  "sha256": "a4a99ec6b21c648fb34d84f4f5f0fceafbc6ae0ff31dfd19135a630a517f22fa",
+  "taille": 29723672
  },
  "notes": {
-  "fr": "La 0.2.2 ne démarre pas. Celle-ci, oui.\n\nLancée depuis le menu Démarrer, la 0.2.2 s'arrêtait sur « Unable to configure formatter 'default' » avant même d'ouvrir sa fenêtre. Une application sans console n'a pas de sortie standard, et le serveur demandait à cette sortie absente si elle savait afficher des couleurs.\n\nSi tu as la 0.2.2, elle ne peut pas se mettre à jour toute seule : elle ne démarre pas, donc elle ne va jamais voir s'il existe une version plus récente. Télécharge celle-ci et installe-la par-dessus. C'est la dernière fois : à partir de la 0.2.3, tout arrive tout seul.\n\nEmpreinte SHA-256 de l'installateur : voir ci-dessous.\n\nWindows affichera un avertissement SmartScreen, l'installateur n'étant pas signé : « Informations complémentaires », puis « Exécuter quand même ».",
-  "en": "0.2.2 does not start. This one does.\n\nLaunched from the Start menu, 0.2.2 stopped on \"Unable to configure formatter 'default'\" before it even opened its window. An application with no console has no standard output, and the server was asking that missing output whether it could show colours.\n\nIf you have 0.2.2, it cannot update itself: it never starts, so it never goes looking for a newer version. Download this one and install it over the top. This is the last time: from 0.2.3 on, everything arrives on its own.\n\nSHA-256 of the installer: see below.\n\nWindows will show a SmartScreen warning, as the installer is not signed: click \"More info\", then \"Run anyway\"."
+  "fr": "La connexion ne se cherche plus.\n\nTant qu'aucun compte Bungie n'est connecté, Iris ne montre que ça : un écran qui demande la connexion, et rien d'autre. Elle ne sait rien de ton coffre avant, alors lui faire traverser huit écrans vides n'avait pas de sens.\n\nLe retour de connexion ramène maintenant la fenêtre d'Iris au premier plan. Avant, tu te connectais dans ton navigateur et l'application continuait d'afficher « pas connecté » : elle n'allait jamais revérifier.\n\nSi ton navigateur ne revient pas, l'écran de connexion propose de coller le code à la main. La langue s'y règle aussi, sans avoir à atteindre Système.\n\nC'est la première version qui s'installe toute seule, sans que tu aies rien à télécharger.",
+  "en": "Signing in is no longer something to look for.\n\nUntil a Bungie account is connected, Iris shows one thing only: a screen asking you to sign in, and nothing else. It knows nothing about your vault before that, so walking you through eight empty screens made no sense.\n\nComing back from the sign-in page now brings the Iris window to the front. Before, you signed in inside your browser and the application went on showing \"not connected\": it never looked again.\n\nIf your browser does not come back, the sign-in screen offers to paste the code by hand. The language can be set there too, without having to reach System.\n\nThis is the first version that installs itself, with nothing for you to download."
  },
- "signature": "zBL2XOKdwoa8zEzzlvP4r4Gqvh83i3WHHVdUD6iLGs/pY8ltVG24xMqWN68m0lJ8ndx8T+SmjEPshvvOk3uwAA=="
+ "signature": "YkGGHcoJIsyN9o/KEy1qKCwywdcAM8q3kT8TvCDo8vCCRWW6SjPitmKqWKmrXMTFpB1GCrIBYxLcFLPP8fYYAg=="
 }
