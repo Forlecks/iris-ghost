@@ -1,20 +1,20 @@
 {
- "version": "0.2.6",
+ "version": "0.2.7",
  "date": "2026-11-07",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.6/iris-app-0.2.6.zip",
-  "sha256": "5f3f4b31644ad6f369efff9fb88253028a92321f6ffe2ad6bb93f7d1342ce3be",
-  "taille": 1705790
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.7/iris-app-0.2.7.zip",
+  "sha256": "5b7418c5ad9cf15b34f607fe438d6097f1db8c0f0cbf2567b72355661428a973",
+  "taille": 1702045
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.6/IrisGhost-Setup.exe",
-  "sha256": "8b4c61f573a42b13f7fbd31ea8c2749e93f1a50ad5e4e212dd6e649b788b8387",
-  "taille": 29722277
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.7/IrisGhost-Setup.exe",
+  "sha256": "e0252e00b2c45a3847dd367a39c3d975d8771cd17c0699d494c3df017b5a519f",
+  "taille": 29718606
  },
  "notes": {
-  "fr": "Iris tient désormais un journal technique.\n\nJusqu'ici, quand quelque chose se passait mal, il n'y avait rien à lire : une application en fenêtre n'a pas de console, et tout ce qu'Iris racontait partait dans le vide. Elle écrit maintenant dans un fichier, à côté de ses données.\n\nCe journal est ramassé par le rapport de diagnostic (Système → Données), avec le même filtre que le reste : ni jetons, ni clés, ni identifiant de compte, ni nom affiché. Si quelque chose cloche, c'est ce rapport qu'il faut envoyer.\n\nRien d'autre ne change.",
-  "en": "Iris now keeps a technical log.\n\nUntil now, when something went wrong there was nothing to read: a windowed application has no console, and everything Iris had to say went nowhere. It now writes to a file, next to its data.\n\nThat log is picked up by the diagnostic report (System → Data), with the same filter as everything else: no tokens, no keys, no account id, no display name. If something is wrong, that report is what to send.\n\nNothing else changes."
+  "fr": "Deux nettoyages, et le premier vrai test du bouton Redémarrer.\n\nIris n'écrit plus, à chaque démarrage, une erreur au sujet d'un module « da_prive » qu'elle ne contient pas : c'était une métadonnée de développement qui partait avec l'application. Les traces d'erreur ne citent plus non plus l'arborescence de la machine qui a construit la version.\n\nRien de visible à l'écran. Si tu viens de la 0.2.6, c'est l'occasion d'essayer « Redémarrer » dans Système → Mises à jour : à partir de cette version-là, Iris se ferme et revient d'elle-même.",
+  "en": "Two clean-ups, and the first real test of the Restart button.\n\nIris no longer writes an error at every start about a \"da_prive\" module it does not contain: that was a development metadata file travelling with the application. Error traces no longer quote the folder structure of the machine that built the version either.\n\nNothing visible on screen. If you are coming from 0.2.6, this is the moment to try \"Restart\" in System → Updates: from that version on, Iris closes and comes back on its own."
  },
- "signature": "c5sKdnwXNLerwQBHzI3RbLzyxfG5YuDlPaCanoXOWuwvuMeCwhDVJVOkjnLUCycPjl5HoK8iuVul92v2c9xUCA=="
+ "signature": "XKLcB36LNZh8egqz/WkEZdHfV1UhQLIa98a5jmK3SQdNRkvmzNSZIu8odJyZxdBZOr2T8BA8Ji4I4I5NLp6tBA=="
 }
