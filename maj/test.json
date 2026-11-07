@@ -1,20 +1,20 @@
 {
- "version": "0.2.2",
+ "version": "0.2.3",
  "date": "2026-11-07",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.2/iris-app-0.2.2.zip",
-  "sha256": "8ef259d6caf4af4944f5e61efe57cb68201c3cb5ace80563bf04300878924d30",
-  "taille": 1695471
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.3/iris-app-0.2.3.zip",
+  "sha256": "0712328a830ca7306c977082de2143bc225e6a326c436b71dc2f6cbec4971bf9",
+  "taille": 1696390
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.2/IrisGhost-Setup.exe",
-  "sha256": "be8965140625365c603229004469461c368552a829ba54ad21a27125a9f21600",
-  "taille": 29717015
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.2.3/IrisGhost-Setup.exe",
+  "sha256": "cfa1ed0e642f909d178728cf56eaa91cba9d7371b8396ba4e869acb849b2b5e2",
+  "taille": 29719129
  },
  "notes": {
-  "fr": "Correctif important sur les mises à jour elles-mêmes.\n\nLa 0.2.0 cherchait ses mises à jour sur le canal stable, qui n'existait pas encore. Une installation neuve lisait donc un fichier absent, l'ignorait sans rien dire, et n'aurait plus jamais rien reçu. Si tu es en 0.2.0, cette version te retrouve : installe-la une fois, et tout ce qui suivra viendra tout seul.\n\nUne installation suit désormais le canal d'où vient sa propre version. Si tu as choisi un canal dans Système, ton choix reste le tien : rien ne le change.\n\nEmpreinte SHA-256 de l'installateur : voir ci-dessous.\n\nWindows affichera un avertissement SmartScreen, l'installateur n'étant pas signé : « Informations complémentaires », puis « Exécuter quand même ».",
-  "en": "An important fix to the updates themselves.\n\n0.2.0 looked for its updates on the stable channel, which did not exist yet. A fresh install therefore read a file that was not there, ignored it without a word, and would never have received anything again. If you are on 0.2.0, this version finds you: install it once, and everything after it will arrive on its own.\n\nAn install now follows the channel its own version came from. If you picked a channel in System, your choice stays yours: nothing overrides it.\n\nSHA-256 of the installer: see below.\n\nWindows will show a SmartScreen warning, as the installer is not signed: click \"More info\", then \"Run anyway\"."
+  "fr": "La 0.2.2 ne démarre pas. Celle-ci, oui.\n\nLancée depuis le menu Démarrer, la 0.2.2 s'arrêtait sur « Unable to configure formatter 'default' » avant même d'ouvrir sa fenêtre. Une application sans console n'a pas de sortie standard, et le serveur demandait à cette sortie absente si elle savait afficher des couleurs.\n\nSi tu as la 0.2.2, elle ne peut pas se mettre à jour toute seule : elle ne démarre pas, donc elle ne va jamais voir s'il existe une version plus récente. Télécharge celle-ci et installe-la par-dessus. C'est la dernière fois : à partir de la 0.2.3, tout arrive tout seul.\n\nEmpreinte SHA-256 de l'installateur : voir ci-dessous.\n\nWindows affichera un avertissement SmartScreen, l'installateur n'étant pas signé : « Informations complémentaires », puis « Exécuter quand même ».",
+  "en": "0.2.2 does not start. This one does.\n\nLaunched from the Start menu, 0.2.2 stopped on \"Unable to configure formatter 'default'\" before it even opened its window. An application with no console has no standard output, and the server was asking that missing output whether it could show colours.\n\nIf you have 0.2.2, it cannot update itself: it never starts, so it never goes looking for a newer version. Download this one and install it over the top. This is the last time: from 0.2.3 on, everything arrives on its own.\n\nSHA-256 of the installer: see below.\n\nWindows will show a SmartScreen warning, as the installer is not signed: click \"More info\", then \"Run anyway\"."
  },
- "signature": "ZqWgeDF4V6j5cpVoonxC6DZSyWWTfEQ+yRlMk8BQWvZaHpF0C/enQRocHLcsINNkRDPYKygI3lQkbgDS3IXpBg=="
+ "signature": "zBL2XOKdwoa8zEzzlvP4r4Gqvh83i3WHHVdUD6iLGs/pY8ltVG24xMqWN68m0lJ8ndx8T+SmjEPshvvOk3uwAA=="
 }
