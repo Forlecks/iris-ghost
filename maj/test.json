@@ -1,20 +1,20 @@
 {
- "version": "0.3.2",
+ "version": "0.3.3",
  "date": "2026-11-08",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.2/iris-app-0.3.2.zip",
-  "sha256": "c5621bfea879e5be5091879207f3a6fba6246d7f5b9e00c37d8d10b4aa6429f4",
-  "taille": 1731708
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.3/iris-app-0.3.3.zip",
+  "sha256": "33649a6ee10edb53ee6f5ac1f72471fc6edf2961bec60dfbe28dd5e75feb68e0",
+  "taille": 1747612
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.2/IrisGhost-Setup.exe",
-  "sha256": "35616899ada35f6f013658b7a1fa487a46eb0c0335cb48fc0816f122032db790",
-  "taille": 29746391
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.3/IrisGhost-Setup.exe",
+  "sha256": "d567720c55fce5e9e9af83ebe8e24e3e77a245da2b21c145a1a0bf22aec21f5e",
+  "taille": 29754785
  },
  "notes": {
-  "fr": "**Un lancement manuel pouvait te ramener des semaines en arrière.** Quand le fichier d'état ne se lit pas — un antivirus qui le tient une seconde —, Iris repartait du paquet de l'installateur en ignorant les mises à jour posées à côté. Le disque ne ment pas : elle reprend maintenant la plus récente des versions réellement installées. C'est la correction la plus importante de cette version.\n\n**Les Gardiens.** Plus rien ne redessine la page entière : déplier une section, entrer en Sélection, cocher un objet ou filtrer ne rejoue plus l'arrivée des trois Gardiens. La feuille d'un objet ne s'ouvre plus deux fois. Et la plaque a enfin les proportions exactes de l'emblème — l'icône qu'on posait par-dessus disparaît, la bannière la portait déjà.\n\n**La fiche d'un objet.** C'est le faisceau qui révèle les blocs : sa pointe touche le bas d'un bloc, le bloc arrive. Les deux animations se jouaient côte à côte sans se regarder.\n\n**Iris** se tient au centre pendant le chargement, dans ses anneaux, et rejoint son coin quand l'écran est prêt. Elle restait en bas à gauche.",
-  "en": "**A manual launch could take you weeks back.** When the state file could not be read — an antivirus holding it for a second — Iris fell back to the installer's package and ignored the updates sitting right next to it. The disk does not lie: it now picks the newest version actually installed. This is the important fix in this release.\n\n**Guardians.** Nothing redraws the whole page any more: unfolding a section, entering Selection, ticking an item or filtering no longer replays the three Guardians arriving. An item sheet no longer opens twice. And the plate finally has the emblem's exact proportions — the icon we drew on top is gone, the banner already carried it.\n\n**Item sheet.** The scan beam is what reveals the blocks: its edge touches the bottom of a block, the block arrives. The two animations used to play side by side without looking at each other.\n\n**Iris** now sits in the centre while loading, inside her rings, and returns to her corner once the screen is ready. She used to stay in the bottom-left."
+  "fr": "**D'où viennent les stats d'un build.** Chaque barre se découpe par source : points de l'armure, masterwork, mods de stat, mods « Source de… », stat accordée, doctrine. Les retraits se prennent sur la fin de la barre, et ce que le plafond de 200 rogne se voit, barré, au lieu de disparaître. Au survol d'un total, la formule entière.\n\n**Une correction de fond.** Relevé sur tes 420 armures T5 : une T5 fraîche fait 30 / 25 / 20, et le masterwork ajoute +5 sur chacune de ses trois stats à zéro — donc 90, pas 100. L'ancien relevé comptait les mods de stat **dans** la pièce, et le solveur en reposait un par-dessus : le planificateur promettait dix points de trop par pièce. Il promet maintenant ce que le jeu peut donner.\n\n**La doctrine se personnalise** dans l'Optimiseur et le Planificateur, comme dans le Compositeur : aspects, fragments avec leur effet de stat, et les fragments que les aspects n'ouvrent pas sont marqués « ignoré par le jeu ».\n\n**Deux bonus de set** peuvent se demander à la fois — 2 pièces d'un set et 2 d'un autre, ou 4 d'un seul. Un nom de set dit enfin ce qu'il donne, au survol.\n\n**La feuille d'un objet**, sur l'écran des Gardiens, a son balayage : ses blocs apparaissent au passage de la lumière, comme dans le Coffre.",
+  "en": "**Where a build's stats come from.** Every bar is split by source: armour points, masterwork, stat mods, “Font of…” mods, tuned stat, subclass. Removals eat the end of the bar, and what the 200 cap shaves off is shown struck through instead of vanishing. Hover a total for the whole formula.\n\n**A deeper fix.** Measured on your 420 T5 armour pieces: a fresh T5 is 30 / 25 / 20, and masterworking adds +5 to each of its three zero stats — so 90, not 100. The earlier survey counted stat mods **inside** the piece, and the solver then added one on top: the planner was promising ten points too many per piece. It now promises what the game can give.\n\n**The subclass can be changed** in the Optimiser and the Planner, as in the Composer: aspects, fragments with their stat effect, and fragments the aspects do not open are marked “ignored by the game”.\n\n**Two set bonuses** can be asked for at once — 2 pieces of one set and 2 of another, or 4 of a single one. A set name finally says what it gives, on hover.\n\n**The item sheet** on the Guardians screen has its scan beam: its blocks appear as the light passes, as in the Vault."
  },
- "signature": "4VRo0GMQahMKu69ZA90NzPDuOMWqB1vOqbpF19NO7eKDGMdHK/UorA3AWqYR5v5t2Up/jPn2wZXP9zx8MH/0DQ=="
+ "signature": "mZwmmtl6IG3R/lrxqSEHMqK9iGCSROSt4tN4dRjtrNw232EnM4m80z4HVvDMlCfmFsfJoY/3zg9yMCsM8RFRDA=="
 }
