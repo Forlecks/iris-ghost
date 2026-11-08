@@ -1,20 +1,20 @@
 {
- "version": "0.3.1",
+ "version": "0.3.2",
  "date": "2026-11-08",
  "socle": 1,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.1/iris-app-0.3.1.zip",
-  "sha256": "59f65fb5f1f4eb2eb8d88ca0b8aa1c09c7ae4f78eb293bf98047326575fc0821",
-  "taille": 1728588
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.2/iris-app-0.3.2.zip",
+  "sha256": "c5621bfea879e5be5091879207f3a6fba6246d7f5b9e00c37d8d10b4aa6429f4",
+  "taille": 1731708
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.1/IrisGhost-Setup.exe",
-  "sha256": "44554630808cf19aa4ea8a1c0c5d5c21db7a09e2b00d7958d06e17389718e6e9",
-  "taille": 29741471
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.2/IrisGhost-Setup.exe",
+  "sha256": "35616899ada35f6f013658b7a1fa487a46eb0c0335cb48fc0816f122032db790",
+  "taille": 29746391
  },
  "notes": {
-  "fr": "Les écarts relevés sur la 0.3.0, écran par écran.\n\n**Les Gardiens.** La plaque a les proportions de l'emblème que Bungie publie, au lieu d'en rogner une bande et de remplir le reste. Le casier montre **les** engrammes — chacun avec son icône et la couleur de sa rareté — et ses places libres, au lieu de dix hexagones identiques. Le postmaster montre ses 21 places, pleines ou vides : c'est à ce qu'il lui reste qu'on voit s'il va déborder. Ses cases ne sortent plus du cadre.\n\n**Les objets.** L'élément et les munitions prennent les symboles du jeu à la place d'une pastille et d'un rectangle de couleur. Les barrettes de tier prennent leur forme et la couleur de la rareté. Une tuile choisie porte quatre équerres aux coins.\n\n**Les animations.** La fiche d'un objet ne s'ouvrait pas une fois mais deux. Elle arrive maintenant une seule fois, avec son maillage hexagonal. Les cartes d'objets arrivent à leur tour en entrant sur le Coffre — elles n'avaient aucune animation. Et changer de filtre, sur le Coffre comme sur les Gardiens, ne rejoue plus l'arrivée de toute la page : seule la liste change.",
-  "en": "The gaps spotted in 0.3.0, screen by screen.\n\n**Guardians.** The plate now has the proportions of the emblem Bungie publishes, instead of cropping a band off it and filling the rest. The slot box shows **the** engrams — each with its own icon and rarity colour — and its free slots, instead of ten identical hexagons. The postmaster shows all 21 slots, full or empty: what is left is how you see whether it is about to overflow. Its cells no longer spill out of the frame.\n\n**Items.** Element and ammo now use the game's own symbols instead of a coloured dot and a coloured rectangle. Tier pips take the game's shape and the item's rarity colour. A selected tile gets four corner brackets.\n\n**Animations.** An item sheet opened twice, not once. It now arrives a single time, with its hexagonal mesh. Item cards arrive in turn when you enter the Vault — they had no animation at all. And changing a filter, in the Vault or on Guardians, no longer replays the whole page: only the list changes."
+  "fr": "**Un lancement manuel pouvait te ramener des semaines en arrière.** Quand le fichier d'état ne se lit pas — un antivirus qui le tient une seconde —, Iris repartait du paquet de l'installateur en ignorant les mises à jour posées à côté. Le disque ne ment pas : elle reprend maintenant la plus récente des versions réellement installées. C'est la correction la plus importante de cette version.\n\n**Les Gardiens.** Plus rien ne redessine la page entière : déplier une section, entrer en Sélection, cocher un objet ou filtrer ne rejoue plus l'arrivée des trois Gardiens. La feuille d'un objet ne s'ouvre plus deux fois. Et la plaque a enfin les proportions exactes de l'emblème — l'icône qu'on posait par-dessus disparaît, la bannière la portait déjà.\n\n**La fiche d'un objet.** C'est le faisceau qui révèle les blocs : sa pointe touche le bas d'un bloc, le bloc arrive. Les deux animations se jouaient côte à côte sans se regarder.\n\n**Iris** se tient au centre pendant le chargement, dans ses anneaux, et rejoint son coin quand l'écran est prêt. Elle restait en bas à gauche.",
+  "en": "**A manual launch could take you weeks back.** When the state file could not be read — an antivirus holding it for a second — Iris fell back to the installer's package and ignored the updates sitting right next to it. The disk does not lie: it now picks the newest version actually installed. This is the important fix in this release.\n\n**Guardians.** Nothing redraws the whole page any more: unfolding a section, entering Selection, ticking an item or filtering no longer replays the three Guardians arriving. An item sheet no longer opens twice. And the plate finally has the emblem's exact proportions — the icon we drew on top is gone, the banner already carried it.\n\n**Item sheet.** The scan beam is what reveals the blocks: its edge touches the bottom of a block, the block arrives. The two animations used to play side by side without looking at each other.\n\n**Iris** now sits in the centre while loading, inside her rings, and returns to her corner once the screen is ready. She used to stay in the bottom-left."
  },
- "signature": "Sa8ld/XnghkH0hd4W0gD6BSVShXnAJWLZaLsQPD6XnTiaBfcf+enjF8+okRsN0hsH1DHxdG5qqmKMfe65g2MAw=="
+ "signature": "4VRo0GMQahMKu69ZA90NzPDuOMWqB1vOqbpF19NO7eKDGMdHK/UorA3AWqYR5v5t2Up/jPn2wZXP9zx8MH/0DQ=="
 }
