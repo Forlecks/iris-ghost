@@ -72,14 +72,22 @@
   }
   if (!code) { echec("Aucun code d'autorisation reçu. Relance la liaison depuis l'application."); return; }
 
-  // `state` : le port de l'application, un point, puis son aléa. Rien d'autre ne passe.
-  var m = /^([0-9]{2,5})\.([A-Za-z0-9_-]{16,64})$/.exec(state);
+  // `state` : le port de l'application, un « s » si elle sert en TLS, un point, puis son aléa.
+  //
+  // Le « s » n'est pas une coquetterie. L'application **installée** sert en clair sur un port tiré au
+  // hasard ; `da web`, l'édition de développement, sert en **HTTPS** sur 7777. Sans ce marqueur, la
+  // page renvoyait tout le monde en `http://` et le navigateur affichait « 127.0.0.1 n'a envoyé
+  // aucune donnée » — juste après que le joueur a cliqué « Autoriser », quand il a déjà tout accordé
+  // et qu'il n'y a plus rien à rattraper (relevé le 16/11).
+  var m = /^([0-9]{2,5})(s?)\.([A-Za-z0-9_-]{16,64})$/.exec(state);
   if (!m) { echec("Retour inattendu : relance la liaison depuis l'application."); return; }
   var port = parseInt(m[1], 10);
   if (!(port > 0 && port < 65536)) { echec("Retour inattendu : relance la liaison depuis l'application."); return; }
 
-  // La seule destination possible, construite ici — jamais reprise de l'adresse.
-  var cible = "http://127.0.0.1:" + port + "/discord/callback?code=" + encodeURIComponent(code)
+  // La seule destination possible, construite ici — jamais reprise de l'adresse. Le schéma vient du
+  // marqueur, pas d'un champ : il n'y a que deux valeurs possibles, et aucune ne vient de l'extérieur.
+  var cible = (m[2] === "s" ? "https" : "http") + "://127.0.0.1:" + port
+            + "/discord/callback?code=" + encodeURIComponent(code)
             + "&state=" + encodeURIComponent(state);
 
   // Si l'application ne prend pas la main en quelques secondes, on montre le code à coller.
