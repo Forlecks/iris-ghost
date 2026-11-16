@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Iris Ghost — essai du relais</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+         font: 16px/1.5 "Segoe UI", system-ui, sans-serif; background: #15161a; color: #e9e9ee; }
+  main { width: min(38rem, 100% - 2rem); padding: 2rem 0; }
+  h1 { font-size: 1.25rem; font-weight: 600; margin: 0 0 .25rem; }
+  p.muted { font-size: .85rem; color: #85858f; }
+  .essai { margin: 1rem 0; padding: .9rem 1rem; border: 1px solid #2c2d36; border-radius: 10px;
+           background: #1a1b21; }
+  .essai h2 { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: #85858f;
+              margin: 0 0 .5rem; font-weight: 600; }
+  .etat { display: flex; align-items: baseline; gap: .6rem; }
+  .pastille { width: .65rem; height: .65rem; border-radius: 50%; background: #55565f; flex: 0 0 auto; }
+  .ok .pastille { background: #6ee7a8; }
+  .ko .pastille { background: #ff8a80; }
+  .ok b { color: #6ee7a8; }
+  .ko b { color: #ff8a80; }
+  pre { margin: .6rem 0 0; padding: .6rem .7rem; border-radius: 8px; background: #22232a;
+        color: #c9c9d4; font-size: .8rem; overflow-x: auto; white-space: pre-wrap;
+        word-break: break-word; }
+  label { display: block; font-size: .85rem; color: #b9b9c4; margin-bottom: .3rem; }
+  input { width: 100%; box-sizing: border-box; padding: .5rem .6rem; border-radius: 8px;
+          border: 1px solid #2c2d36; background: #22232a; color: #e9e9ee; font: inherit;
+          font-size: .9rem; }
+  button { margin-top: .7rem; padding: .5rem 1rem; border-radius: 8px; border: 1px solid #3a3b46;
+           background: #2a2b33; color: #e9e9ee; font: inherit; font-size: .9rem; cursor: pointer; }
+  button:hover { border-color: #55565f; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Essai du relais</h1>
+  <p class="muted">Cette page ne sert qu'à vérifier que le relais répond, et qu'un WebSocket passe
+    jusqu'à lui. Ouvre-la depuis un autre réseau — un téléphone en 4G, le Wi-Fi d'ailleurs — : c'est
+    le seul essai qui prouve quelque chose.</p>
+
+  <div class="essai">
+    <h2>Adresse</h2>
+    <label for="adresse">Elle est lue dans <code>relais.json</code>, ou tape-la ici.</label>
+    <input id="adresse" type="url" placeholder="https://iris-relais.….ts.net" spellcheck="false">
+    <button id="relancer" type="button">Essayer</button>
+  </div>
+
+  <div class="essai" id="bloc-sante">
+    <h2>GET /sante</h2>
+    <div class="etat"><span class="pastille"></span><b id="etat-sante">en attente</b></div>
+    <pre id="sortie-sante" hidden></pre>
+  </div>
+
+  <div class="essai" id="bloc-ws">
+    <h2>WS /ws — bonjour</h2>
+    <div class="etat"><span class="pastille"></span><b id="etat-ws">en attente</b></div>
+    <pre id="sortie-ws" hidden></pre>
+  </div>
+</main>
+<script>
+/* Essai du relais Discord d'Iris Ghost (docs/spectre-relais.md, étape 0).
+ *
+ * Elle ne garde rien, n'envoie rien ailleurs, et ne connaît aucun secret : elle demande `/sante`, puis
+ * ouvre `wss://…/ws` et dit « bonjour ». Le relais doit répondre « bonjour ».
+ *
+ * L'adresse vient de `relais.json`, le fichier signé que l'application lit elle-même. La signature
+ * n'est PAS vérifiée ici : une page web n'a pas la clé, et ce n'est pas elle qui décide — c'est
+ * l'application qui vérifie, et c'est elle qui compte. Cette page est un fil de dépannage. */
+const $ = (id) => document.getElementById(id);
+
+function poser(bloc, etat, texte, detail) {
+  $(bloc).className = "essai " + etat;
+  $("etat-" + bloc.replace("bloc-", "")).textContent = texte;
+  const sortie = $("sortie-" + bloc.replace("bloc-", ""));
+  sortie.hidden = !detail;
+  sortie.textContent = detail || "";
+}
+
+async function sante(base) {
+  poser("bloc-sante", "", "en cours…", "");
+  try {
+    const r = await fetch(base + "/sante", { cache: "no-store" });
+    const texte = await r.text();
+    if (!r.ok) return poser("bloc-sante", "ko", "HTTP " + r.status, texte.slice(0, 500));
+    let joli = texte;
+    try { joli = JSON.stringify(JSON.parse(texte), null, 1); } catch {}
+    poser("bloc-sante", "ok", "le relais répond", joli);
+    return true;
+  } catch (e) {
+    /* Depuis un navigateur, un échec ici peut aussi vouloir dire « le relais vit mais ne renvoie pas
+       d'en-tête CORS ». On le dit, plutôt que d'annoncer une panne qui n'en est pas une. */
+    poser("bloc-sante", "ko", "injoignable",
+          String(e) + "\n\nSoit le relais ne tourne pas, soit Tailscale Funnel n'est pas ouvert,"
+          + " soit le navigateur a refusé la requête (CORS). L'essai WebSocket ci-dessous, lui,"
+          + " n'est pas soumis au CORS : s'il passe, le relais vit.");
+    return false;
+  }
+}
+
+function websocket(base) {
+  return new Promise((fini) => {
+    poser("bloc-ws", "", "connexion…", "");
+    let prise;
+    try {
+      prise = new WebSocket(base.replace(/^https:/, "wss:").replace(/^http:/, "ws:") + "/ws");
+    } catch (e) {
+      poser("bloc-ws", "ko", "adresse refusée", String(e));
+      return fini(false);
+    }
+    const minuteur = setTimeout(() => {
+      poser("bloc-ws", "ko", "pas de réponse en 10 s", "Le relais n'a rien renvoyé.");
+      try { prise.close(); } catch {}
+      fini(false);
+    }, 10000);
+
+    prise.onopen = () => prise.send(JSON.stringify({ type: "bonjour", page: "relais-test" }));
+    prise.onmessage = (ev) => {
+      clearTimeout(minuteur);
+      let lu = null;
+      try { lu = JSON.parse(ev.data); } catch {}
+      const bon = lu && lu.type === "bonjour";
+      poser("bloc-ws", bon ? "ok" : "ko",
+            bon ? "le relais a dit bonjour" : "réponse inattendue",
+            JSON.stringify(lu ?? ev.data, null, 1));
+      try { prise.close(); } catch {}
+      fini(bon);
+    };
+    prise.onerror = () => {
+      clearTimeout(minuteur);
+      poser("bloc-ws", "ko", "connexion impossible",
+            "Le tunnel ne laisse pas passer le WebSocket, ou le relais ne tourne pas.");
+      fini(false);
+    };
+  });
+}
+
+/* `https://hôte` et rien d'autre — pas de chemin, pas de requête : on ajoute « /sante » et « /ws »
+ * nous-mêmes. Un `http://127.0.0.1:<port>` est accepté en plus, et seulement lui : c'est ainsi qu'on
+ * met la page au point sur le relais local, avant qu'il y ait le moindre tunnel. */
+function nettoyer(brut) {
+  const url = String(brut || "").trim().replace(/\/+$/, "");
+  if (/^https:\/\/[^/?#]+$/.test(url)) return url;
+  return /^http:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/.test(url) ? url : "";
+}
+
+async function essayer() {
+  const base = nettoyer($("adresse").value);
+  if (!base) {
+    poser("bloc-sante", "ko", "adresse invalide", "Attendu : https://<machine>.<tailnet>.ts.net");
+    poser("bloc-ws", "", "en attente", "");
+    return;
+  }
+  await sante(base);
+  await websocket(base);
+}
+
+$("relancer").addEventListener("click", essayer);
+$("adresse").addEventListener("keydown", (e) => { if (e.key === "Enter") essayer(); });
+
+/* L'adresse publiée, si elle existe : le fichier signé que l'application lit. */
+fetch("relais.json", { cache: "no-cache" })
+  .then((r) => (r.ok ? r.json() : null))
+  .catch(() => null)
+  .then((d) => {
+    const url = d && nettoyer(d.url);
+    if (!url) return;
+    $("adresse").value = url;
+    essayer();
+  });
+</script>
+</body>
+</html>

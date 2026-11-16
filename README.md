@@ -8,6 +8,8 @@ Destiny 2. Ce dépôt ne contient **que le site** : le code de l'application est
 | `index.html` | la page d'accueil (plus tard : téléchargement, notes de version, crédits) |
 | `callback.html` | la page de **redirection OAuth**. Bungie y renvoie le code d'autorisation, elle le passe aussitôt à l'application installée sur l'ordinateur du joueur |
 | `latest.json` | la version publiée : numéro, date, lien de l'installateur, empreinte SHA-256, notes FR / EN |
+| `relais.json` | l'adresse du **relais Discord**, signée de la même clé que les mises à jour. L'application la lit pour savoir où joindre le relais, qui déménagera (tunnel chez le développeur d'abord, serveur dédié ensuite) sans qu'il faille publier une version |
+| `relais-test.html` | une page d'essai du relais : elle demande `/sante` et ouvre `wss://…/ws`. Elle ne garde rien, n'envoie rien ailleurs et ne connaît aucun secret |
 
 ## La page de redirection, en deux mots
 
