@@ -1,20 +1,20 @@
 {
- "version": "0.3.6",
+ "version": "0.3.7",
  "date": "2026-11-16",
- "socle": 1,
+ "socle": 2,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.6/iris-app-0.3.6.zip",
-  "sha256": "c9c17b7b1c8b51b1399f73406b1bdc6f2cbb646760a9b679fde1d29fe563dd01",
-  "taille": 1799932
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.7/iris-app-0.3.7.zip",
+  "sha256": "e8fb077d7e433fb2782a5c528607b87906326ae02fa9f4fd006f5dca675890af",
+  "taille": 1821335
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.6/IrisGhost-Setup.exe",
-  "sha256": "03f7b983a3c75b65de0e4d57e42e9a129c95b0cd9d38d055873bef278cf2b491",
-  "taille": 29790841
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.7/IrisGhost-Setup.exe",
+  "sha256": "a34f93ac1a490ec74d2ce6f52344293e7d54e874834362a93c0e0a8ff4aded73",
+  "taille": 29807487
  },
  "notes": {
-  "fr": "Le Spectre arrive : l'écran Système sait lier ton compte Discord au relais. La voix viendra aux étapes suivantes. Plus trois correctifs d'interface.",
-  "en": "Le Spectre arrive : l'écran Système sait lier ton compte Discord au relais. La voix viendra aux étapes suivantes. Plus trois correctifs d'interface."
+  "fr": "**Les règles de tri s'éditent en entier.** Le formulaire atteint enfin tout ce que le fichier peut porter : les options avancées d'une règle (bouclier, perce-bouclier, priorité entre boucliers), les sept réglages globaux et le traitement manuel, qui ne se changeaient qu'en éditant le JSON à la main. Comme une règle, un réglage passe par la simulation avant d'être appliqué.\n\n**Une condition peut s'écrire en toutes lettres**, à la manière de la recherche de DIM : `est:arme (rarete:exotique ou est:masterwork)`. Les « ou », les « non » et les parenthèses, que les champs ne savaient pas montrer, se lisent et se modifient maintenant — et une faute de frappe est refusée sous le champ, avec la bonne orthographe proposée. Dans la vue Texte, une ligne ouvre sa règle.\n\n**Le compteur se tient à jour tout seul.** « 37 objets changeraient » se recalcule à chaque modification au lieu d'attendre un clic. Rien ne s'applique pour autant sans que tu aies vu la simulation.\n\n**Iris s'écarte.** Dans une fenêtre courte, elle se posait sur le bouton « Synchroniser ». Elle se déplace maintenant vers l'endroit libre le plus proche dès qu'une fenêtre apparaît sous elle, et elle rentre chez elle quand la place revient.\n\n**Correction** : modifier une règle depuis l'écran remplaçait son nom anglais par le nom français.\n\n**Le Spectre avance** (canal Test uniquement). L'application tient une liaison ouverte avec le relais, ce qui lui dit quand tu es là : fermer Iris libère le bot en une seconde. Le bot rejoint le salon vocal où tu es, **sourd** — il n'écoute rien et ne transmet rien à cette étape, et l'icône de la liste des membres le montre.",
+  "en": "**Sorting rules can be edited in full.** The form now reaches everything the file can hold: a rule's advanced options (shield, shield piercer, priority between shields), the seven global settings and manual handling, which until now could only be changed by editing the JSON by hand. Like a rule, a setting goes through the simulation before it is applied.\n\n**A condition can be written in words**, the way DIM search works: `is:weapon (rarity:exotic or is:masterwork)`. The “or”, the “not” and the parentheses that the fields could not show are now readable and editable — and a typo is refused under the field, with the right spelling suggested. In the Text view, a line opens its rule.\n\n**The counter keeps itself up to date.** “37 items would change” is recomputed on every change instead of waiting for a click. Nothing is applied for all that until you have seen the simulation.\n\n**Iris steps aside.** In a short window she sat on top of the “Synchronise” button. She now moves to the nearest free spot as soon as a window appears under her, and comes home when the room comes back.\n\n**Fix**: editing a rule from the screen replaced its English name with the French one.\n\n**The Ghost moves forward** (Test channel only). The app holds an open link to the relay, which tells it when you are there: closing Iris frees the bot within a second. The bot joins the voice channel you are in, **deafened** — it hears nothing and transmits nothing at this stage, and the member list icon shows it."
  },
- "signature": "HaO3VVgen6uD3c1QeWEYzwP3Znkz+4oYZUxkqbLvY3tz7P8PQzN1l/Po+WlmpabETgUO7IawjDqvylbpUhmuAA=="
+ "signature": "Tf4yLs04Ni8p4lS4aDATet5qZsFXBoZk6ypJZ0HtsTrsaXwl5mXHRWMMnm06OhhloOWLyoz6zhg0C8T7E1zOBQ=="
 }
