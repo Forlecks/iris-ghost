@@ -1,20 +1,20 @@
 {
- "version": "0.4.0",
+ "version": "0.4.1",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.0/iris-app-0.4.0.zip",
-  "sha256": "e0c346a9426426639fbddc4b262c9922d3f13cc555e4ea16cf18a13b1920b138",
-  "taille": 1958146
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.1/iris-app-0.4.1.zip",
+  "sha256": "4d2c9fe86c9b6350191cbc33e8b5c7260ea0a5ad720e36cae3d5cd38e0f2e39b",
+  "taille": 1972028
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.0/IrisGhost-Setup.exe",
-  "sha256": "11bd7ca5b27d8d20b7ff76e6114f941bce6385d9b9eb7a7c4696ea390154894e",
-  "taille": 30279667
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.1/IrisGhost-Setup.exe",
+  "sha256": "1a30b02bbcf611f1e656ec84c35faa9e2f1e5004a7292b27748ece4658213fff",
+  "taille": 30293073
  },
  "notes": {
-  "fr": "Nouveautés\n- Jalons devient l'écran de ta progression : cette semaine (les jalons, personnage par personnage), ce que tu as pris (contrats et quêtes, avec leur avancement et leur expiration), ce qui te manque (les exotiques jamais obtenus et où les trouver, à ajouter à ta liste de courses d'un clic), tes rangs (Avant-garde, Creuset, Gambit, Épreuve, réputations) et tes sceaux, avec les triomphes les plus proches d'être finis.\n- Collectes : coffres de régions, plumes, os d'Ahamkara, secteurs oubliés… 22 listes, cochées par le jeu lui-même.\n- Coffre et Personnages : la recherche comprend la langue des règles (est:arme eliminations:<=0, verdict:demanteler), avec des suggestions en tapant et un bouton « En faire une règle ».\n- Coffre : « Ce qui vient de tomber », tes derniers objets avec la décision de tes règles et sa raison.\n- Règles : nouveau critère, les éliminations de la copie (eliminations:<=10) ; l'éditeur propose les mots pendant que tu écris.\n- Accueil : « Jamais eu » tient compte de tes collections, et chaque prix dit si tu as de quoi payer.\n- Système : exporte ton inventaire en tableur, prêt pour Excel, avec le verdict et la règle de chaque objet.\n- Chaque icône porte le filigrane de son extension, et la fiche d'un objet s'ouvre sur sa capture.\n- Les images du jeu sont gardées sur ton PC après leur premier affichage : plus rapides, et visibles hors ligne.\n\nÀ savoir\n- Ta base est mise à jour au premier lancement, avec une sauvegarde faite juste avant. La première synchronisation est un peu plus longue : elle remplit les jalons, les collectes, tes monnaies, tes poursuites et tes rangs.",
-  "en": "What's new\n- Milestones becomes your progress screen: this week (milestones, character by character), what you've picked up (bounties and quests, with progress and expiry), what you're missing (exotics you never got and where to find them, added to your shopping list in one click), your ranks (Vanguard, Crucible, Gambit, Trials, reputations) and your seals, with the triumphs closest to completion.\n- Collectibles: region chests, feathers, Ahamkara bones, lost sectors… 22 lists, ticked by the game itself.\n- Vault and Characters: search now speaks the rules language (is:weapon kills:<=0), with suggestions as you type and a \"Turn into a rule\" button.\n- Vault: \"Just dropped\", your latest items with the decision of your rules and its reason.\n- Rules: a new filter, the kills on that copy (kills:<=10); the editor suggests words as you type.\n- Home: \"Never had it\" now checks your collections, and every price tells you whether you can afford it.\n- System: export your inventory as a spreadsheet, ready for Excel, with each item's verdict and rule.\n- Every icon carries its expansion watermark, and an item's card opens on its screenshot.\n- Game images are kept on your PC after they're first shown: faster, and visible offline.\n\nGood to know\n- Your data is upgraded on first launch, with a backup made just before. The first sync takes a little longer: it fills milestones, checklists, currencies, quests and ranks."
+  "fr": "Nouveautés\n- Godrolls en images : chaque combo en deux icônes de traits avec sa popularité en barre, le filigrane de l'arme, et sa capture en fond de ligne.\n- Comparer : depuis la fiche d'un objet, mets-le face à deux autres copies, en colonnes, avec la règle qui les départage.",
+  "en": "What's new\n- Godrolls in pictures: each combo shown as two trait icons with its popularity bar, the weapon's watermark, and its screenshot behind the row.\n- Compare: from an item's card, put it side by side with up to two other copies, with the rule that decides between them."
  },
- "signature": "zlFJzLC6Vr0PvYEGiX+uY5gybRgLCjCnr66sW0SBXyh59CWJLk5xLMffZjY9tWdNgasJ8Y13eCRnUdldxr6qBg=="
+ "signature": "fzHU4gopfROh3x4/GTme3H0v+4GOl3svMBnw88i5q3V+qXAaJr1wZaBhAW+i/CD5cY009G+zKqdC+uEgKdNyDw=="
 }
