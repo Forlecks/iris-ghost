@@ -1,21 +1,21 @@
 {
- "version": "0.4.15",
+ "version": "0.4.16",
  "date": "2026-11-21",
- "socle": 3,
+ "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.15/iris-app-0.4.15.zip",
-  "sha256": "af194497cde6f33e609ab08198526e586669c86dc5236754141e8cef8bfd18d6",
-  "taille": 2671662
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.16/iris-app-0.4.16.zip",
+  "sha256": "65c0b707142c893dc42aaf87860ae6f5ff85232e3e8fdccc445727ded8472bee",
+  "taille": 2671778
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.15/IrisGhost-Setup.exe",
-  "sha256": "34727ce1f8f63b322863810ad3e21c9564a69c4a50695fd83edee8d59d271b35",
-  "taille": 30878469
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.16/IrisGhost-Setup.exe",
+  "sha256": "ff0725006bc66fc7da8606d47b1360b671c0c390e069fa82e3ffb50257ef9c15",
+  "taille": 30924328
  },
  "notes": {
-  "fr": "Corrections\n- Carte : le bandeau d'erreur « Indexed DB » sous la carte de Braytech disparaît.\n- Carte : quand tu changes d'onglet et que tu reviens, la carte est là où tu l'avais laissée, au lieu de redémarrer.",
-  "en": "Fixes\n- Map: the \"Indexed DB\" error banner under Braytech's map is gone.\n- Map: when you switch tabs and come back, the map is where you left it instead of starting over."
+  "fr": "Corrections\n- Code du clan : l'entrer ne provoque plus d'erreur.\n- Système : la ligne du code n'apparaît que pour les membres du clan Asgärd.\n\nCette mise à jour télécharge l'installateur complet (l'exécutable change).",
+  "en": "Fixes\n- Clan code: entering it no longer causes an error.\n- System: the code line only shows up for members of the Asgärd clan.\n\nThis update downloads the full installer (the executable changes)."
  },
  "canal": "test",
- "signature": "uUSVFUDCwhu3R1rGe/64PSCrurjDWdq12HnglYYsFwR/3WSMJKsZOQZbZN4Da6c4I0NkUdeGwRitlT+PRT8bCA=="
+ "signature": "4aXNB72yqs5J7o7+az9vqOETT3O83PX2eKxrUi+ohO8/5cQPmd9MlLhK84IAF6TIt8hA2HX2rgU/gvXmWDXMCA=="
 }
