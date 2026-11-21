@@ -1,21 +1,21 @@
 {
- "version": "0.4.26",
+ "version": "0.4.27",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.26/iris-app-0.4.26.zip",
-  "sha256": "c384567ca6f7e62fe88c71b6a08adce61be94c5f18831893b51eb6bda342fa0c",
-  "taille": 2798649
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.27/iris-app-0.4.27.zip",
+  "sha256": "3043685b43872f281f6adae8982b78df4a3b92ad649735ff79b8264ced53e240",
+  "taille": 2800993
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.26/IrisGhost-Setup.exe",
-  "sha256": "6ad7ae7d93fdbb1774fbb5ba691a6d264a3f4d95222ce97e0a6fcf887b362e62",
-  "taille": 31009871
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.27/IrisGhost-Setup.exe",
+  "sha256": "b4e01b00bd995529a451d3a9bfe12a3021e225f8d20b64c06c526a90742c36d2",
+  "taille": 31006696
  },
  "notes": {
-  "fr": "Améliorations\n- La barre de navigation est réordonnée : Accueil, Personnages, Coffre, Builds, Checkpoints, Carte, Collectes, Jalons, Armurerie, Godrolls, Journal, Règles, Système.",
-  "en": "Improvements\n- The navigation bar is reordered: Home, Characters, Vault, Builds, Checkpoints, Map, Collectibles, Milestones, Armory, God rolls, Log, Rules, System."
+  "fr": "Améliorations\n- Accueil : chaque carte Destinations a un lien qui ouvre la Carte sur sa destination (la carte de Braytech y marque notamment le secteur oublié du jour).",
+  "en": "Improvements\n- Home: each Destinations card has a link that opens the Map on its destination (Braytech's map marks today's Lost Sector there, among others)."
  },
  "canal": "test",
- "signature": "DIvK7scOkhZ4nGxTgby1IQ2kDbdGDmC6QAf93bXJoOOdsxjfpfInhYn9nPtOg/7SFnIbrLmwnVo1xTEr5ATRCQ=="
+ "signature": "3wiKM7QtaA0JjygIwlWuPzP12dP350oEeBu/pa/hZQFIZu6koLKnzA/Jqi/hA62qdOp0Y3rEcRWMznXDyDdBBA=="
 }
