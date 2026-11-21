@@ -1,21 +1,21 @@
 {
- "version": "0.4.5",
+ "version": "0.4.6",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.5/iris-app-0.4.5.zip",
-  "sha256": "16bd0c2b003098083df6a56bf6b280ec135049a94a4e5c03dbff5cb01c26249a",
-  "taille": 2374737
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.6/iris-app-0.4.6.zip",
+  "sha256": "ac2c1d4f765275a12e2b17aef8fad3fedd1b1b6530d9dbfa85728940be0e3a4e",
+  "taille": 2383984
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.5/IrisGhost-Setup.exe",
-  "sha256": "4f4a99eff874924fc8e1fbc9b04049e43344eaeffe24d043b8ffc2edd1e68a59",
-  "taille": 30540516
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.6/IrisGhost-Setup.exe",
+  "sha256": "c6037a69ff7729e10b9c707ebac67cdc7b9936dbc21045a2b5434fc08f34b8db",
+  "taille": 30545066
  },
  "notes": {
-  "fr": "Nouveautés\n- Système, « Raccourcis » : pose une touche globale qui équipe un set ou passe à l'étape suivante d'un ensemble sans quitter le jeu (F13 à F24 pour un Stream Deck). Éteint par défaut, aucune touche posée d'avance.\n\nCorrigé\n- Une installation reste sur le canal qu'elle suit : une version passée en stable ne fait plus suivre le canal Test à ceux qui l'installent depuis la stable.",
-  "en": "What's new\n- System, \"Shortcuts\": set a global key that equips a set or moves an activity to its next step without leaving the game (F13 to F24 for a Stream Deck). Off by default, no key set in advance.\n\nFixed\n- An install stays on the channel it follows: a version promoted to stable no longer makes stable installs follow the Test channel."
+  "fr": "Nouveautés\n- Godrolls : chaque source (le relevé light.gg, chaque wishlist) s'allume ou s'éteint d'un interrupteur. Sans fichier de règles, Iris utilise toutes les sources allumées.\n- Chaque godroll, jet recommandé ou raison de garder une arme dit maintenant d'où il vient (light.gg, voltron…).\n- Les alertes de marchands sont allumées par défaut ; tu peux les éteindre dans Système.",
+  "en": "What's new\n- God rolls: each source (the light.gg survey, each wishlist) can be turned on or off. Without a rules file, Iris uses every source that is on.\n- Every god roll, recommended roll or reason to keep a weapon now says where it comes from (light.gg, voltron…).\n- Vendor alerts are on by default; you can turn them off in System."
  },
  "canal": "test",
- "signature": "I3btBYsip6j05okeKQpcSY7dLyVUFVEYaMVxlC+keLacZpp+CXcXa4JEoj8SLK+GTh4Mca/m92XOjuJV3myEDw=="
+ "signature": "utRZRRZsaT04D4JPz/4SOECUxGLlMcZ9fYmt8sD+qN7ahZUY7GkooGofAee9d/2pK5OuCkmWXqdEpVwT00gRAw=="
 }
