@@ -1,20 +1,20 @@
 {
- "version": "0.3.9",
- "date": "2026-11-18",
+ "version": "0.4.0",
+ "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.9/iris-app-0.3.9.zip",
-  "sha256": "e67b3e78ec1776beeb8748cde0dee0bc5fd228ca481be29c57384f96acb98ed3",
-  "taille": 1822088
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.0/iris-app-0.4.0.zip",
+  "sha256": "e0c346a9426426639fbddc4b262c9922d3f13cc555e4ea16cf18a13b1920b138",
+  "taille": 1958146
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.9/IrisGhost-Setup.exe",
-  "sha256": "e07cac45d09ab7590cd88c9962cb13ab28af937904f9d856f7949b4701e2b7fc",
-  "taille": 30196067
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.0/IrisGhost-Setup.exe",
+  "sha256": "11bd7ca5b27d8d20b7ff76e6114f941bce6385d9b9eb7a7c4696ea390154894e",
+  "taille": 30279667
  },
  "notes": {
-  "fr": "Le socle porte enfin la bibliothèque dont la prise du Spectre a besoin.\n\n`websockets` était déclaré depuis la 0.3.7, et c'est lui qui avait fait monter le socle de 1 à 2 —\ndonc passer toutes les installations par l'installateur complet. Il n'était pourtant pas dans\nl'exécutable : il avait été installé dans l'environnement de travail, pas dans celui qui construit.\nLa prise vers le relais restait fermée, avec un simple avertissement dans le journal.\n\nCette version le corrige, et corrige surtout la façon dont on ne l'a pas vu : la publication refuse\ndésormais de construire quand une dépendance déclarée manque à l'environnement de construction.\n\nLe socle monte à 3 : les installations existantes portent un socle numéroté 2 dont le contenu n'en\nvalait pas deux, et seule une montée les renvoie vers l'installateur complet.",
-  "en": "The base layer finally carries the library the Ghost's link needs.\n\n`websockets` had been declared since 0.3.7, and it was what raised the base layer from 1 to 2 — and\nso sent every existing install through the full installer. It was not in the executable, though: it\nhad been installed in the working environment, not in the one that builds. The link to the relay\nstayed closed, with nothing but a warning in the log.\n\nThis version fixes that, and more importantly fixes how it went unnoticed: publishing now refuses to\nbuild when a declared dependency is missing from the build environment.\n\nThe base layer goes to 3: existing installs carry one numbered 2 whose contents were not worth two,\nand only a bump sends them back through the full installer."
+  "fr": "Nouveautés\n- Jalons devient l'écran de ta progression : cette semaine (les jalons, personnage par personnage), ce que tu as pris (contrats et quêtes, avec leur avancement et leur expiration), ce qui te manque (les exotiques jamais obtenus et où les trouver, à ajouter à ta liste de courses d'un clic), tes rangs (Avant-garde, Creuset, Gambit, Épreuve, réputations) et tes sceaux, avec les triomphes les plus proches d'être finis.\n- Collectes : coffres de régions, plumes, os d'Ahamkara, secteurs oubliés… 22 listes, cochées par le jeu lui-même.\n- Coffre et Personnages : la recherche comprend la langue des règles (est:arme eliminations:<=0, verdict:demanteler), avec des suggestions en tapant et un bouton « En faire une règle ».\n- Coffre : « Ce qui vient de tomber », tes derniers objets avec la décision de tes règles et sa raison.\n- Règles : nouveau critère, les éliminations de la copie (eliminations:<=10) ; l'éditeur propose les mots pendant que tu écris.\n- Accueil : « Jamais eu » tient compte de tes collections, et chaque prix dit si tu as de quoi payer.\n- Système : exporte ton inventaire en tableur, prêt pour Excel, avec le verdict et la règle de chaque objet.\n- Chaque icône porte le filigrane de son extension, et la fiche d'un objet s'ouvre sur sa capture.\n- Les images du jeu sont gardées sur ton PC après leur premier affichage : plus rapides, et visibles hors ligne.\n\nÀ savoir\n- Ta base est mise à jour au premier lancement, avec une sauvegarde faite juste avant. La première synchronisation est un peu plus longue : elle remplit les jalons, les collectes, tes monnaies, tes poursuites et tes rangs.",
+  "en": "What's new\n- Milestones becomes your progress screen: this week (milestones, character by character), what you've picked up (bounties and quests, with progress and expiry), what you're missing (exotics you never got and where to find them, added to your shopping list in one click), your ranks (Vanguard, Crucible, Gambit, Trials, reputations) and your seals, with the triumphs closest to completion.\n- Collectibles: region chests, feathers, Ahamkara bones, lost sectors… 22 lists, ticked by the game itself.\n- Vault and Characters: search now speaks the rules language (is:weapon kills:<=0), with suggestions as you type and a \"Turn into a rule\" button.\n- Vault: \"Just dropped\", your latest items with the decision of your rules and its reason.\n- Rules: a new filter, the kills on that copy (kills:<=10); the editor suggests words as you type.\n- Home: \"Never had it\" now checks your collections, and every price tells you whether you can afford it.\n- System: export your inventory as a spreadsheet, ready for Excel, with each item's verdict and rule.\n- Every icon carries its expansion watermark, and an item's card opens on its screenshot.\n- Game images are kept on your PC after they're first shown: faster, and visible offline.\n\nGood to know\n- Your data is upgraded on first launch, with a backup made just before. The first sync takes a little longer: it fills milestones, checklists, currencies, quests and ranks."
  },
- "signature": "TFEqxkU/PFUmcIl/Kqew/HdDhIbGOPnYHZgZYUkEqOdMRNiIzS+afYmPhdOb9DJDf/zk1PMVfcw/cTeWoeGdDg=="
+ "signature": "zlFJzLC6Vr0PvYEGiX+uY5gybRgLCjCnr66sW0SBXyh59CWJLk5xLMffZjY9tWdNgasJ8Y13eCRnUdldxr6qBg=="
 }
