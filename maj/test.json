@@ -1,21 +1,21 @@
 {
- "version": "0.4.19",
+ "version": "0.4.20",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.19/iris-app-0.4.19.zip",
-  "sha256": "c439703ffbefe206c691b99865e6e54f58f2bbf8e802d58bf3584f290e86862d",
-  "taille": 2687311
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.20/iris-app-0.4.20.zip",
+  "sha256": "21401d3aa07a33399f25dce96d7d9a67e9c4d416a680d7794be91873c3dbee58",
+  "taille": 2715689
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.19/IrisGhost-Setup.exe",
-  "sha256": "607bbe26fb7660ebe021c3dea6d7c1ecbb4b12f7fe65e1914ee0e0eec7457a16",
-  "taille": 30932472
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.20/IrisGhost-Setup.exe",
+  "sha256": "0997aee509858bc77969428b5ba37cece201679a49b28c68823deed9638bd6ef",
+  "taille": 30949250
  },
  "notes": {
-  "fr": "Corrections\n- Langues : l'interface française n'affiche plus de textes en anglais, et l'anglaise plus de textes en français (Accueil, Coffre, fiches, Builds, Godrolls, Règles, Système…). Les noms du jeu viennent de Bungie, dans ta langue.\n- Les raisons de tri déjà enregistrées passent dans la bonne langue à la prochaine synchro.",
-  "en": "Fixes\n- Languages: the English interface no longer shows French text, and the French one no longer shows English (Home, Vault, item sheets, Builds, Godrolls, Rules, System…). Game names come from Bungie, in your language.\n- Sorting reasons already stored switch to the right language at the next sync."
+  "fr": "Nouveautés\n- Épingles : une punaise sur les sceaux, triomphes, poursuites, catalyseurs, listes de collectes et objets. Ce que tu épingles s'affiche sur l'Accueil avec sa progression, dans l'ordre que tu choisis.\n- Les plus utilisés : l'Accueil montre tes dix objets les plus utilisés. Iris compte maintenant les mouvements de chaque objet à chaque synchro ; en attendant que le compte se remplisse, la liste vient des compteurs d'éliminations de tes armes.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
+  "en": "What's new\n- Pins: a pin button on seals, triumphs, pursuits, catalysts, collectible lists and items. Whatever you pin shows up on Home with its progress, in the order you choose.\n- Most used: Home shows your ten most used items. Iris now counts every item's moves at each sync; until that count fills up, the list comes from your weapons' kill trackers.\n\nThis update upgrades the database (a backup is made first)."
  },
  "canal": "test",
- "signature": "oQvBq67WxKhOsn0LH2W/xUqygQEim3V+yDsmt3kjsGgrNP/4efVPfiVGh/hU1QmxbeTq2LBGFtilMJ162hjoBA=="
+ "signature": "QUjuAdNWUo6L7W4cL6ebXBCX5LJeEJdGDo97u+MEWrHKa6weNNcmXvD5up7G8uocrnQ3vbhgIulZ3s1pPdILCw=="
 }
