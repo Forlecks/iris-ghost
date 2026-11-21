@@ -1,21 +1,21 @@
 {
- "version": "0.4.10",
+ "version": "0.4.11",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.10/iris-app-0.4.10.zip",
-  "sha256": "b5ee5208795c1eed4bc8474d044c6b73f68a33554664e310f35543f3166a9407",
-  "taille": 2452498
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.11/iris-app-0.4.11.zip",
+  "sha256": "4f603579bc8a306c1f59457632c8efe49f0ef3eee461e5bf16b114cd63f36e3d",
+  "taille": 2603472
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.10/IrisGhost-Setup.exe",
-  "sha256": "d454937eda73cd86c9897fef9df36954396c31c7e6d059e3739fc260dc9b7cb8",
-  "taille": 30586415
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.11/IrisGhost-Setup.exe",
+  "sha256": "a2380012c9ff8365e9d4793e7f189200215056fdaa07dd239170d009ef9d85c5",
+  "taille": 30829727
  },
  "notes": {
-  "fr": "Nouveautés\n- Collectes repensé : ce qu'il te reste à trouver en un coup d'œil, et « Où aller », une carte illustrée par destination qui filtre les listes.\n- Le Journal en images : les objets de chaque action en vignettes, une icône par type d'action, la frise des synchros refaite.\n- Builds : les stats en icônes, les propositions d'auto-entretien et les presets en vignettes.\n- Jalons : l'Historique en cartes illustrées et l'icône du mode de chaque partie ; les cartes de carrière portent l'icône de leur mode.\n- Armurerie : les noms des perks et les jets recommandés en combos.\n\nCorrigé\n- La carte « Épreuve d'Osiris » de la carrière demandait les chiffres des Nuits noires notées.\n- L'en-tête du Coffre disait « tri actif » même quand le tri était suspendu.",
-  "en": "What's new\n- Collectibles redesigned: what's left to find at a glance, and \"Where to go\", an illustrated card per destination that filters the lists.\n- The Journal in pictures: each action's items as thumbnails, an icon per kind of action, the sync timeline redone.\n- Builds: stats as icons, auto-maintenance proposals and presets as thumbnails.\n- Milestones: History as illustrated cards with each game's mode icon; career cards carry their mode's icon.\n- Armory: perk names and recommended rolls as combos.\n\nFixed\n- The career's \"Trials of Osiris\" card was asking for Scored Nightfall numbers.\n- The Vault header said \"sorting on\" even when sorting was suspended."
+  "fr": "Nouveautés\n- Un onglet Carte : une vue d'ensemble de toutes les destinations, puis un zoom animé sur chacune, avec tout ce que tu n'as pas encore récupéré. Depuis Collectes, « Ouvrir la carte » t'y emmène directement.\n- Collectes : la Zone morte, Néomuna et le Cœur pâle ont leur carnet (sous-zone et repère de chaque collectible, source citée).\n- Accès clan : les membres du clan entrent le code du clan dans Système pour ouvrir les données réservées (relevé light.gg et relevé PvP). L'accès se coupe tout seul si on quitte le clan.\n\nÀ savoir\n- Le relevé light.gg n'est plus fourni sans le code du clan.",
+  "en": "What's new\n- A Map tab: an overview of every destination, then an animated zoom on each one, with everything you haven't collected yet. From Collectibles, \"Open the map\" takes you straight there.\n- Collectibles: the European Dead Zone, Neomuna and the Pale Heart have their notebook (each collectible's sub-zone and landmark, source cited).\n- Clan access: clan members enter the clan code in System to unlock reserved data (light.gg survey and PvP survey). Access turns itself off if you leave the clan.\n\nGood to know\n- The light.gg survey is no longer provided without the clan code."
  },
  "canal": "test",
- "signature": "b1BvtyR3hU7PL6ebBLzn08+iDUkoYXPLrbnxOIqEq0v44yu3a8ci3JiT9yoDZPxYBpPlq6gegXNvu4C4S0NiAg=="
+ "signature": "sYoWhYwAs6Ju0MVwFX0UmXtOyLHVVCKJ+lpXEPuutwRRKdvvTZdx1dGfAgxw+z+aodKumngqeOsEAGbAW8lvAQ=="
 }
