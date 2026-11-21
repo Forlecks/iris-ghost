@@ -1,21 +1,21 @@
 {
- "version": "0.4.7",
+ "version": "0.4.8",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.7/iris-app-0.4.7.zip",
-  "sha256": "1d072d928db07e34e7adb77139b55cd2bafd2f298312320760d4132c249bb917",
-  "taille": 2410901
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.8/iris-app-0.4.8.zip",
+  "sha256": "aabca7722427ee3ea472b8ec8cabec67e5336bb7f934ef548552a2076e29b484",
+  "taille": 2420800
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.7/IrisGhost-Setup.exe",
-  "sha256": "76617e5bae0fbfe0072042439a7d4051df32f55645f52572e310850ec685154a",
-  "taille": 30562198
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.8/IrisGhost-Setup.exe",
+  "sha256": "79b24646643013a2b4920891ef48afa94d9c99fb6a83490e50997b0e07fcf94c",
+  "taille": 30570174
  },
  "notes": {
-  "fr": "Finitions\n- Toute l'interface repassée écran par écran : alignements, espacements, textes coupés, images recadrées pour garder leur sujet, animations plus fluides qui ne se rejouent plus quand tu filtres ou rafraîchis, et le mode « mouvement réduit » de Windows respecté partout.\n- Iris ne se pose plus jamais sur un bouton, un texte ou une image : si la place manque, elle se fait plus petite ou s'efface.\n- La barre de navigation tient dans les fenêtres basses, et la fiche du Coffre s'ouvre en panneau à droite dans les fenêtres étroites.\n- L'écran anglais n'affiche plus de mots français (lieux, raisons, stats, sets, chargement).\n\nCorrigé\n- L'Optimiseur ne plante plus au calcul de ses suggestions.\n- Le compteur de l'auto-entretien comptait des sets sans recette.\n- Les stats des propositions d'auto-entretien s'affichent enfin.",
-  "en": "Polish\n- The whole interface went through screen by screen: alignment, spacing, clipped text, images cropped to keep their subject, smoother animations that no longer replay when you filter or refresh, and Windows' reduced-motion setting respected everywhere.\n- Iris never sits on a button, text or image anymore: when there's no room, she gets smaller or fades out.\n- The navigation bar fits short windows, and the Vault item card opens as a side panel in narrow windows.\n- The English screen no longer shows French words (locations, reasons, stats, sets, loading).\n\nFixed\n- The Optimizer no longer crashes when computing its suggestions.\n- The auto-maintenance counter counted sets with no recipe.\n- Auto-maintenance proposal stats finally show up."
+  "fr": "Nouveautés\n- Iris est plus vivante : elle regarde ce qui s'ouvre, réagit aux réussites, aux refus et aux découvertes, prend un élan quand tu changes d'écran, prend la lumière du curseur et a ses attitudes de repos. Le mode « mouvement réduit » la calme.\n\nFinitions\n- La disposition verticale (navigation en haut) est revue sur tous les écrans : le bandeau tient dans toutes les tailles, la fiche du Coffre ne passe plus dessous, et Iris se replace quand tu changes de disposition.\n- Le Planificateur s'affiche en anglais dans l'écran anglais.",
+  "en": "What's new\n- Iris is more alive: she looks at what opens, reacts to successes, refusals and discoveries, gathers momentum when you change screens, catches the cursor's light and has her idle moods. Reduced motion calms her down.\n\nPolish\n- The vertical layout (navigation on top) was reviewed on every screen: the banner fits at every size, the Vault item card no longer slides under it, and Iris repositions herself when you change layout.\n- The Planner shows in English on the English screen."
  },
  "canal": "test",
- "signature": "cE0iFRLNmldzeXMy7yVj1X70Mk22nKs7QQwNXgDam33n6bTKRNkz8u5DVxv83YXwF9qg8j///S1qNKSXl556BQ=="
+ "signature": "NWfGu+5sNE4VAEAyqaV6gvSpC0T6T21/9JkT+5baHOqU7/Cc6pEA+NQnE1327X5tJAH6widkeiDTZBDpYRdbAg=="
 }
