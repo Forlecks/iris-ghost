@@ -1,21 +1,21 @@
 {
- "version": "0.4.24",
+ "version": "0.4.25",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.24/iris-app-0.4.24.zip",
-  "sha256": "caa95ed9a8365ae47995be5b9f2b6a0bb392a89dc933eb6786f26bb1df49b206",
-  "taille": 2797342
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.25/iris-app-0.4.25.zip",
+  "sha256": "22fd24d8ff54047552ed5977cb18111032203972014e10146f4a145d255081e7",
+  "taille": 2798606
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.24/IrisGhost-Setup.exe",
-  "sha256": "cf20ca47ae2b32905ba56cff521702295caa3782eb42b7a0329e8cc701b30db9",
-  "taille": 31005934
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.25/IrisGhost-Setup.exe",
+  "sha256": "0e49985b84df515e6b0d81fae28cce148ed96c1a82e19fedf451ace2be3c5b92",
+  "taille": 31011009
  },
  "notes": {
-  "fr": "Améliorations\n- Toutes les listes déroulantes de l'app (Règles, Builds, Système, éditeur d'ensembles) sont redessinées dans le style d'Iris, utilisables au clavier, avec une recherche quand la liste est longue.\n- Éditeur d'ensembles : « Annuler » demande confirmation si tu as des modifications non enregistrées.",
-  "en": "Improvements\n- Every dropdown in the app (Rules, Builds, System, sequence editor) is redrawn in Iris's style, keyboard-friendly, with search when the list is long.\n- Sequence editor: \"Cancel\" asks for confirmation if you have unsaved changes."
+  "fr": "Améliorations\n- Éditeur d'ensembles : les noms de rencontres proposés pour une étape s'affichent dans le style d'Iris, au clavier comme à la souris.",
+  "en": "Improvements\n- Sequence editor: the encounter names suggested for a step now show up in Iris's style, with keyboard and mouse."
  },
  "canal": "test",
- "signature": "wxhHHQixT5AksN3DufivHGq/9L51G/om2boYDa+HbF3xPN06+CjKzupyuoaQiBtHXt9t7L93ErDEYXUGyTjyCw=="
+ "signature": "LuFGnZIlBLFZpmA+/aaCf38AJUe1QvYu40TvTS0ONUEr84Y+3JD9kmGdiqIVpDj3NEjb7FFJ+j/nupftem/BAA=="
 }
