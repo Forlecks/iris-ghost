@@ -1,21 +1,21 @@
 {
- "version": "0.4.18",
+ "version": "0.4.19",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.18/iris-app-0.4.18.zip",
-  "sha256": "89ea46d7ca5a998a06b2779e09544724379eb82d9cd79e76e0881777eec62fa1",
-  "taille": 2677756
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.19/iris-app-0.4.19.zip",
+  "sha256": "c439703ffbefe206c691b99865e6e54f58f2bbf8e802d58bf3584f290e86862d",
+  "taille": 2687311
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.18/IrisGhost-Setup.exe",
-  "sha256": "a4f021200addc08a9d83bfb18e64498868fb76cf0b53e64dcfbf6595b27ef9e1",
-  "taille": 30927955
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.19/IrisGhost-Setup.exe",
+  "sha256": "607bbe26fb7660ebe021c3dea6d7c1ecbb4b12f7fe65e1914ee0e0eec7457a16",
+  "taille": 30932472
  },
  "notes": {
-  "fr": "Nouveautés\n- Nouvel onglet Checkpoints : le site D2Checkpoint dans Iris, pour trouver un bot posé sur le bon checkpoint de raid ou de donjon et copier sa commande /rejoindre. Comme la Carte, il garde sa place quand tu changes d'onglet.",
-  "en": "What's new\n- New Checkpoints tab: the D2Checkpoint site inside Iris, to find a bot sitting on the right raid or dungeon checkpoint and copy its /join command. Like the Map, it keeps its place when you switch tabs."
+  "fr": "Corrections\n- Langues : l'interface française n'affiche plus de textes en anglais, et l'anglaise plus de textes en français (Accueil, Coffre, fiches, Builds, Godrolls, Règles, Système…). Les noms du jeu viennent de Bungie, dans ta langue.\n- Les raisons de tri déjà enregistrées passent dans la bonne langue à la prochaine synchro.",
+  "en": "Fixes\n- Languages: the English interface no longer shows French text, and the French one no longer shows English (Home, Vault, item sheets, Builds, Godrolls, Rules, System…). Game names come from Bungie, in your language.\n- Sorting reasons already stored switch to the right language at the next sync."
  },
  "canal": "test",
- "signature": "329e5C4WL18O+WXa/+0uobc84yMiAakr9gaj2lTBr4yGB+kVFKZU9wm32X08Wolcdc149apPSLAB5e3rff4pDg=="
+ "signature": "oQvBq67WxKhOsn0LH2W/xUqygQEim3V+yDsmt3kjsGgrNP/4efVPfiVGh/hU1QmxbeTq2LBGFtilMJ162hjoBA=="
 }
