@@ -1,21 +1,21 @@
 {
- "version": "0.4.11",
+ "version": "0.4.12",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.11/iris-app-0.4.11.zip",
-  "sha256": "4f603579bc8a306c1f59457632c8efe49f0ef3eee461e5bf16b114cd63f36e3d",
-  "taille": 2603472
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.12/iris-app-0.4.12.zip",
+  "sha256": "26e50893d2eca3b44acfc70d27a36ece2fb3a96d7a9d082d815f3d137ab25d2e",
+  "taille": 2660587
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.11/IrisGhost-Setup.exe",
-  "sha256": "a2380012c9ff8365e9d4793e7f189200215056fdaa07dd239170d009ef9d85c5",
-  "taille": 30829727
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.12/IrisGhost-Setup.exe",
+  "sha256": "f8ca1d50a74a0c93015eac84bd8a8e4c6681f5dd0b4e59ce7c89864b3eb888c4",
+  "taille": 30868358
  },
  "notes": {
-  "fr": "Nouveautés\n- Un onglet Carte : une vue d'ensemble de toutes les destinations, puis un zoom animé sur chacune, avec tout ce que tu n'as pas encore récupéré. Depuis Collectes, « Ouvrir la carte » t'y emmène directement.\n- Collectes : la Zone morte, Néomuna et le Cœur pâle ont leur carnet (sous-zone et repère de chaque collectible, source citée).\n- Accès clan : les membres du clan entrent le code du clan dans Système pour ouvrir les données réservées (relevé light.gg et relevé PvP). L'accès se coupe tout seul si on quitte le clan.\n\nÀ savoir\n- Le relevé light.gg n'est plus fourni sans le code du clan.",
-  "en": "What's new\n- A Map tab: an overview of every destination, then an animated zoom on each one, with everything you haven't collected yet. From Collectibles, \"Open the map\" takes you straight there.\n- Collectibles: the European Dead Zone, Neomuna and the Pale Heart have their notebook (each collectible's sub-zone and landmark, source cited).\n- Clan access: clan members enter the clan code in System to unlock reserved data (light.gg survey and PvP survey). Access turns itself off if you leave the clan.\n\nGood to know\n- The light.gg survey is no longer provided without the clan code."
+  "fr": "Nouveautés\n- Collectes : toutes les destinations ont maintenant leur carnet, avec la sous-zone et un repère pour chaque collectible, et la source citée (525 collectibles sur 526).\n- La carte en profite : chaque destination montre où chercher ce qu'il te reste.",
+  "en": "What's new\n- Collectibles: every destination now has its notebook, with the sub-zone and a landmark for each collectible, source cited (525 collectibles out of 526).\n- The map benefits too: each destination shows where to look for what you have left."
  },
  "canal": "test",
- "signature": "sYoWhYwAs6Ju0MVwFX0UmXtOyLHVVCKJ+lpXEPuutwRRKdvvTZdx1dGfAgxw+z+aodKumngqeOsEAGbAW8lvAQ=="
+ "signature": "+0ASqPHoNMJ5fTOHHSMq96Qg0R7oUr8tpv49uvJ5E/ys9vTe0mWeySg01pvhINF0RNJPvPvhVVd4+8Z5Rz4hDQ=="
 }
