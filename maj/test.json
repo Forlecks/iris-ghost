@@ -1,21 +1,21 @@
 {
- "version": "0.4.13",
+ "version": "0.4.14",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.13/iris-app-0.4.13.zip",
-  "sha256": "d0e934f61d4f055a90b38cbc476881999fba44d5dcafced8f8dd0d985705caac",
-  "taille": 2665142
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.14/iris-app-0.4.14.zip",
+  "sha256": "519c6a9a9bcefd513ed5d1d65ffa66e9789753ecf394fad0448924c4a137e017",
+  "taille": 2669279
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.13/IrisGhost-Setup.exe",
-  "sha256": "541e42a269ebcbcbe0258f6942acd51160898f43609c5b885a4111e210266bd3",
-  "taille": 30877061
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.14/IrisGhost-Setup.exe",
+  "sha256": "19b6604c0764b017d2c200444b62f75bd9f2e8c537b430e31fafbb57a0744e1d",
+  "taille": 30879228
  },
  "notes": {
-  "fr": "Améliorations\n- Iris démarre plus vite : l'Accueil complet s'affiche en moins d'une seconde, et chaque écran pose son contenu en moins d'un tiers de seconde.\n- Les images arrivent presque tout de suite : Godrolls passe d'une vingtaine de secondes à moins de deux la première fois, et à moins d'une seconde ensuite ; le Coffre est quatre fois plus rapide.\n- Les fonds de la carte ne sont plus retéléchargés à chaque visite.",
-  "en": "Improvements\n- Iris starts faster: the full Home screen shows up in under a second, and every screen lays out its content in under a third of a second.\n- Images show up almost instantly: Godrolls goes from about twenty seconds to under two the first time, and under one afterwards; the Vault is four times faster.\n- Map backgrounds are no longer downloaded again on every visit."
+  "fr": "Nouveautés\n- L'onglet Carte affiche maintenant la carte de Braytech (par Tom Chapman). Depuis Collectes, « Ouvrir la carte » la centre sur le collectible, et « Voir sur Braytech » l'ouvre dans ton navigateur, où tu peux te connecter pour voir ce que tu as déjà trouvé.\n\nAméliorations\n- Le Coffre affiche son premier écran tout de suite, le reste des objets suit sans bloquer.\n- Les animations d'entrée ne traînent plus : sur les écrans chargés (Builds, Système), tout est en place en moins d'une demi-seconde.",
+  "en": "What's new\n- The Map tab now shows Braytech's map (by Tom Chapman). From Collectibles, \"Open the map\" centers it on the collectible, and \"View on Braytech\" opens it in your browser, where you can sign in to see what you've already found.\n\nImprovements\n- The Vault shows its first screen right away; the rest of your items follow without blocking.\n- Entrance animations no longer drag on: on busy screens (Builds, System), everything is in place in under half a second."
  },
  "canal": "test",
- "signature": "nj/P6iC4Nh2ogR8K28uyFWvhGfgP4LaYT9nysjx2GHgaX7QtltDR3Mxgvl11K3dtRrzCIMPRARQ7JHJE3uSZDA=="
+ "signature": "N5pV5IgxOm/J1cvQPzLXkI82MeE9TeiVO/Il5Y8YUE59aikrUv99uJFwpxEez8bX6MmfDr4WTCXFDv7JoWxwDw=="
 }
