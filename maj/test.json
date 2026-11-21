@@ -1,21 +1,21 @@
 {
- "version": "0.4.20",
+ "version": "0.4.21",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.20/iris-app-0.4.20.zip",
-  "sha256": "21401d3aa07a33399f25dce96d7d9a67e9c4d416a680d7794be91873c3dbee58",
-  "taille": 2715689
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.21/iris-app-0.4.21.zip",
+  "sha256": "62b57510cb944f2f1789b2a35e9beffef4f40d8ad858e880045447783299b72a",
+  "taille": 2744434
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.20/IrisGhost-Setup.exe",
-  "sha256": "0997aee509858bc77969428b5ba37cece201679a49b28c68823deed9638bd6ef",
-  "taille": 30949250
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.21/IrisGhost-Setup.exe",
+  "sha256": "2c3059a23f18998d7d1a4730e314d54f85c321af361d67ecf70132ae3e7c3a9b",
+  "taille": 30970912
  },
  "notes": {
-  "fr": "Nouveautés\n- Épingles : une punaise sur les sceaux, triomphes, poursuites, catalyseurs, listes de collectes et objets. Ce que tu épingles s'affiche sur l'Accueil avec sa progression, dans l'ordre que tu choisis.\n- Les plus utilisés : l'Accueil montre tes dix objets les plus utilisés. Iris compte maintenant les mouvements de chaque objet à chaque synchro ; en attendant que le compte se remplisse, la liste vient des compteurs d'éliminations de tes armes.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
-  "en": "What's new\n- Pins: a pin button on seals, triumphs, pursuits, catalysts, collectible lists and items. Whatever you pin shows up on Home with its progress, in the order you choose.\n- Most used: Home shows your ten most used items. Iris now counts every item's moves at each sync; until that count fills up, the list comes from your weapons' kill trackers.\n\nThis update upgrades the database (a backup is made first)."
+  "fr": "Nouveautés\n- Importer depuis DIM (Système → Données) : dépose le fichier de sauvegarde de DIM, Iris te montre ce qu'elle va reprendre avant d'écrire quoi que ce soit, puis importe tes loadouts (en sets), tes tags, tes notes, tes recherches enregistrées (en brouillons de règles) et tes triomphes suivis (épinglés sur l'Accueil). Ce que tu as déjà décidé dans Iris n'est jamais écrasé.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
+  "en": "What's new\n- Import from DIM (System → Data): drop your DIM backup file, Iris shows you what it will bring over before writing anything, then imports your loadouts (as sets), tags, notes, saved searches (as rule drafts) and tracked triumphs (pinned on Home). Anything you already decided in Iris is never overwritten.\n\nThis update upgrades the database (a backup is made first)."
  },
  "canal": "test",
- "signature": "QUjuAdNWUo6L7W4cL6ebXBCX5LJeEJdGDo97u+MEWrHKa6weNNcmXvD5up7G8uocrnQ3vbhgIulZ3s1pPdILCw=="
+ "signature": "DMRZIWJeJuu2LtnICQp7/9cUkpGbVwfhwaGuSt22Snae0NEgkQGOQqRuf/Qn6Pt1NNDcRmBneL/rx4hQsUeBBA=="
 }
