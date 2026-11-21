@@ -1,20 +1,20 @@
 {
- "version": "0.4.3",
+ "version": "0.4.4",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.3/iris-app-0.4.3.zip",
-  "sha256": "b4234c7aa23a6696b7eca4e0cc85f39900f077fc8721cefd9293dd14bafdbe68",
-  "taille": 2033390
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.4/iris-app-0.4.4.zip",
+  "sha256": "781bb5a8ab85f4dc3ef6efa56062ac9f8d5ab1b5e96062c8cfd39e27d6c4b2c5",
+  "taille": 2356585
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.3/IrisGhost-Setup.exe",
-  "sha256": "5b208a87f3251b2c083fa15cb25dbc736ab5bf46be7d5731f6fd1c3f6c624dbd",
-  "taille": 30330427
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.4/IrisGhost-Setup.exe",
+  "sha256": "3d0498b1073535fa330aa554735b35d77673c4e52632ed693a464f3d4981d411",
+  "taille": 30527275
  },
  "notes": {
-  "fr": "Nouveautés\n- Système : « Verrouiller les nouveaux godrolls ». Allumé, chaque arme qui vient de tomber, que tes règles gardent et qui a un godroll, est verrouillée en jeu ; le Journal permet de revenir en arrière. Éteint par défaut.\n- Accueil : « Ton compte » en images, avec ton coffre en barre par verdict, tes postmasters en jauges et ce qu'il reste à faire en icônes.\n- Fiche d'une arme : survole un perk non posé pour voir ce qu'il changerait aux stats, avant de le poser.",
-  "en": "What's new\n- System: \"Lock new god rolls\". When on, every weapon that just dropped, that your rules keep and that has a god roll, is locked in game; the Journal lets you undo it. Off by default.\n- Home: \"Your account\" in pictures, with your vault as a bar by verdict, your postmasters as gauges and what's left to do as icons.\n- Weapon card: hover an unequipped perk to see what it would change to the stats, before you equip it."
+  "fr": "Nouveautés\n- Armurerie : la fiche de n'importe quelle arme du jeu, ses perks possibles, sa source, si tu l'as déjà eue et le jet recommandé, à ajouter à ta liste de courses avec les perks voulus.\n- Sets : « Partager (DIM) » fabrique un lien de loadout lisible par DIM.\n- Système : « Alertes de marchands », une notification Windows sans son après le reset quand un marchand vend ce qui t'intéresse. Éteint par défaut.\n\nCorrigé\n- Les godrolls light.gg sont fournis aux installations du canal Test.\n- Installer la wishlist voltron alourdissait la base de près de 400 Mo et ralentissait chaque calcul : elle pèse maintenant une quarantaine de Mo, et le calcul est dix fois plus rapide.\n- Les erreurs du serveur sont écrites dans le journal d'Iris, et les mises à jour ne s'arrêtent plus après la première.",
+  "en": "What's new\n- Armory: the card of any weapon in the game, its possible perks, its source, whether you've had it, and the recommended roll, to add to your shopping list with the perks you want.\n- Sets: \"Share (DIM)\" creates a loadout link that DIM can read.\n- System: \"Vendor alerts\", a silent Windows notification after the reset when a vendor sells something you want. Off by default.\n\nFixed\n- light.gg god rolls are provided to installs on the Test channel.\n- Installing the voltron wishlist added almost 400 MB to the database and slowed every calculation: it now takes about forty MB, and calculations are ten times faster.\n- Server errors are written to Iris's log, and updates no longer stop after the first one."
  },
- "signature": "PnoBOZoNzKRwvqv0o1DMljTFXgH1EHGkB36+Q3RvyXFeYjk6k1FeD9o4IXdhP/ckx8RZgnH5uGy4ecpt8oxxCw=="
+ "signature": "xCwHXXDs8jHhIkac7MHuQJD8aX3hKWjEV2ITxDY2p0LclTbXMBPCjboxSPXsJMaE7tkl86XkeNowttFH4zKDCg=="
 }
