@@ -1,21 +1,21 @@
 {
- "version": "0.4.16",
+ "version": "0.4.17",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.16/iris-app-0.4.16.zip",
-  "sha256": "65c0b707142c893dc42aaf87860ae6f5ff85232e3e8fdccc445727ded8472bee",
-  "taille": 2671778
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.17/iris-app-0.4.17.zip",
+  "sha256": "4a29e15657b0e2425f17c1a266e38e6e820f904238006944c98d9351d8099067",
+  "taille": 2674832
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.16/IrisGhost-Setup.exe",
-  "sha256": "ff0725006bc66fc7da8606d47b1360b671c0c390e069fa82e3ffb50257ef9c15",
-  "taille": 30924328
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.17/IrisGhost-Setup.exe",
+  "sha256": "5b31aee54cf37b67ac26f657d6dce39e414909bd5de70fe6c55dea1a7dd9826d",
+  "taille": 30928126
  },
  "notes": {
-  "fr": "Corrections\n- Code du clan : l'entrer ne provoque plus d'erreur.\n- Système : la ligne du code n'apparaît que pour les membres du clan Asgärd.\n\nCette mise à jour télécharge l'installateur complet (l'exécutable change).",
-  "en": "Fixes\n- Clan code: entering it no longer causes an error.\n- System: the code line only shows up for members of the Asgärd clan.\n\nThis update downloads the full installer (the executable changes)."
+  "fr": "Améliorations\n- Accueil : dans les Destinations, chaque rotation est en face de sa réponse, une ligne par élément, et plus aucun texte ne déborde.\n\nCorrections\n- Accueil : les onglets des Destinations et la rangée de raids du butin allument bien le choix cliqué.",
+  "en": "Improvements\n- Home: in Destinations, each rotation sits next to its answer, one line per item, and no text overflows anymore.\n\nFixes\n- Home: the Destinations tabs and the raid row in the loot section now highlight the option you clicked."
  },
  "canal": "test",
- "signature": "4aXNB72yqs5J7o7+az9vqOETT3O83PX2eKxrUi+ohO8/5cQPmd9MlLhK84IAF6TIt8hA2HX2rgU/gvXmWDXMCA=="
+ "signature": "oOTqettcGRM0SJEAjpifa/g0yKkfP5SeUpsuLGGeyjQJJ6qS32PTcowRRvKs5iEJmyrHIpFvT9Ex0joL2mSYCA=="
 }
