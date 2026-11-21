@@ -1,21 +1,21 @@
 {
- "version": "0.4.27",
+ "version": "0.4.28",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.27/iris-app-0.4.27.zip",
-  "sha256": "3043685b43872f281f6adae8982b78df4a3b92ad649735ff79b8264ced53e240",
-  "taille": 2800993
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.28/iris-app-0.4.28.zip",
+  "sha256": "cef1bc415095880204be82fbee4c5410f9840496cff2b5acf3b4e309d99a6aa4",
+  "taille": 2806299
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.27/IrisGhost-Setup.exe",
-  "sha256": "b4e01b00bd995529a451d3a9bfe12a3021e225f8d20b64c06c526a90742c36d2",
-  "taille": 31006696
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.28/IrisGhost-Setup.exe",
+  "sha256": "a44c849ae328257560dad5f44b117c13f65edb550753ed196d4b6a62331d5838",
+  "taille": 31012722
  },
  "notes": {
-  "fr": "Améliorations\n- Accueil : chaque carte Destinations a un lien qui ouvre la Carte sur sa destination (la carte de Braytech y marque notamment le secteur oublié du jour).",
-  "en": "Improvements\n- Home: each Destinations card has a link that opens the Map on its destination (Braytech's map marks today's Lost Sector there, among others)."
+  "fr": "Améliorations\n- Optimiseur et Planificateur : réordonne les stats par priorité en les faisant glisser (souris, doigt ou clavier).",
+  "en": "Improvements\n- Optimizer and Planner: reorder stats by priority by dragging them (mouse, touch or keyboard)."
  },
  "canal": "test",
- "signature": "3wiKM7QtaA0JjygIwlWuPzP12dP350oEeBu/pa/hZQFIZu6koLKnzA/Jqi/hA62qdOp0Y3rEcRWMznXDyDdBBA=="
+ "signature": "/PKo88Q12eIzJV6N6w1MqxgsW89OEpGNCiVaAOGEziZ4z0193kmmJSl0v9OJI5OLnaJb+b4eRz52jgsdIyDfCQ=="
 }
