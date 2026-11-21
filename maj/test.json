@@ -1,21 +1,21 @@
 {
- "version": "0.4.6",
+ "version": "0.4.7",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.6/iris-app-0.4.6.zip",
-  "sha256": "ac2c1d4f765275a12e2b17aef8fad3fedd1b1b6530d9dbfa85728940be0e3a4e",
-  "taille": 2383984
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.7/iris-app-0.4.7.zip",
+  "sha256": "1d072d928db07e34e7adb77139b55cd2bafd2f298312320760d4132c249bb917",
+  "taille": 2410901
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.6/IrisGhost-Setup.exe",
-  "sha256": "c6037a69ff7729e10b9c707ebac67cdc7b9936dbc21045a2b5434fc08f34b8db",
-  "taille": 30545066
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.7/IrisGhost-Setup.exe",
+  "sha256": "76617e5bae0fbfe0072042439a7d4051df32f55645f52572e310850ec685154a",
+  "taille": 30562198
  },
  "notes": {
-  "fr": "Nouveautés\n- Godrolls : chaque source (le relevé light.gg, chaque wishlist) s'allume ou s'éteint d'un interrupteur. Sans fichier de règles, Iris utilise toutes les sources allumées.\n- Chaque godroll, jet recommandé ou raison de garder une arme dit maintenant d'où il vient (light.gg, voltron…).\n- Les alertes de marchands sont allumées par défaut ; tu peux les éteindre dans Système.",
-  "en": "What's new\n- God rolls: each source (the light.gg survey, each wishlist) can be turned on or off. Without a rules file, Iris uses every source that is on.\n- Every god roll, recommended roll or reason to keep a weapon now says where it comes from (light.gg, voltron…).\n- Vendor alerts are on by default; you can turn them off in System."
+  "fr": "Finitions\n- Toute l'interface repassée écran par écran : alignements, espacements, textes coupés, images recadrées pour garder leur sujet, animations plus fluides qui ne se rejouent plus quand tu filtres ou rafraîchis, et le mode « mouvement réduit » de Windows respecté partout.\n- Iris ne se pose plus jamais sur un bouton, un texte ou une image : si la place manque, elle se fait plus petite ou s'efface.\n- La barre de navigation tient dans les fenêtres basses, et la fiche du Coffre s'ouvre en panneau à droite dans les fenêtres étroites.\n- L'écran anglais n'affiche plus de mots français (lieux, raisons, stats, sets, chargement).\n\nCorrigé\n- L'Optimiseur ne plante plus au calcul de ses suggestions.\n- Le compteur de l'auto-entretien comptait des sets sans recette.\n- Les stats des propositions d'auto-entretien s'affichent enfin.",
+  "en": "Polish\n- The whole interface went through screen by screen: alignment, spacing, clipped text, images cropped to keep their subject, smoother animations that no longer replay when you filter or refresh, and Windows' reduced-motion setting respected everywhere.\n- Iris never sits on a button, text or image anymore: when there's no room, she gets smaller or fades out.\n- The navigation bar fits short windows, and the Vault item card opens as a side panel in narrow windows.\n- The English screen no longer shows French words (locations, reasons, stats, sets, loading).\n\nFixed\n- The Optimizer no longer crashes when computing its suggestions.\n- The auto-maintenance counter counted sets with no recipe.\n- Auto-maintenance proposal stats finally show up."
  },
  "canal": "test",
- "signature": "utRZRRZsaT04D4JPz/4SOECUxGLlMcZ9fYmt8sD+qN7ahZUY7GkooGofAee9d/2pK5OuCkmWXqdEpVwT00gRAw=="
+ "signature": "cE0iFRLNmldzeXMy7yVj1X70Mk22nKs7QQwNXgDam33n6bTKRNkz8u5DVxv83YXwF9qg8j///S1qNKSXl556BQ=="
 }
