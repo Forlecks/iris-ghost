@@ -1,21 +1,21 @@
 {
- "version": "0.4.9",
+ "version": "0.4.10",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.9/iris-app-0.4.9.zip",
-  "sha256": "7ce456e1df2f479dd133a9c1e73abbb9119a017d180d4ac94050f8feda591133",
-  "taille": 2430320
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.10/iris-app-0.4.10.zip",
+  "sha256": "b5ee5208795c1eed4bc8474d044c6b73f68a33554664e310f35543f3166a9407",
+  "taille": 2452498
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.9/IrisGhost-Setup.exe",
-  "sha256": "649c9e97d9020c0fd0382d5cd5c861a3595cf03a0956346e13c3d300f48a48b6",
-  "taille": 30576215
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.10/IrisGhost-Setup.exe",
+  "sha256": "d454937eda73cd86c9897fef9df36954396c31c7e6d059e3739fc260dc9b7cb8",
+  "taille": 30586415
  },
  "notes": {
-  "fr": "Nouveautés\n- Iris se promène : elle vole scanner le dernier objet tombé (en or pour un godroll), disparaît en transmat pendant une synchro et se rematérialise, vient examiner une fiche qu'on ouvre, réapparaît à chaque changement d'écran, et fait de temps en temps une petite patrouille quand tu ne touches à rien.\n- Elle reste polie : jamais plus de quelques secondes hors de chez elle, un clic ou une touche la ramène, elle ne capte aucun clic.\n- Système, Apparence : « Iris se promène », allumé par défaut, pour la garder sage si tu préfères. Le mode « mouvement réduit » la calme aussi.",
-  "en": "What's new\n- Iris roams: she flies to scan the latest drop (in gold for a god roll), transmats away during a sync and rematerialises, comes to examine an item card you open, reappears on every screen change, and now and then goes on a short patrol while you're idle.\n- She stays polite: never more than a few seconds away from home, a click or a key brings her back, and she never catches a click.\n- System, Appearance: \"Iris roams\", on by default, to keep her still if you prefer. Reduced motion calms her too."
+  "fr": "Nouveautés\n- Collectes repensé : ce qu'il te reste à trouver en un coup d'œil, et « Où aller », une carte illustrée par destination qui filtre les listes.\n- Le Journal en images : les objets de chaque action en vignettes, une icône par type d'action, la frise des synchros refaite.\n- Builds : les stats en icônes, les propositions d'auto-entretien et les presets en vignettes.\n- Jalons : l'Historique en cartes illustrées et l'icône du mode de chaque partie ; les cartes de carrière portent l'icône de leur mode.\n- Armurerie : les noms des perks et les jets recommandés en combos.\n\nCorrigé\n- La carte « Épreuve d'Osiris » de la carrière demandait les chiffres des Nuits noires notées.\n- L'en-tête du Coffre disait « tri actif » même quand le tri était suspendu.",
+  "en": "What's new\n- Collectibles redesigned: what's left to find at a glance, and \"Where to go\", an illustrated card per destination that filters the lists.\n- The Journal in pictures: each action's items as thumbnails, an icon per kind of action, the sync timeline redone.\n- Builds: stats as icons, auto-maintenance proposals and presets as thumbnails.\n- Milestones: History as illustrated cards with each game's mode icon; career cards carry their mode's icon.\n- Armory: perk names and recommended rolls as combos.\n\nFixed\n- The career's \"Trials of Osiris\" card was asking for Scored Nightfall numbers.\n- The Vault header said \"sorting on\" even when sorting was suspended."
  },
  "canal": "test",
- "signature": "csHjmrcLHqDzXZYnSlqEAq8KocfJMPLnM5RLhHXo3xlnp86sFJmDNWY+KSlz976T2KYHXU3Behm7F4wjlr6hBQ=="
+ "signature": "b1BvtyR3hU7PL6ebBLzn08+iDUkoYXPLrbnxOIqEq0v44yu3a8ci3JiT9yoDZPxYBpPlq6gegXNvu4C4S0NiAg=="
 }
