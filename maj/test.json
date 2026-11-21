@@ -1,21 +1,21 @@
 {
- "version": "0.4.8",
+ "version": "0.4.9",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.8/iris-app-0.4.8.zip",
-  "sha256": "aabca7722427ee3ea472b8ec8cabec67e5336bb7f934ef548552a2076e29b484",
-  "taille": 2420800
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.9/iris-app-0.4.9.zip",
+  "sha256": "7ce456e1df2f479dd133a9c1e73abbb9119a017d180d4ac94050f8feda591133",
+  "taille": 2430320
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.8/IrisGhost-Setup.exe",
-  "sha256": "79b24646643013a2b4920891ef48afa94d9c99fb6a83490e50997b0e07fcf94c",
-  "taille": 30570174
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.9/IrisGhost-Setup.exe",
+  "sha256": "649c9e97d9020c0fd0382d5cd5c861a3595cf03a0956346e13c3d300f48a48b6",
+  "taille": 30576215
  },
  "notes": {
-  "fr": "Nouveautés\n- Iris est plus vivante : elle regarde ce qui s'ouvre, réagit aux réussites, aux refus et aux découvertes, prend un élan quand tu changes d'écran, prend la lumière du curseur et a ses attitudes de repos. Le mode « mouvement réduit » la calme.\n\nFinitions\n- La disposition verticale (navigation en haut) est revue sur tous les écrans : le bandeau tient dans toutes les tailles, la fiche du Coffre ne passe plus dessous, et Iris se replace quand tu changes de disposition.\n- Le Planificateur s'affiche en anglais dans l'écran anglais.",
-  "en": "What's new\n- Iris is more alive: she looks at what opens, reacts to successes, refusals and discoveries, gathers momentum when you change screens, catches the cursor's light and has her idle moods. Reduced motion calms her down.\n\nPolish\n- The vertical layout (navigation on top) was reviewed on every screen: the banner fits at every size, the Vault item card no longer slides under it, and Iris repositions herself when you change layout.\n- The Planner shows in English on the English screen."
+  "fr": "Nouveautés\n- Iris se promène : elle vole scanner le dernier objet tombé (en or pour un godroll), disparaît en transmat pendant une synchro et se rematérialise, vient examiner une fiche qu'on ouvre, réapparaît à chaque changement d'écran, et fait de temps en temps une petite patrouille quand tu ne touches à rien.\n- Elle reste polie : jamais plus de quelques secondes hors de chez elle, un clic ou une touche la ramène, elle ne capte aucun clic.\n- Système, Apparence : « Iris se promène », allumé par défaut, pour la garder sage si tu préfères. Le mode « mouvement réduit » la calme aussi.",
+  "en": "What's new\n- Iris roams: she flies to scan the latest drop (in gold for a god roll), transmats away during a sync and rematerialises, comes to examine an item card you open, reappears on every screen change, and now and then goes on a short patrol while you're idle.\n- She stays polite: never more than a few seconds away from home, a click or a key brings her back, and she never catches a click.\n- System, Appearance: \"Iris roams\", on by default, to keep her still if you prefer. Reduced motion calms her too."
  },
  "canal": "test",
- "signature": "NWfGu+5sNE4VAEAyqaV6gvSpC0T6T21/9JkT+5baHOqU7/Cc6pEA+NQnE1327X5tJAH6widkeiDTZBDpYRdbAg=="
+ "signature": "csHjmrcLHqDzXZYnSlqEAq8KocfJMPLnM5RLhHXo3xlnp86sFJmDNWY+KSlz976T2KYHXU3Behm7F4wjlr6hBQ=="
 }
