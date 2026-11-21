@@ -1,21 +1,21 @@
 {
- "version": "0.4.31",
+ "version": "0.4.32",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.31/iris-app-0.4.31.zip",
-  "sha256": "37657b082ca5ce835762afdcb328247b181c05cb9f2af320c26fd2410da7128d",
-  "taille": 2873855
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.32/iris-app-0.4.32.zip",
+  "sha256": "f7793eb4e5385b7e4ae922ea0020d048e7ddeb8a36ec30bae67eb1c679454d55",
+  "taille": 2873922
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.31/IrisGhost-Setup.exe",
-  "sha256": "c2145bed736380c11fe4dc64b94d88f64108cb0b8a9f587ae6b39e097a853565",
-  "taille": 31056009
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.32/IrisGhost-Setup.exe",
+  "sha256": "3f7d703b69dc0a070be6a42552942d3c2847871055c32595f98c76052e3c4f94",
+  "taille": 31060183
  },
  "notes": {
-  "fr": "Nouveautés\n- Coffre et Personnages : l'élément, les munitions et le champion d'une arme se lisent d'un coup d'œil (bordure à la couleur de l'élément, pastilles sous l'image, tier en « T5 »). Nouveaux filtres champions et munitions dans les deux écrans.\n- Équipe ou envoie un objet seul depuis sa fiche (« Équiper sur… », « Envoyer vers… »), annulable comme les autres actions.\n- Sets : modifier ouvre vraiment le set ; renomme, duplique, supprime, enregistre ce que tu portes en un clic ; notes, recherche et tri dans la liste.\n- Compositeur : artefact, ornements et shaders par pièce ; colle un lien de loadout DIM pour créer un set.\n- Optimiseur : vingt meilleurs résultats au lieu d'un, « n'importe quel exotique », pièces à épingler ou exclure, et « Mettre dans un set… ».\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
-  "en": "What's new\n- Vault and Characters: a weapon's element, ammo and champion read at a glance (element-colored border, badges under the image, tier as \"T5\"). New champion and ammo filters on both screens.\n- Equip or send a single item from its sheet (\"Equip on…\", \"Send to…\"), undoable like other actions.\n- Sets: edit really opens the set; rename, duplicate, delete, save what you're wearing in one click; notes, search and sorting in the list.\n- Composer: artifact, ornaments and shaders per piece; paste a DIM loadout link to create a set.\n- Optimizer: the twenty best results instead of one, \"any exotic\", pieces to pin or exclude, and \"Put in a set…\".\n\nThis update upgrades the database (a backup is made first)."
+  "fr": "Corrections\n- Les éléments portent leur nom du jeu en français : Cryo-électrique (Arc) et Abyssal (Void).",
+  "en": "Fixes\n- French element names now match the game: Cryo-électrique (Arc) and Abyssal (Void)."
  },
  "canal": "test",
- "signature": "sLCq6AokxEAzi142Qim/+/J+FInO+nyGrt5dmp8qGrhBk4ClA72jUGkcDlA6wwYbJezN28/0mywNENzMSksDDA=="
+ "signature": "t7ov2z7K/NGIeFuvXE8nVHSQI+ir/28hrkwicgTXXNNkR84GJFecuvyLHktl0eEncHPw+UfDZSDR8rXzn+qVBg=="
 }
