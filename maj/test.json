@@ -1,21 +1,21 @@
 {
- "version": "0.4.17",
+ "version": "0.4.18",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.17/iris-app-0.4.17.zip",
-  "sha256": "4a29e15657b0e2425f17c1a266e38e6e820f904238006944c98d9351d8099067",
-  "taille": 2674832
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.18/iris-app-0.4.18.zip",
+  "sha256": "89ea46d7ca5a998a06b2779e09544724379eb82d9cd79e76e0881777eec62fa1",
+  "taille": 2677756
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.17/IrisGhost-Setup.exe",
-  "sha256": "5b31aee54cf37b67ac26f657d6dce39e414909bd5de70fe6c55dea1a7dd9826d",
-  "taille": 30928126
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.18/IrisGhost-Setup.exe",
+  "sha256": "a4f021200addc08a9d83bfb18e64498868fb76cf0b53e64dcfbf6595b27ef9e1",
+  "taille": 30927955
  },
  "notes": {
-  "fr": "Améliorations\n- Accueil : dans les Destinations, chaque rotation est en face de sa réponse, une ligne par élément, et plus aucun texte ne déborde.\n\nCorrections\n- Accueil : les onglets des Destinations et la rangée de raids du butin allument bien le choix cliqué.",
-  "en": "Improvements\n- Home: in Destinations, each rotation sits next to its answer, one line per item, and no text overflows anymore.\n\nFixes\n- Home: the Destinations tabs and the raid row in the loot section now highlight the option you clicked."
+  "fr": "Nouveautés\n- Nouvel onglet Checkpoints : le site D2Checkpoint dans Iris, pour trouver un bot posé sur le bon checkpoint de raid ou de donjon et copier sa commande /rejoindre. Comme la Carte, il garde sa place quand tu changes d'onglet.",
+  "en": "What's new\n- New Checkpoints tab: the D2Checkpoint site inside Iris, to find a bot sitting on the right raid or dungeon checkpoint and copy its /join command. Like the Map, it keeps its place when you switch tabs."
  },
  "canal": "test",
- "signature": "oOTqettcGRM0SJEAjpifa/g0yKkfP5SeUpsuLGGeyjQJJ6qS32PTcowRRvKs5iEJmyrHIpFvT9Ex0joL2mSYCA=="
+ "signature": "329e5C4WL18O+WXa/+0uobc84yMiAakr9gaj2lTBr4yGB+kVFKZU9wm32X08Wolcdc149apPSLAB5e3rff4pDg=="
 }
