@@ -1,21 +1,21 @@
 {
- "version": "0.4.23",
+ "version": "0.4.24",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.23/iris-app-0.4.23.zip",
-  "sha256": "b61de6729b995152bb677b3a58fcffd9d65d602a863f5159907bddcbfbef8d43",
-  "taille": 2791656
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.24/iris-app-0.4.24.zip",
+  "sha256": "caa95ed9a8365ae47995be5b9f2b6a0bb392a89dc933eb6786f26bb1df49b206",
+  "taille": 2797342
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.23/IrisGhost-Setup.exe",
-  "sha256": "0f6109a00e36be5f8c631041068c82cd67b33337402b9625c4d575a5c275677c",
-  "taille": 31005769
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.24/IrisGhost-Setup.exe",
+  "sha256": "cf20ca47ae2b32905ba56cff521702295caa3782eb42b7a0329e8cc701b30db9",
+  "taille": 31005934
  },
  "notes": {
-  "fr": "Nouveautés\n- Ensembles : un éditeur dans Builds. Crée et modifie tes ensembles (étapes, set de chaque étape, variantes, swaps), ajoute une note par étape, duplique un ensemble vers une autre classe. Iris vérifie tout en direct, y compris la doctrine entre deux phases d'un swap.\n- Un ensemble dont un set a disparu se répare en rechoisissant la case.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
-  "en": "What's new\n- Sequences: an editor in Builds. Create and edit your sequences (steps, the set for each step, variants, swaps), add a note per step, duplicate a sequence to another class. Iris checks everything live, including the subclass setup between two phases of a swap.\n- A sequence whose set has disappeared is fixed by picking the slot again.\n\nThis update upgrades the database (a backup is made first)."
+  "fr": "Améliorations\n- Toutes les listes déroulantes de l'app (Règles, Builds, Système, éditeur d'ensembles) sont redessinées dans le style d'Iris, utilisables au clavier, avec une recherche quand la liste est longue.\n- Éditeur d'ensembles : « Annuler » demande confirmation si tu as des modifications non enregistrées.",
+  "en": "Improvements\n- Every dropdown in the app (Rules, Builds, System, sequence editor) is redrawn in Iris's style, keyboard-friendly, with search when the list is long.\n- Sequence editor: \"Cancel\" asks for confirmation if you have unsaved changes."
  },
  "canal": "test",
- "signature": "AGRrjBPnmxn69wJPY8pUtM2tSmpUmxXqQXknQM0mKVDJslZvSaAKWtU5Rr5uhkUXFfCO274DBS8JWsxKTJrSBg=="
+ "signature": "wxhHHQixT5AksN3DufivHGq/9L51G/om2boYDa+HbF3xPN06+CjKzupyuoaQiBtHXt9t7L93ErDEYXUGyTjyCw=="
 }
