@@ -1,21 +1,21 @@
 {
- "version": "0.4.32",
+ "version": "0.4.33",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.32/iris-app-0.4.32.zip",
-  "sha256": "f7793eb4e5385b7e4ae922ea0020d048e7ddeb8a36ec30bae67eb1c679454d55",
-  "taille": 2873922
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.33/iris-app-0.4.33.zip",
+  "sha256": "2478857437674ab8ade18730c6c0b6de8f6cadeee4da8cc0517bb6e779705bdf",
+  "taille": 2906644
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.32/IrisGhost-Setup.exe",
-  "sha256": "3f7d703b69dc0a070be6a42552942d3c2847871055c32595f98c76052e3c4f94",
-  "taille": 31060183
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.33/IrisGhost-Setup.exe",
+  "sha256": "620c72c6d6e08d501ea6613861b16c34bbac5477b7e5f961b2fe55fd4f2b60fa",
+  "taille": 31083329
  },
  "notes": {
-  "fr": "Corrections\n- Les éléments portent leur nom du jeu en français : Cryo-électrique (Arc) et Abyssal (Void).",
-  "en": "Fixes\n- French element names now match the game: Cryo-électrique (Arc) and Abyssal (Void)."
+  "fr": "Nouveautés\n- Champions : toutes les armes, légendaires comprises, affichent le champion qu'elles étourdissent d'après leur archétype (règle de la mise à jour du 9 juin), sur les tuiles, dans les filtres et dans la fiche, à droite de l'archétype.\n- Sceaux : clique un sceau pour voir ce qu'il te manque, les triomphes restants en premier avec leur avancement.\n- Accueil personnalisable : épingle presque tout (rangs, jalons, exotiques manquants…), par la punaise ou un clic droit, et réordonne tes épingles en les glissant.\n- Accueil : « Cette semaine pour tes sceaux » montre les activités du moment qui font avancer tes sceaux, et les triomphes concernés.",
+  "en": "What's new\n- Champions: every weapon, legendaries included, shows the champion it stuns based on its archetype (rule from the June 9 update), on tiles, in filters and on the item sheet next to the archetype.\n- Seals: click a seal to see what you're missing, remaining triumphs first with their progress.\n- Customizable Home: pin almost anything (ranks, milestones, missing exotics…), with the pin button or a right-click, and reorder your pins by dragging.\n- Home: \"This week for your seals\" shows the current activities that move your seals forward, and the triumphs involved."
  },
  "canal": "test",
- "signature": "t7ov2z7K/NGIeFuvXE8nVHSQI+ir/28hrkwicgTXXNNkR84GJFecuvyLHktl0eEncHPw+UfDZSDR8rXzn+qVBg=="
+ "signature": "RWhUW4/ClVrHe4uztBxkhHM6uzgMCSrl26ym5nCwbdpwz454XmZoOsDLGWUuWDnT4ESJyd61gua+0h4cJHEKBw=="
 }
