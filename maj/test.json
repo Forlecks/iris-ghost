@@ -1,21 +1,21 @@
 {
- "version": "0.4.29",
+ "version": "0.4.30",
  "date": "2026-11-21",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.29/iris-app-0.4.29.zip",
-  "sha256": "d0448cb414096613e328ed47e48e7844508b335b25acdc44eed402767b41d486",
-  "taille": 2827872
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.30/iris-app-0.4.30.zip",
+  "sha256": "7e0fb05644711d6d374aa2a65f048e57d7fe25af270f8f332261af872f8cb31d",
+  "taille": 2835863
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.29/IrisGhost-Setup.exe",
-  "sha256": "7ba2657082866f87420e1e0c63dd94d913e3357ef8d6b60918296df3f0183a0d",
-  "taille": 31023482
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.30/IrisGhost-Setup.exe",
+  "sha256": "5718cf785e955ee40e3c2d34efcce2543d7da15da5b75a8c560940cf565f3a91",
+  "taille": 31033644
  },
  "notes": {
-  "fr": "Nouveautés\n- Ensembles : les raids et donjons s'affichent avec leur icône et leur bannière ; choisir une activité crée d'un coup ses étapes, dans l'ordre, il ne reste qu'à lier les sets.\n- Ensembles : crée ou modifie un set directement depuis une étape. Un set créé là est réservé aux ensembles (il n'encombre pas ta liste de sets) ; une case permet de l'afficher aussi dans tes sets.\n- Compositeur : « Mods » ouvre une seule fenêtre avec la barre d'énergie de la pièce, qui se remplit au fil de tes choix. Choisis tous les mods d'un coup, prends plusieurs fois le même ; ce qui ne rentre plus dit pourquoi.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
-  "en": "What's new\n- Sequences: raids and dungeons show their icon and banner; picking an activity creates its steps in order, all at once, so you only have to link the sets.\n- Sequences: create or edit a set right from a step. A set made there is reserved for sequences (it doesn't clutter your set list); a checkbox shows it in your sets too.\n- Composer: \"Mods\" opens a single window with the piece's energy bar, which fills as you pick. Choose every mod at once, take the same one several times; anything that no longer fits says why.\n\nThis update upgrades the database (a backup is made first)."
+  "fr": "Améliorations\n- Les infobulles s'affichent dans le style d'Iris, à la souris comme au clavier, partout dans l'app.\n- Première connexion : Iris propose d'importer tes données DIM, avec la marche à suivre pour télécharger ta sauvegarde. L'import reste disponible à tout moment dans Système › Données.",
+  "en": "Improvements\n- Tooltips now show in Iris's style, with mouse and keyboard, everywhere in the app.\n- First sign-in: Iris offers to import your DIM data, with step-by-step instructions to download your backup. The import stays available anytime in System › Data."
  },
  "canal": "test",
- "signature": "9V98TDmRTZ2RHF/CnCYgHDz1u7fCuOywvzD+utp4RjsPY9ToUwRiDxVpasQ25YRZsw/e/YIZKzj6Kz9VU/3VDw=="
+ "signature": "Gh+nH/EpEJzHuun64L5lraj8rx9xKPucO4vCV7IWXjG6VWnfRHFKP6RWo4bJ9AbRK61I+3GQrReanbcHUDeLAQ=="
 }
