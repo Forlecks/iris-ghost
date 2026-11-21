@@ -1,20 +1,20 @@
 {
- "version": "0.4.1",
+ "version": "0.4.2",
  "date": "2026-11-21",
  "socle": 3,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.1/iris-app-0.4.1.zip",
-  "sha256": "4d2c9fe86c9b6350191cbc33e8b5c7260ea0a5ad720e36cae3d5cd38e0f2e39b",
-  "taille": 1972028
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.2/iris-app-0.4.2.zip",
+  "sha256": "842b17d119329bd0df64805792749619cb0eeca781db8410b6432c6b7c775a5f",
+  "taille": 2019114
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.1/IrisGhost-Setup.exe",
-  "sha256": "1a30b02bbcf611f1e656ec84c35faa9e2f1e5004a7292b27748ece4658213fff",
-  "taille": 30293073
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.2/IrisGhost-Setup.exe",
+  "sha256": "c0977f8ac7f630b6de0dc113f531e377955706fd34a64bfbcf0524c1975bd98b",
+  "taille": 30322279
  },
  "notes": {
-  "fr": "Nouveautés\n- Godrolls en images : chaque combo en deux icônes de traits avec sa popularité en barre, le filigrane de l'arme, et sa capture en fond de ligne.\n- Comparer : depuis la fiche d'un objet, mets-le face à deux autres copies, en colonnes, avec la règle qui les départage.",
-  "en": "What's new\n- Godrolls in pictures: each combo shown as two trait icons with its popularity bar, the weapon's watermark, and its screenshot behind the row.\n- Compare: from an item's card, put it side by side with up to two other copies, with the rule that decides between them."
+  "fr": "Nouveautés\n- Accueil en images : chaque raid et donjon de la semaine a sa carte illustrée, avec le sceau qu'il fait avancer et ce qu'il t'y reste ; le butin en icônes d'armes ; chaque marchand avec sa bannière et ses objets en vignettes, huit puis « Voir tout ».\n- Jalons, volet Historique : ta dernière séance, le bilan de tes raids et donjons, et toutes tes parties ; un clic ouvre le rapport de la partie et dit avec qui tu jouais. L'historique se lit avec le bouton « Relire chez Bungie », sans jamais relire ce qu'il a déjà.\n\nCorrigé\n- Avec la source de godrolls « toutes », les combos manquaient sur la page Godrolls, la fiche et le « Pourquoi ? ».",
+  "en": "What's new\n- Home in pictures: each raid and dungeon of the week has its own illustrated card, with the seal it advances and what you still need; loot as weapon icons; each vendor with its banner and items as thumbnails, eight then \"See all\".\n- Milestones, History tab: your last session, your raid and dungeon record, and every game you played; one click opens the game's report and shows who you played with. History is read with the \"Read from Bungie\" button and never reads the same game twice.\n\nFixed\n- With the \"all\" godroll source, combos were missing from the Godrolls page, the item card and the \"Why?\" panel."
  },
- "signature": "fzHU4gopfROh3x4/GTme3H0v+4GOl3svMBnw88i5q3V+qXAaJr1wZaBhAW+i/CD5cY009G+zKqdC+uEgKdNyDw=="
+ "signature": "gSA1zXsHSzvu12SmMwsbJQpQ3R1ILaC2hd9QmhUPwhBZSTzCMUGVLG/rxZhHSNhksF7fOgi/aL9+ac83hsw7Dw=="
 }
