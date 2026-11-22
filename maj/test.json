@@ -1,21 +1,21 @@
 {
- "version": "0.4.45",
+ "version": "0.4.46",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.45/iris-app-0.4.45.zip",
-  "sha256": "ee879e63eac55539810924e280265862c85453bd861a24d798aab76ba482690c",
-  "taille": 3072699
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.46/iris-app-0.4.46.zip",
+  "sha256": "4d68a56afa6bb8004ce216cd3b2c4320a41aa80c951ce8154e258456511f3382",
+  "taille": 3072881
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.45/IrisGhost-Setup.exe",
-  "sha256": "a15b50bb8624a5730acba145fdac7f51098294cb55b21e7167ea0441fc387b25",
-  "taille": 31191678
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.46/IrisGhost-Setup.exe",
+  "sha256": "422e859f29af6de605f1cf4b8817239eb82a8c241d6bf3cd4bf726877d7f735f",
+  "taille": 31187119
  },
  "notes": {
-  "fr": "- Accueil : le badge des activités à la une dit « Maîtrise », comme dans le jeu.",
-  "en": "- Home: wording fix on the featured activities badge (French)."
+  "fr": "- Presets : le profil de base confie les presets 1 à 12 à Iris, 13 à 20 restent fixes.",
+  "en": "- Loadouts: the base profile trusts Iris with loadouts 1 to 12; 13 to 20 stay fixed."
  },
  "canal": "test",
- "signature": "bLuqZqu41wtb39PB8bhThrMa5AHbsvNhDLZLjb1BK/5acwX2Ak9TIHQRiX6PGGRPQ2F6GAz0g1ICqx4ye/9cAA=="
+ "signature": "ACdRzkvvcScGyr/toEuit81qCxwPezJ1W664hYv7EQLTfOBZ69VLqGE3F/2SdvAw56PWjrRirePx3VpHihLCDQ=="
 }
