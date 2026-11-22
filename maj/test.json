@@ -1,21 +1,21 @@
 {
- "version": "0.4.40",
+ "version": "0.4.41",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.40/iris-app-0.4.40.zip",
-  "sha256": "68119d78c026118b5fb1cd56df5f2e31198fd0744af99bdec0c13c9691f5aaea",
-  "taille": 3012208
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.41/iris-app-0.4.41.zip",
+  "sha256": "8e050e19a32e56cef5781f837faf6028dd87b22324d352ebc7c7a5180e793f50",
+  "taille": 3012441
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.40/IrisGhost-Setup.exe",
-  "sha256": "848219522267ec547b860fcbb5f911c53b34eb5d7464a7600ce69e6d8a856859",
-  "taille": 31150229
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.41/IrisGhost-Setup.exe",
+  "sha256": "4d08985e01e2c3837e6ec74b6d0d82756a54e104f7e5a6aff84641b626310ea6",
+  "taille": 31151156
  },
  "notes": {
-  "fr": "Nouveautés\n- Iris parle : les questions, confirmations et messages de l'app sont maintenant dits par Iris, dans une bulle à côté d'elle.\n- Visite guidée : à la première connexion, Iris propose un tour de l'app (complet ou rapide). Il reste disponible à tout moment en cliquant sur Iris.",
-  "en": "What's new\n- Iris speaks: the app's questions, confirmations and messages are now said by Iris, in a bubble next to her.\n- Guided tour: on first sign-in, Iris offers a tour of the app (full or quick). It stays available anytime by clicking Iris."
+  "fr": "Corrections\n- Iris parle à la première personne dans tous ses messages.\n- Première connexion : la réponse d'Iris après « Non » à l'import DIM s'affiche avant la proposition de visite.\n- Interface anglaise des bulles et de la visite revue.",
+  "en": "Fixes\n- Iris speaks in the first person in all her messages.\n- First sign-in: Iris's reply after \"No\" to the DIM import shows before the tour offer.\n- English wording of the bubbles and the tour reviewed."
  },
  "canal": "test",
- "signature": "GRAgtbMHjcNt/av31VGHjFacVhVtFTRRzR5ZU6s74qaHVyGEDdDXDx6+Tm6MNl2lgnr7syIZf0HUh7j0q6SpAQ=="
+ "signature": "mLdT+db/DvAdGR3Es3xSJaabPRwPiHswrskqp4Y6Mh51P+C72YDK+etH6YBEgQ88X7Xq2bm9tbH0Kj75OZdOCw=="
 }
