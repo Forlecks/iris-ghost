@@ -1,21 +1,21 @@
 {
- "version": "0.4.38",
+ "version": "0.4.39",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.38/iris-app-0.4.38.zip",
-  "sha256": "d90d588da8fe6aae52f56570f5f08e02242ec8d9c62290578ac7ef6dccc3ad4c",
-  "taille": 2978776
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.39/iris-app-0.4.39.zip",
+  "sha256": "3853f8a04a0db43ea6607f0a74d908ccd0101568157544e08de9e937377aad8d",
+  "taille": 2990811
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.38/IrisGhost-Setup.exe",
-  "sha256": "bc7b58a4b0c1ea1f3ff686f26e3dfe3f455640f6e8819be29bb81590820389f1",
-  "taille": 31128460
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.39/IrisGhost-Setup.exe",
+  "sha256": "81369117d79564a1a066cfab8654ed28b5da9ddd3b346f8069c82da2abc159a6",
+  "taille": 31134720
  },
  "notes": {
-  "fr": "Corrections\n- Les boutons qui donnent un fichier (spec pour les IA, export des règles, tableur, journal…) fonctionnent dans la fenêtre d'Iris : le fichier arrive dans tes Téléchargements.\n- Textes : « perk » est accordé au féminin partout (« sa perk », « la perk active »…).",
-  "en": "Fixes\n- Buttons that give you a file (AI spec, rules export, spreadsheet, journal…) now work in the Iris window: the file lands in your Downloads.\n- French texts: grammatical gender fixes."
+  "fr": "Nouveautés — l'onglet Règles\n- Règles › Bonus de set : choisis les sets d'armure que tu gardes pour leur bonus. Rien par défaut ; « Profil de base » reprend une sélection prête à l'emploi.\n- Règles › Exotiques : règle toi-même la priorité 1, 2 ou 3 de chaque archétype ; la liste va des casques aux jambes, par ordre alphabétique.\n- Un seul champ pour le nom et la raison d'une règle : écris dans la langue de ton choix.\n- Vues Texte, Désaccords et Historique plus lisibles (couleurs, images, compteurs).",
+  "en": "What's new — the Rules tab\n- Rules › Set bonuses: pick the armor sets you keep for their bonus. Nothing by default; \"Base profile\" loads a ready-made selection.\n- Rules › Exotics: set each archetype's priority (1, 2 or 3) yourself; the list goes from helmets to legs, alphabetically.\n- A single field for a rule's name and reason: write in the language you like.\n- Clearer Text, Disagreements and History views (colors, images, counters)."
  },
  "canal": "test",
- "signature": "2XauxPkx9JNwmc7VwKS0IHfO7lbkAGgxvGeMFs077BnfqmgH5JP5az3c4TK32kVJ+zrWVqc8qKuiocT9t4PjCQ=="
+ "signature": "q8+n0IjbuoT2aiyT3XqpUEsC3nsGFnOkvOe7NItEBZh0vcJoTiDVdZm23uIE1JLC30sL8BLO5mE03HTylgVdBA=="
 }
