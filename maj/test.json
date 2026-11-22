@@ -1,21 +1,21 @@
 {
- "version": "0.4.52",
+ "version": "0.4.53",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.52/iris-app-0.4.52.zip",
-  "sha256": "4cc77ce2b0e8f46a93bc050cf794bb305e35fd8f6f6216fbaa5e6bbccffd3fa8",
-  "taille": 3141099
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.53/iris-app-0.4.53.zip",
+  "sha256": "deb92a67713f836fcda1976865ab8a9eef8f3b1089d96e0acf54016afccf1853",
+  "taille": 3149822
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.52/IrisGhost-Setup.exe",
-  "sha256": "7781a9f5c76cec33618793d8f25f148832364c0c40bf6b5d413b95106db31cf7",
-  "taille": 31234694
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.53/IrisGhost-Setup.exe",
+  "sha256": "e7eb7769ec3cde522cf8d8507588998938d03711f05abce092262f432d3a9336",
+  "taille": 31240085
  },
  "notes": {
-  "fr": "- Presets confiés : le preset s'enregistre enfin (un mod trop cher pour l'énergie de la pièce l'annulait), un deuxième essai ne provoque plus d'erreur, et une seule lecture précède le plan.\n- Les exports se téléchargent dans la fenêtre (Spec pour les IA, tableur, gabarit des godrolls) : Windows demande où enregistrer.\n- Transferts : une forme réduite à droite d'Iris, qui s'étend au clic.\n- Règles : la simulation montre les objets avec leur image.\n- Accueil : « Cette semaine pour tes sceaux » ajoute les rotations de destination (défis ascendants, Europe, Lune, Kepler…).\n- Builds › Sets : tes propres catégories, une liste de tous les sets à gauche, les icônes de doctrine et de rôle (DPS, Démobage), des filtres.\n- Ensembles : l'écart de doctrine entre deux swaps en image, et « Accorder » pour aligner les sets d'une étape.\n- Compositeur : un bloc « Stats voulues », enregistré avec le set.",
-  "en": "- Trusted loadouts: the loadout is finally saved (a mod too expensive for the piece's energy cancelled it), a second try no longer errors, and only one read precedes the plan.\n- Exports download inside the window (AI spec, spreadsheet, godroll template): Windows asks where to save.\n- Transfers: a compact form next to Iris, expanding on click.\n- Rules: the simulation shows items with their image.\n- Home: \"This week for your seals\" adds destination rotations (ascendant challenges, Europa, Moon, Kepler…).\n- Builds › Sets: your own categories, a list of all sets on the left, subclass and role icons (DPS, add clear), filters.\n- Ensembles: the subclass gap between two swaps shown visually, and \"Align\" to match a step's sets.\n- Composer: a \"Wanted stats\" block, saved with the set."
+  "fr": "- Appliquer un set ou un preset va environ deux fois plus vite : Iris pose les mods de trois pièces à la fois (35 s au lieu de 79 sur un set de 31 mods).\n- Un réglage de stat que le jeu ne propose pas sur la pièce est écarté d'avance et n'empêche plus d'enregistrer le preset.\n- Remettre comme avant équipe les exotiques en dernier, et Iris ne se laisse plus tromper par une réponse de Bungie en retard.",
+  "en": "- Applying a set or loadout is about twice as fast: Iris slots mods on three pieces at once (35 s instead of 79 for a 31-mod set).\n- A stat tuning the game doesn't offer on that piece is skipped ahead of time and no longer stops the loadout from saving.\n- Undo equips exotics last, and Iris is no longer fooled by a late Bungie response."
  },
  "canal": "test",
- "signature": "gFkeb3f7TeWNyC8tdTFHN5pf452AiDGhN4haenwwlpsfCeUH36ehdw5lZEkO/LNPKc5qMZVE0cYM4aHwngSZAA=="
+ "signature": "parTYS++vikOYM19x/O8IkcrJuNd+uZGOXewcOR6tYQAcdQfYoRGiWEqqLsdc7vCB/RV2Wssj0xgbG1LmgPPDQ=="
 }
