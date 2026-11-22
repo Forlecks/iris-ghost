@@ -1,21 +1,21 @@
 {
- "version": "0.4.50",
+ "version": "0.4.51",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.50/iris-app-0.4.50.zip",
-  "sha256": "0d4e9c5af4f8883a578d0114c55c152c83f5bfd4d7047c9eab0d3bb39a1dd724",
-  "taille": 3085679
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.51/iris-app-0.4.51.zip",
+  "sha256": "fcd665eedb1bdd8f03dd9f696fcb1bd9baab8117eba741bd79cb6c4b6ca315ef",
+  "taille": 3090107
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.50/IrisGhost-Setup.exe",
-  "sha256": "0473140afbdb139e7530802a6287e3eb5e7359567b7e5d3f512cfab7abdb6cdf",
-  "taille": 31196594
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.51/IrisGhost-Setup.exe",
+  "sha256": "4072cbda85fa581bbd0bb827603a372eafcd0673ef01527876c1b57a6d7f4631",
+  "taille": 31205577
  },
  "notes": {
-  "fr": "- Les écrans ne restent plus vides après une mise à jour : une version ouverte n'est plus retirée du disque, et une Iris qui a perdu son dossier se relance d'elle-même.\n- Builds : le nom d'un set s'affiche tel que tu l'as écrit, glyphes et crochets compris.\n- Plus de bande noire vide sous les images d'objets dans le compositeur, l'optimiseur et les sets.\n- Compositeur : laisser la souris sur un emplacement de doctrine ouvre sa liste ; l'artefact se compte en barre, comme l'énergie des mods.",
-  "en": "- Screens no longer stay blank after an update: an open version is no longer removed from disk, and an Iris that lost its folder restarts on its own.\n- Builds: a set's name shows exactly as you wrote it, glyphs and brackets included.\n- No more empty black strip under item images in the composer, optimizer and sets.\n- Composer: resting the mouse on a subclass slot opens its list; the artifact is counted with a bar, like mod energy."
+  "fr": "- Accueil : le nom d'un objet épinglé ouvre sa fiche à côté ; un clic sur sa carte propose l'envoyer, l'équiper, le verrouiller.\n- Optimiseur : choisir un des 20 résultats ne fait plus réapparaître la liste, seule la carte du détail s'anime.",
+  "en": "- Home: a pinned item's name opens its sheet alongside; clicking its card offers send, equip and lock.\n- Optimizer: picking one of the 20 results no longer replays the list's animation, only the detail card's."
  },
  "canal": "test",
- "signature": "+h3l6Bm/v9N83UTf8sGC+MiTe3W6a9JF+V++AVa5VX30idTY1ncAnGwaZ3c5kt89hMsq2o6rnZ9bdjlkOgovCA=="
+ "signature": "al9mY34uAmGCM2cpsU44ULYo1YSP5ysMXpNzEuRbaNz7tzk14+eAgiLdY2/OCX91iXbX9Ob5hygz0mAgZZImBg=="
 }
