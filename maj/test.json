@@ -1,21 +1,21 @@
 {
- "version": "0.4.42",
+ "version": "0.4.43",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.42/iris-app-0.4.42.zip",
-  "sha256": "7a97dff7abbbb8ef102a93df8f96fb65cc33db0b3f5579cec852c08c7b444b66",
-  "taille": 3032626
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.43/iris-app-0.4.43.zip",
+  "sha256": "8a312f0bf53fe915b8b1684fd1f3f98eac7a0ed30fe8a1cca83916961498a469",
+  "taille": 3046097
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.42/IrisGhost-Setup.exe",
-  "sha256": "3147b71fd8a098c207fd5adbe3ca82dbb29ba2374ad3eefaa3c1d0a153a6ee96",
-  "taille": 31163505
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.43/IrisGhost-Setup.exe",
+  "sha256": "08d549f8b7f23e8fd0502c086196dc8144dfe5f31b8e5bd0600d23cc17318c7c",
+  "taille": 31174916
  },
  "notes": {
-  "fr": "Améliorations\n- Visite guidée : la rapide montre ce qu'Iris est seule à faire, la complète explique en détail le Planificateur, la Liste de courses, l'Auto-entretien, les Ensembles et la simulation des règles.\n- Les descriptions des perks, mods et catalyseurs affichent l'icône du jeu à la place des mots entre crochets ([Solaire], champions…).\n- Presets et Catalyseurs s'affichent tout de suite (dernière lecture, puis mise à jour), plus d'écran vide en attendant Bungie.\n- Armurerie : la recherche répond presque instantanément.\n- « Collectibles » remplace « collectes » partout.",
-  "en": "Improvements\n- Guided tour: the quick one shows what only Iris does, the full one explains the Planner, Shopping list, Auto-maintenance, Sequences and the rules simulation in detail.\n- Perk, mod and catalyst descriptions show the game's icon instead of bracketed words ([Solar], champions…).\n- Loadouts and Catalysts show up right away (last reading, then updated): no more blank screen while waiting for Bungie.\n- Armory: search answers almost instantly."
+  "fr": "Nouveautés\n- Nouvel onglet « Autres outils », juste au-dessus de Système : les sites Destiny utiles qui n'ont pas d'onglet dans Iris, rangés par usage, avec une recherche.\n\nAméliorations\n- Visites guidées réécrites : elles montrent ce que fait chaque écran, avec un exemple, et ne promettent rien qu'Iris ne fasse pas en activité.\n- Champions : Anti-barrière, Surchargé et Implacable, comme on les appelle en jeu.\n- Textes de l'app relus pour une ponctuation plus naturelle.",
+  "en": "What's new\n- New \"Other tools\" tab, just above System: useful Destiny websites that don't have a tab in Iris, sorted by use, with search.\n\nImprovements\n- Guided tours rewritten: they show what each screen does, with an example, and promise nothing Iris can't do during an activity.\n- Champions: Anti-Barrier, Overload and Unstoppable.\n- App texts reviewed for more natural punctuation."
  },
  "canal": "test",
- "signature": "EEWe71+j0HIXx+UNsEBqaxAnHP6RMGgxMfNid0lnSbfwj59tra1dQ2i7C1/KAxgAB6cDo0Se1c2TY0uM+IcJAQ=="
+ "signature": "/eOTYgLrsZ4pBxHe1ThzogxYOiW13a6OsPdQ2jeAX8UOkVknsVc0FhtSFQJqYMIoCDnKyH6mJnRl7iieIkIJBA=="
 }
