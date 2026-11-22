@@ -1,21 +1,21 @@
 {
- "version": "0.4.51",
+ "version": "0.4.52",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.51/iris-app-0.4.51.zip",
-  "sha256": "fcd665eedb1bdd8f03dd9f696fcb1bd9baab8117eba741bd79cb6c4b6ca315ef",
-  "taille": 3090107
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.52/iris-app-0.4.52.zip",
+  "sha256": "4cc77ce2b0e8f46a93bc050cf794bb305e35fd8f6f6216fbaa5e6bbccffd3fa8",
+  "taille": 3141099
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.51/IrisGhost-Setup.exe",
-  "sha256": "4072cbda85fa581bbd0bb827603a372eafcd0673ef01527876c1b57a6d7f4631",
-  "taille": 31205577
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.52/IrisGhost-Setup.exe",
+  "sha256": "7781a9f5c76cec33618793d8f25f148832364c0c40bf6b5d413b95106db31cf7",
+  "taille": 31234694
  },
  "notes": {
-  "fr": "- Accueil : le nom d'un objet épinglé ouvre sa fiche à côté ; un clic sur sa carte propose l'envoyer, l'équiper, le verrouiller.\n- Optimiseur : choisir un des 20 résultats ne fait plus réapparaître la liste, seule la carte du détail s'anime.",
-  "en": "- Home: a pinned item's name opens its sheet alongside; clicking its card offers send, equip and lock.\n- Optimizer: picking one of the 20 results no longer replays the list's animation, only the detail card's."
+  "fr": "- Presets confiés : le preset s'enregistre enfin (un mod trop cher pour l'énergie de la pièce l'annulait), un deuxième essai ne provoque plus d'erreur, et une seule lecture précède le plan.\n- Les exports se téléchargent dans la fenêtre (Spec pour les IA, tableur, gabarit des godrolls) : Windows demande où enregistrer.\n- Transferts : une forme réduite à droite d'Iris, qui s'étend au clic.\n- Règles : la simulation montre les objets avec leur image.\n- Accueil : « Cette semaine pour tes sceaux » ajoute les rotations de destination (défis ascendants, Europe, Lune, Kepler…).\n- Builds › Sets : tes propres catégories, une liste de tous les sets à gauche, les icônes de doctrine et de rôle (DPS, Démobage), des filtres.\n- Ensembles : l'écart de doctrine entre deux swaps en image, et « Accorder » pour aligner les sets d'une étape.\n- Compositeur : un bloc « Stats voulues », enregistré avec le set.",
+  "en": "- Trusted loadouts: the loadout is finally saved (a mod too expensive for the piece's energy cancelled it), a second try no longer errors, and only one read precedes the plan.\n- Exports download inside the window (AI spec, spreadsheet, godroll template): Windows asks where to save.\n- Transfers: a compact form next to Iris, expanding on click.\n- Rules: the simulation shows items with their image.\n- Home: \"This week for your seals\" adds destination rotations (ascendant challenges, Europa, Moon, Kepler…).\n- Builds › Sets: your own categories, a list of all sets on the left, subclass and role icons (DPS, add clear), filters.\n- Ensembles: the subclass gap between two swaps shown visually, and \"Align\" to match a step's sets.\n- Composer: a \"Wanted stats\" block, saved with the set."
  },
  "canal": "test",
- "signature": "al9mY34uAmGCM2cpsU44ULYo1YSP5ysMXpNzEuRbaNz7tzk14+eAgiLdY2/OCX91iXbX9Ob5hygz0mAgZZImBg=="
+ "signature": "gFkeb3f7TeWNyC8tdTFHN5pf452AiDGhN4haenwwlpsfCeUH36ehdw5lZEkO/LNPKc5qMZVE0cYM4aHwngSZAA=="
 }
