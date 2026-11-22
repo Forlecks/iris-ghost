@@ -1,21 +1,21 @@
 {
- "version": "0.4.43",
+ "version": "0.4.44",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.43/iris-app-0.4.43.zip",
-  "sha256": "8a312f0bf53fe915b8b1684fd1f3f98eac7a0ed30fe8a1cca83916961498a469",
-  "taille": 3046097
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.44/iris-app-0.4.44.zip",
+  "sha256": "5c24b8347b40debe2904cca8f29799b913ccbb9aa50642f168b7c655ef6936aa",
+  "taille": 3072927
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.43/IrisGhost-Setup.exe",
-  "sha256": "08d549f8b7f23e8fd0502c086196dc8144dfe5f31b8e5bd0600d23cc17318c7c",
-  "taille": 31174916
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.44/IrisGhost-Setup.exe",
+  "sha256": "c5e8b9795b3d3075680b177264e521c1b5de43bf00d11850c2627e8b9fd78eb4",
+  "taille": 31187219
  },
  "notes": {
-  "fr": "Nouveautés\n- Nouvel onglet « Autres outils », juste au-dessus de Système : les sites Destiny utiles qui n'ont pas d'onglet dans Iris, rangés par usage, avec une recherche.\n\nAméliorations\n- Visites guidées réécrites : elles montrent ce que fait chaque écran, avec un exemple, et ne promettent rien qu'Iris ne fasse pas en activité.\n- Champions : Anti-barrière, Surchargé et Implacable, comme on les appelle en jeu.\n- Textes de l'app relus pour une ponctuation plus naturelle.",
-  "en": "What's new\n- New \"Other tools\" tab, just above System: useful Destiny websites that don't have a tab in Iris, sorted by use, with search.\n\nImprovements\n- Guided tours rewritten: they show what each screen does, with an example, and promise nothing Iris can't do during an activity.\n- Champions: Anti-Barrier, Overload and Unstoppable.\n- App texts reviewed for more natural punctuation."
+  "fr": "Nouveautés\n- Builds › Presets : choisis les presets qu'Iris a le droit de modifier (aucun par défaut ; « Profil de base » confie les presets 1 à 18). Les autres restent intouchables.\n- Ensembles : choisis le preset de chaque étape, ou laisse Iris le placer.\n- Règles › Bonus de set : garde un set pour une classe et pas pour une autre.\n\nAméliorations\n- Les transferts et autres actions s'exécutent dans un panneau à côté d'Iris : tu peux continuer à naviguer pendant ce temps.\n- Personnages : les cases d'armes du coffre sont un peu plus grandes.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant). Si tu utilisais déjà Iris, les presets 1 à 18 lui sont confiés.",
+  "en": "What's new\n- Builds › Loadouts: choose which loadouts Iris may change (none by default; \"Base profile\" entrusts loadouts 1 to 18). The others stay untouched.\n- Sequences: pick the loadout for each step, or let Iris place it.\n- Rules › Set bonuses: keep a set for one class and not another.\n\nImprovements\n- Transfers and other actions run in a panel next to Iris: you can keep browsing meanwhile.\n- Characters: vault weapon tiles are slightly bigger.\n\nThis update upgrades the database (a backup is made first). If you already used Iris, loadouts 1 to 18 are entrusted to it."
  },
  "canal": "test",
- "signature": "/eOTYgLrsZ4pBxHe1ThzogxYOiW13a6OsPdQ2jeAX8UOkVknsVc0FhtSFQJqYMIoCDnKyH6mJnRl7iieIkIJBA=="
+ "signature": "9fwuDtG3OytPtL/DHK5Tsdd+NE+zGAp29ZbOoRExrWXjzozYmdwFeSIkl6A1ymHX10HsSXTwMmMpjVwxfXobDw=="
 }
