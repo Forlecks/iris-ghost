@@ -1,21 +1,21 @@
 {
- "version": "0.4.46",
+ "version": "0.4.47",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.46/iris-app-0.4.46.zip",
-  "sha256": "4d68a56afa6bb8004ce216cd3b2c4320a41aa80c951ce8154e258456511f3382",
-  "taille": 3072881
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.47/iris-app-0.4.47.zip",
+  "sha256": "1a024d9489488cf6f9fda3da8584668dc60d1b69319f50dee3c835e9c2518851",
+  "taille": 3074625
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.46/IrisGhost-Setup.exe",
-  "sha256": "422e859f29af6de605f1cf4b8817239eb82a8c241d6bf3cd4bf726877d7f735f",
-  "taille": 31187119
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.47/IrisGhost-Setup.exe",
+  "sha256": "604ebd59f0afbecf1119a7431f360974341e84ab4013fc4e5e52f0c0da7d1084",
+  "taille": 31189812
  },
  "notes": {
-  "fr": "- Presets : le profil de base confie les presets 1 à 12 à Iris, 13 à 20 restent fixes.",
-  "en": "- Loadouts: the base profile trusts Iris with loadouts 1 to 12; 13 to 20 stay fixed."
+  "fr": "- Règles : le bandeau des recherches DIM a un bouton « Ignorer », et une recherche qui ne relit qu'un tag (tag:junk) n'y est plus proposée.",
+  "en": "- Rules: the DIM searches banner has a Dismiss button, and searches that only read a tag (tag:junk) are no longer offered."
  },
  "canal": "test",
- "signature": "ACdRzkvvcScGyr/toEuit81qCxwPezJ1W664hYv7EQLTfOBZ69VLqGE3F/2SdvAw56PWjrRirePx3VpHihLCDQ=="
+ "signature": "eS8blBEbEc+uGsGOza4POWg+sM4v+49fg5WtmeF03kFJnJop//LtimNEFE1GIZgt1XYOgugEUUjTJuUoq97OBw=="
 }
