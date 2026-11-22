@@ -1,21 +1,21 @@
 {
- "version": "0.4.61",
+ "version": "0.4.62",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.61/iris-app-0.4.61.zip",
-  "sha256": "91bb00e79e4f1f49a776820d6822c6ca3dcff5ed1c47f8a2f01f61d2e31a4850",
-  "taille": 3277970
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.62/iris-app-0.4.62.zip",
+  "sha256": "08e87ca63e6ad1418c97fdbc5e96d97d50547ab7c381e09241d6c298d0e5df2d",
+  "taille": 3286587
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.61/IrisGhost-Setup.exe",
-  "sha256": "2f8ddf618a4324ff2d2a84164ba1341a520517de5325918ac4a2f53772419f9c",
-  "taille": 31323384
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.62/IrisGhost-Setup.exe",
+  "sha256": "2b93b74ce7ed6eae274b261a49e2189c2041298ec4fb2a261a7d5f048ab83dc1",
+  "taille": 31329272
  },
  "notes": {
-  "fr": "- Barre de navigation : un bouton pour la modifier (glisser les onglets, en masquer) et un autre pour la réduire à ses icônes.\n- Recherche rapide en tête de la barre (Ctrl+K) : onglets, objets, sets, sceaux, armes du jeu, réglages, règles.\n- Barres de recherche : est: et is: comprennent toute valeur d'un filtre (est:surcharge, is:heavy…), en français comme en anglais ; dès « sur », les objets qui le portent et les commandes qui le complètent ; une faute de frappe propose le mot le plus proche.",
-  "en": "- Navigation bar: a button to edit it (drag tabs, hide some) and another to shrink it to icons.\n- Quick search at the top of the bar (Ctrl+K): tabs, items, sets, seals, game weapons, settings, rules.\n- Search bars: est: and is: understand any filter value (is:overload, is:heavy…), in French or English; from \"sur\" on, matching items and the commands that complete it; a typo suggests the closest word."
+  "fr": "- Écran d'un set : « + Nouveau set » part de zéro ; un fragment ou un aspect ne se pose qu'une fois (un clic échange les deux) ; un bouton « Iris choisit l'armure et les mods » remplit les cinq pièces selon tes stats voulues, en brouillon.\n- Accueil : la section « Loot de la semaine » disparaît ; un clic sur une activité à la une ouvre ses loots dessous, avec les noms en français.",
+  "en": "- Set screen: \"+ New set\" starts empty; a fragment or aspect can only be slotted once (a click swaps them); an \"Iris picks armor and mods\" button fills the five pieces from your wanted stats, as a draft.\n- Home: the \"Loot of the week\" section is gone; clicking a featured activity opens its loot below it, with French names."
  },
  "canal": "test",
- "signature": "KUany1TwEPYcgCaLykVcAuNPXH3hZ7UqWWYda4j9oqAuyrYNFpaisBvVuQ46m4tpGrTYr77IqBO0NPijI/eQBA=="
+ "signature": "ytsWZ13IE/ssPq2B7ks+Nx8piyKHnp2PtRhjRkjLDregtZ8syqS6An4h8nSULCTbb/JD1ZMa2EBI+GUua2u+Bg=="
 }
