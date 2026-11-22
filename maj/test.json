@@ -1,21 +1,21 @@
 {
- "version": "0.4.49",
+ "version": "0.4.50",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.49/iris-app-0.4.49.zip",
-  "sha256": "62d4f684979492f04ab1f1b2bfed8b346bd93a8ef0162f1bc033f72be18813e6",
-  "taille": 3075112
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.50/iris-app-0.4.50.zip",
+  "sha256": "0d4e9c5af4f8883a578d0114c55c152c83f5bfd4d7047c9eab0d3bb39a1dd724",
+  "taille": 3085679
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.49/IrisGhost-Setup.exe",
-  "sha256": "12ae8d11accd7fcb7e09e632ed53860b206a32d8ce5f3a961b4532604e90c060",
-  "taille": 31191325
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.50/IrisGhost-Setup.exe",
+  "sha256": "0473140afbdb139e7530802a6287e3eb5e7359567b7e5d3f512cfab7abdb6cdf",
+  "taille": 31196594
  },
  "notes": {
-  "fr": "- Fiche d'objet : plus d'infobulle coupée au survol d'une perk, le panneau sous les perks dit tout.",
-  "en": "- Item sheet: no more clipped tooltip when hovering a perk; the panel below the perks says it all."
+  "fr": "- Les écrans ne restent plus vides après une mise à jour : une version ouverte n'est plus retirée du disque, et une Iris qui a perdu son dossier se relance d'elle-même.\n- Builds : le nom d'un set s'affiche tel que tu l'as écrit, glyphes et crochets compris.\n- Plus de bande noire vide sous les images d'objets dans le compositeur, l'optimiseur et les sets.\n- Compositeur : laisser la souris sur un emplacement de doctrine ouvre sa liste ; l'artefact se compte en barre, comme l'énergie des mods.",
+  "en": "- Screens no longer stay blank after an update: an open version is no longer removed from disk, and an Iris that lost its folder restarts on its own.\n- Builds: a set's name shows exactly as you wrote it, glyphs and brackets included.\n- No more empty black strip under item images in the composer, optimizer and sets.\n- Composer: resting the mouse on a subclass slot opens its list; the artifact is counted with a bar, like mod energy."
  },
  "canal": "test",
- "signature": "RisvSMrYFgqPOMxV2tKYphEMj4f45oD7XuilW+UOMPhDEIuaMIiqukhC+Caq2v6M3DNKBPkEneMJed7wtuE/Ag=="
+ "signature": "+h3l6Bm/v9N83UTf8sGC+MiTe3W6a9JF+V++AVa5VX30idTY1ncAnGwaZ3c5kt89hMsq2o6rnZ9bdjlkOgovCA=="
 }
