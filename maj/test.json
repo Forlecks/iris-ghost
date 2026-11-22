@@ -1,21 +1,21 @@
 {
- "version": "0.4.39",
+ "version": "0.4.40",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.39/iris-app-0.4.39.zip",
-  "sha256": "3853f8a04a0db43ea6607f0a74d908ccd0101568157544e08de9e937377aad8d",
-  "taille": 2990811
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.40/iris-app-0.4.40.zip",
+  "sha256": "68119d78c026118b5fb1cd56df5f2e31198fd0744af99bdec0c13c9691f5aaea",
+  "taille": 3012208
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.39/IrisGhost-Setup.exe",
-  "sha256": "81369117d79564a1a066cfab8654ed28b5da9ddd3b346f8069c82da2abc159a6",
-  "taille": 31134720
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.40/IrisGhost-Setup.exe",
+  "sha256": "848219522267ec547b860fcbb5f911c53b34eb5d7464a7600ce69e6d8a856859",
+  "taille": 31150229
  },
  "notes": {
-  "fr": "Nouveautés — l'onglet Règles\n- Règles › Bonus de set : choisis les sets d'armure que tu gardes pour leur bonus. Rien par défaut ; « Profil de base » reprend une sélection prête à l'emploi.\n- Règles › Exotiques : règle toi-même la priorité 1, 2 ou 3 de chaque archétype ; la liste va des casques aux jambes, par ordre alphabétique.\n- Un seul champ pour le nom et la raison d'une règle : écris dans la langue de ton choix.\n- Vues Texte, Désaccords et Historique plus lisibles (couleurs, images, compteurs).",
-  "en": "What's new — the Rules tab\n- Rules › Set bonuses: pick the armor sets you keep for their bonus. Nothing by default; \"Base profile\" loads a ready-made selection.\n- Rules › Exotics: set each archetype's priority (1, 2 or 3) yourself; the list goes from helmets to legs, alphabetically.\n- A single field for a rule's name and reason: write in the language you like.\n- Clearer Text, Disagreements and History views (colors, images, counters)."
+  "fr": "Nouveautés\n- Iris parle : les questions, confirmations et messages de l'app sont maintenant dits par Iris, dans une bulle à côté d'elle.\n- Visite guidée : à la première connexion, Iris propose un tour de l'app (complet ou rapide). Il reste disponible à tout moment en cliquant sur Iris.",
+  "en": "What's new\n- Iris speaks: the app's questions, confirmations and messages are now said by Iris, in a bubble next to her.\n- Guided tour: on first sign-in, Iris offers a tour of the app (full or quick). It stays available anytime by clicking Iris."
  },
  "canal": "test",
- "signature": "q8+n0IjbuoT2aiyT3XqpUEsC3nsGFnOkvOe7NItEBZh0vcJoTiDVdZm23uIE1JLC30sL8BLO5mE03HTylgVdBA=="
+ "signature": "GRAgtbMHjcNt/av31VGHjFacVhVtFTRRzR5ZU6s74qaHVyGEDdDXDx6+Tm6MNl2lgnr7syIZf0HUh7j0q6SpAQ=="
 }
