@@ -1,21 +1,21 @@
 {
- "version": "0.4.35",
+ "version": "0.4.36",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.35/iris-app-0.4.35.zip",
-  "sha256": "0f72941c051349bbe181d49fb6790a7b47cf8521f6c1fd84980d3653b81cf98b",
-  "taille": 2949025
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.36/iris-app-0.4.36.zip",
+  "sha256": "4ca8181790036a49ed6bfdf6145d0b5de2bf54f1d73f414a554a3d54b19aad2a",
+  "taille": 2962045
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.35/IrisGhost-Setup.exe",
-  "sha256": "28fcbb82df7bbaca6393e5402e6eabd3a17f5c4e11f819c4595ac5c22021b7f2",
-  "taille": 31111648
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.36/IrisGhost-Setup.exe",
+  "sha256": "5b4d8d4199aa134064f35cbac72755245e0b65d0c282277e321ef80d3423a827",
+  "taille": 31121629
  },
  "notes": {
-  "fr": "Nouveautés — l'onglet Règles\n- La protection des pièces de sets et d'ensembles ne se coupe plus sans le savoir : Iris prévient, dit combien d'objets la perdent, et propose de la remettre.\n- Un premier lancement sans règles propose les modèles ou « Partir de zéro » ; l'éditeur montre la vraie condition de chaque règle, avec un champ « raison ».\n- En écrivant une condition, tu vois combien d'objets elle attrape, avec des exemples ; chaque filtre a son aide.\n- Les termes du jeu partout (« façonnée », « palier », « pièce maîtresse »…), et les archétypes en français fonctionnent (archetype:Rempart).\n- Nouveaux filtres : munition, champion, stat, perk, doublon, dans un set.\n- La simulation se filtre et l'historique dit ce qui a changé d'une version à l'autre ; les listes nommées se gèrent à l'écran.",
-  "en": "What's new — the Rules tab\n- The protection of set and sequence pieces can no longer be turned off unknowingly: Iris warns you, says how many items lose it, and offers to restore it.\n- A first launch without rules offers templates or \"Start from scratch\"; the editor shows each rule's real condition, with a \"reason\" field.\n- While writing a condition, you see how many items it catches, with examples; every filter has its help.\n- Game terms everywhere, and French archetype names now work in searches.\n- New filters: ammo, champion, stat, perk, duplicate, in a set.\n- The simulation can be filtered and the history shows what changed between versions; named lists can be managed on screen."
+  "fr": "Nouveautés\n- Règles › Exotiques : choisis pour chaque armure exotique le ou les archétypes à garder. Rien n'est choisi par défaut ; « Profil de base » reprend une sélection prête à l'emploi (tout remplacer ou compléter les vides). Un exotique non réglé est gardé pour l'instant.\n\nCorrections\n- Règles : la simulation nomme les objets au lieu de leur numéro, et les derniers mots anglais ou techniques de l'écran sont traduits.",
+  "en": "What's new\n- Rules › Exotics: pick, for each exotic armor piece, the archetype(s) to keep. Nothing is picked by default; \"Base profile\" loads a ready-made selection (replace all or fill the gaps). An exotic you haven't set is kept for now.\n\nFixes\n- Rules: the simulation names items instead of showing their number, and the last technical or untranslated words on screen are fixed."
  },
  "canal": "test",
- "signature": "nCiBHezEtSMPr6Vy4Ej/nz5UcvGxoZhM1jhX+pWZ3ghBWx+HNIuq8C3fE0QvPdhAWl4T/4vsYGutAILLLa0UCw=="
+ "signature": "blSWOk0CiB5JlCPXoRKYdMEiuiDo1fmJOBQfiYHALCxdN4AFMookQzJMuW7dT5YcMO90aW4MXL4F5ardTc0UAg=="
 }
