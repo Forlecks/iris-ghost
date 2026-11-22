@@ -1,21 +1,21 @@
 {
- "version": "0.4.44",
+ "version": "0.4.45",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.44/iris-app-0.4.44.zip",
-  "sha256": "5c24b8347b40debe2904cca8f29799b913ccbb9aa50642f168b7c655ef6936aa",
-  "taille": 3072927
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.45/iris-app-0.4.45.zip",
+  "sha256": "ee879e63eac55539810924e280265862c85453bd861a24d798aab76ba482690c",
+  "taille": 3072699
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.44/IrisGhost-Setup.exe",
-  "sha256": "c5e8b9795b3d3075680b177264e521c1b5de43bf00d11850c2627e8b9fd78eb4",
-  "taille": 31187219
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.45/IrisGhost-Setup.exe",
+  "sha256": "a15b50bb8624a5730acba145fdac7f51098294cb55b21e7167ea0441fc387b25",
+  "taille": 31191678
  },
  "notes": {
-  "fr": "Nouveautés\n- Builds › Presets : choisis les presets qu'Iris a le droit de modifier (aucun par défaut ; « Profil de base » confie les presets 1 à 18). Les autres restent intouchables.\n- Ensembles : choisis le preset de chaque étape, ou laisse Iris le placer.\n- Règles › Bonus de set : garde un set pour une classe et pas pour une autre.\n\nAméliorations\n- Les transferts et autres actions s'exécutent dans un panneau à côté d'Iris : tu peux continuer à naviguer pendant ce temps.\n- Personnages : les cases d'armes du coffre sont un peu plus grandes.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant). Si tu utilisais déjà Iris, les presets 1 à 18 lui sont confiés.",
-  "en": "What's new\n- Builds › Loadouts: choose which loadouts Iris may change (none by default; \"Base profile\" entrusts loadouts 1 to 18). The others stay untouched.\n- Sequences: pick the loadout for each step, or let Iris place it.\n- Rules › Set bonuses: keep a set for one class and not another.\n\nImprovements\n- Transfers and other actions run in a panel next to Iris: you can keep browsing meanwhile.\n- Characters: vault weapon tiles are slightly bigger.\n\nThis update upgrades the database (a backup is made first). If you already used Iris, loadouts 1 to 18 are entrusted to it."
+  "fr": "- Accueil : le badge des activités à la une dit « Maîtrise », comme dans le jeu.",
+  "en": "- Home: wording fix on the featured activities badge (French)."
  },
  "canal": "test",
- "signature": "9fwuDtG3OytPtL/DHK5Tsdd+NE+zGAp29ZbOoRExrWXjzozYmdwFeSIkl6A1ymHX10HsSXTwMmMpjVwxfXobDw=="
+ "signature": "bLuqZqu41wtb39PB8bhThrMa5AHbsvNhDLZLjb1BK/5acwX2Ak9TIHQRiX6PGGRPQ2F6GAz0g1ICqx4ye/9cAA=="
 }
