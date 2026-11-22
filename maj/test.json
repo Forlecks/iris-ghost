@@ -1,21 +1,21 @@
 {
- "version": "0.4.47",
+ "version": "0.4.48",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.47/iris-app-0.4.47.zip",
-  "sha256": "1a024d9489488cf6f9fda3da8584668dc60d1b69319f50dee3c835e9c2518851",
-  "taille": 3074625
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.48/iris-app-0.4.48.zip",
+  "sha256": "9e6439ad05df263b0680d70a56f84649d786add5d837911abef73139db1b7301",
+  "taille": 3075282
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.47/IrisGhost-Setup.exe",
-  "sha256": "604ebd59f0afbecf1119a7431f360974341e84ab4013fc4e5e52f0c0da7d1084",
-  "taille": 31189812
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.48/IrisGhost-Setup.exe",
+  "sha256": "c16f07bf4b54a8c08845a272b9f098de3a2a81c98ad8c94ec7ebfd5e914581f8",
+  "taille": 31188294
  },
  "notes": {
-  "fr": "- Règles : le bandeau des recherches DIM a un bouton « Ignorer », et une recherche qui ne relit qu'un tag (tag:junk) n'y est plus proposée.",
-  "en": "- Rules: the DIM searches banner has a Dismiss button, and searches that only read a tag (tag:junk) are no longer offered."
+  "fr": "- Recherches : les accents ne comptent plus, « ték » et « tek » trouvent la même chose (Coffre, glyphes, compositeur, Exotiques des Règles).",
+  "en": "- Search: accents no longer matter, “ték” and “tek” find the same things."
  },
  "canal": "test",
- "signature": "eS8blBEbEc+uGsGOza4POWg+sM4v+49fg5WtmeF03kFJnJop//LtimNEFE1GIZgt1XYOgugEUUjTJuUoq97OBw=="
+ "signature": "t5UvYB1HX7gST+neeSxeqbwQOb8vcVmMQBSiOdw1WgP1Iq+bcAb4CFrf12PS5nFUaa3tjo7XzFQyC+//8J0QAA=="
 }
