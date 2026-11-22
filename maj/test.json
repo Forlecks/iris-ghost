@@ -1,21 +1,21 @@
 {
- "version": "0.4.56",
+ "version": "0.4.57",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.56/iris-app-0.4.56.zip",
-  "sha256": "7f0b001054414f7608b1bd68c1ce0e646ed550278c90eda55f9c648d9ffa4ed0",
-  "taille": 3174788
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.57/iris-app-0.4.57.zip",
+  "sha256": "cc97d43c00a51f20e83006b3bf738c4b0be0b72766bef1ca0986959c9e9551a5",
+  "taille": 3178435
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.56/IrisGhost-Setup.exe",
-  "sha256": "7ef962cd32b9846864dfa85edfbda3629793af053293e5238a2c759f1bc6b164",
-  "taille": 31259435
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.57/IrisGhost-Setup.exe",
+  "sha256": "3203e2d3d87e4d66bb67ee11a7923c90e428988cd701e14580f40e7d81a9c753",
+  "taille": 31265347
  },
  "notes": {
-  "fr": "- Builds › Sets : une vue rapide d'un set au survol de son nom (liste de gauche, sélecteur et cases des ensembles), une catégorie Favoris toujours là.\n- Le clic droit d'un set propose toutes ses actions, et « Ranger » ouvre un sous-menu.\n- Modifier un set depuis un ensemble le garde dans l'ensemble : ta liste générale n'est pas touchée.",
-  "en": "- Builds › Sets: a quick view of a set when hovering its name (left list, selector and ensemble slots), and an always-there Favorites category.\n- Right-clicking a set offers all its actions, and \"File under\" opens a submenu.\n- Editing a set from an ensemble keeps it in the ensemble: your general list is untouched."
+  "fr": "- Personnages : le coffre s'affiche au choix en liste ou en blocs (armes exotiques, cinétiques, énergétiques, lourdes ; armures exotiques et légendaires du casque à l'objet de classe ; divers).\n- Clic droit : l'infobulle ne passe plus derrière le menu.",
+  "en": "- Characters: the vault shows as a list or in blocks (exotic, kinetic, energy and heavy weapons; exotic and legendary armor from helmet to class item; misc).\n- Right-click: the tooltip no longer shows behind the menu."
  },
  "canal": "test",
- "signature": "fjdeR4L6uCG1IC3hS8BC+5YUjDGGOmkEEUIpU70sjgHbUg4pi0SK2X5YLKg4iz3YGmdcSFIKmLitfLblCZwaCg=="
+ "signature": "TH/fIyeIBOw+l+zny/E3ycjDXOKLChLfCPlnrYw8XopYdFRccYiWvCdHDGUVdi6v66F+zd+bak+vUxOZEyhuCQ=="
 }
