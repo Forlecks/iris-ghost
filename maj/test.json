@@ -1,21 +1,21 @@
 {
- "version": "0.4.36",
+ "version": "0.4.37",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.36/iris-app-0.4.36.zip",
-  "sha256": "4ca8181790036a49ed6bfdf6145d0b5de2bf54f1d73f414a554a3d54b19aad2a",
-  "taille": 2962045
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.37/iris-app-0.4.37.zip",
+  "sha256": "5d7dba188ea06772d52c61c02105564e47289e4f3c3db2ec04e5205dcebf2f75",
+  "taille": 2978462
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.36/IrisGhost-Setup.exe",
-  "sha256": "5b4d8d4199aa134064f35cbac72755245e0b65d0c282277e321ef80d3423a827",
-  "taille": 31121629
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.37/IrisGhost-Setup.exe",
+  "sha256": "43e10d4b210273facf4c94d73e2f622d524aed8896e9f734a800b5b0d51a5794",
+  "taille": 31127099
  },
  "notes": {
-  "fr": "Nouveautés\n- Règles › Exotiques : choisis pour chaque armure exotique le ou les archétypes à garder. Rien n'est choisi par défaut ; « Profil de base » reprend une sélection prête à l'emploi (tout remplacer ou compléter les vides). Un exotique non réglé est gardé pour l'instant.\n\nCorrections\n- Règles : la simulation nomme les objets au lieu de leur numéro, et les derniers mots anglais ou techniques de l'écran sont traduits.",
-  "en": "What's new\n- Rules › Exotics: pick, for each exotic armor piece, the archetype(s) to keep. Nothing is picked by default; \"Base profile\" loads a ready-made selection (replace all or fill the gaps). An exotic you haven't set is kept for now.\n\nFixes\n- Rules: the simulation names items instead of showing their number, and the last technical or untranslated words on screen are fixed."
+  "fr": "Nouveautés — l'onglet Règles\n- Vigie des données : si une source du tri se vide d'un coup (relevé PvP, light.gg, wishlists…), Iris te prévient avec les chiffres et ce qu'il faut faire ; le tri continue.\n- Sous chaque règle : combien d'objets elle attrape et pour combien elle décide, avec un repère sur celles qui n'attrapent rien ou sont toujours battues.\n- Simulation : « Pourquoi ça change » montre la règle d'avant à côté de celle d'après.\n- Défaire et rétablir dans le brouillon (Ctrl+Z, Ctrl+Y), et une recherche dans tes règles.",
+  "en": "What's new — the Rules tab\n- Data watch: if a sorting source suddenly empties (PvP survey, light.gg, wishlists…), Iris warns you with the numbers and what to do; sorting keeps going.\n- Under each rule: how many items it catches and how many it decides, with a marker on rules that catch nothing or always lose.\n- Simulation: \"Why it changes\" shows the previous rule next to the new one.\n- Undo and redo in the draft (Ctrl+Z, Ctrl+Y), and a search through your rules."
  },
  "canal": "test",
- "signature": "blSWOk0CiB5JlCPXoRKYdMEiuiDo1fmJOBQfiYHALCxdN4AFMookQzJMuW7dT5YcMO90aW4MXL4F5ardTc0UAg=="
+ "signature": "vRv99mLCKvx26PLK9yS4HpYxqkWUK9Tjpt4nRk8CxCAL6zREYWKzdzcE7SO5BPr6mt4UKTuTHZ9TDvqq44j5Ag=="
 }
