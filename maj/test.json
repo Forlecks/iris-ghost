@@ -1,21 +1,21 @@
 {
- "version": "0.4.59",
+ "version": "0.4.60",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.59/iris-app-0.4.59.zip",
-  "sha256": "d5983f4274ae4c86b3203a41798af05d43e225daeec88fbdce454099812961ec",
-  "taille": 3213387
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.60/iris-app-0.4.60.zip",
+  "sha256": "c7614d004917d457e884133044a6ff45df11e720ad32a95df2e5d9070f094a44",
+  "taille": 3236979
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.59/IrisGhost-Setup.exe",
-  "sha256": "ba835072add17776b645c692965542f3c56f0d38324570fefa00bc6b0ab76b46",
-  "taille": 31282938
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.60/IrisGhost-Setup.exe",
+  "sha256": "cfee4c72ddaadbf086ede56e15d1b1aa755bb224901be48d4d752d2b3da631fc",
+  "taille": 31296537
  },
  "notes": {
-  "fr": "- Builds › Sets, refonte : des cartes compactes (armes, armure, doctrine, artefact, stats en barres), et un clic ouvre le set en plein écran, comme l'écran du personnage du jeu. Un clic sur une case ouvre le choix juste à côté, avec la fiche de l'objet et ce qu'il change. Rien n'est enregistré sans « Enregistrer ».",
-  "en": "- Builds › Sets redesign: compact cards (weapons, armor, subclass, artifact, stat bars), and a click opens the set full screen, like the in-game character screen. Clicking a slot opens the choice right next to it, with the item sheet and what it changes. Nothing is saved without \"Save\"."
+  "fr": "- Armurerie : cherche aussi par perk (toutes les armes qui peuvent l'avoir), archétype, champion, munitions, type, élément et provenance ; chaque résultat dit pourquoi il sort, des puces filtrent.\n- Builds › Sets : glisse un set sur une catégorie ou les Favoris ; une catégorie se replie en un clic, même avec un filtre ; la vue rapide montre les stats en icônes.",
+  "en": "- Armory: also search by perk (every weapon that can roll it), archetype, champion, ammo, type, element and source; each result says why it shows, chips filter.\n- Builds › Sets: drag a set onto a category or Favorites; a category folds in one click, even with a filter; the quick view shows stat icons."
  },
  "canal": "test",
- "signature": "635MgytSP0x9LkPQQltZDoU3Ur8d04T8ov82gfzZmlskAulUxki4V+q0773FuaCE06KWlHQbeyN+/TdOFKYvCg=="
+ "signature": "fre5m6OiE/3apP+T+bP7csjCwVmpFXMn1P1f0p02K86ceycvoQWVpetIOAYjMA3kBDn2eW21nupVx4cFVyPYCQ=="
 }
