@@ -1,21 +1,21 @@
 {
- "version": "0.4.58",
+ "version": "0.4.59",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.58/iris-app-0.4.58.zip",
-  "sha256": "41fee98749f51e4e598e811f09326448ad448914b5ca4353f4c600effcf1bd3d",
-  "taille": 3189829
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.59/iris-app-0.4.59.zip",
+  "sha256": "d5983f4274ae4c86b3203a41798af05d43e225daeec88fbdce454099812961ec",
+  "taille": 3213387
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.58/IrisGhost-Setup.exe",
-  "sha256": "e2bf7679903ca03ebc1f3964d36d159a12c74af10ed60fd9b6d52a73b4eecdec",
-  "taille": 31269142
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.59/IrisGhost-Setup.exe",
+  "sha256": "ba835072add17776b645c692965542f3c56f0d38324570fefa00bc6b0ab76b46",
+  "taille": 31282938
  },
  "notes": {
-  "fr": "- La fenêtre se rouvre où tu l'avais laissée : même écran, même taille, agrandie si elle l'était, même après une mise à jour.",
-  "en": "- The window reopens where you left it: same screen, same size, maximized if it was, even after an update."
+  "fr": "- Builds › Sets, refonte : des cartes compactes (armes, armure, doctrine, artefact, stats en barres), et un clic ouvre le set en plein écran, comme l'écran du personnage du jeu. Un clic sur une case ouvre le choix juste à côté, avec la fiche de l'objet et ce qu'il change. Rien n'est enregistré sans « Enregistrer ».",
+  "en": "- Builds › Sets redesign: compact cards (weapons, armor, subclass, artifact, stat bars), and a click opens the set full screen, like the in-game character screen. Clicking a slot opens the choice right next to it, with the item sheet and what it changes. Nothing is saved without \"Save\"."
  },
  "canal": "test",
- "signature": "LX7Jy07iGwhjXkHmvk8R4PM+/BcdmoUKo7xRHDM4Y5MGS9naARKAyJiIK9sO4G0GYH9imH5+dVDSJMiqSmOdBw=="
+ "signature": "635MgytSP0x9LkPQQltZDoU3Ur8d04T8ov82gfzZmlskAulUxki4V+q0773FuaCE06KWlHQbeyN+/TdOFKYvCg=="
 }
