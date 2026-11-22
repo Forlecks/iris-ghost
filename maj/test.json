@@ -1,21 +1,21 @@
 {
- "version": "0.4.53",
+ "version": "0.4.54",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.53/iris-app-0.4.53.zip",
-  "sha256": "deb92a67713f836fcda1976865ab8a9eef8f3b1089d96e0acf54016afccf1853",
-  "taille": 3149822
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.54/iris-app-0.4.54.zip",
+  "sha256": "4a65aabc5d6fbcecb71233b79d14dd7b578e586e3a393764db9e6345a25adaf0",
+  "taille": 3156628
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.53/IrisGhost-Setup.exe",
-  "sha256": "e7eb7769ec3cde522cf8d8507588998938d03711f05abce092262f432d3a9336",
-  "taille": 31240085
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.54/IrisGhost-Setup.exe",
+  "sha256": "88916416c8641fce1986b210a1813a7f727645a17b56b40b60fbc705f1568773",
+  "taille": 31249127
  },
  "notes": {
-  "fr": "- Appliquer un set ou un preset va environ deux fois plus vite : Iris pose les mods de trois pièces à la fois (35 s au lieu de 79 sur un set de 31 mods).\n- Un réglage de stat que le jeu ne propose pas sur la pièce est écarté d'avance et n'empêche plus d'enregistrer le preset.\n- Remettre comme avant équipe les exotiques en dernier, et Iris ne se laisse plus tromper par une réponse de Bungie en retard.",
-  "en": "- Applying a set or loadout is about twice as fast: Iris slots mods on three pieces at once (35 s instead of 79 for a 31-mod set).\n- A stat tuning the game doesn't offer on that piece is skipped ahead of time and no longer stops the loadout from saving.\n- Undo equips exotics last, and Iris is no longer fooled by a late Bungie response."
+  "fr": "- Mods posés sur cinq pièces à la fois (une par pièce d'armure) : un set de 31 mods s'applique en 28 s au lieu de 79.\n- Préparer un ensemble : chaque preset tient compte de ce que le précédent a laissé (fini les plugs reposés pour rien et la doctrine figée de travers), et les mods d'un preset à venir s'avancent quand ça ne ralentit rien.",
+  "en": "- Mods slotted on five pieces at once (one per armor piece): a 31-mod set applies in 28 s instead of 79.\n- Prepare an ensemble: each loadout starts from what the previous one left (no more needless re-plugs or a wrongly frozen subclass), and upcoming mods are moved earlier when it costs nothing."
  },
  "canal": "test",
- "signature": "parTYS++vikOYM19x/O8IkcrJuNd+uZGOXewcOR6tYQAcdQfYoRGiWEqqLsdc7vCB/RV2Wssj0xgbG1LmgPPDQ=="
+ "signature": "q+WVBNPI2XCIaL/xApI2fffbXLh/ZUGO0VvuSnx4hFror8gNl/tnly+lJQUu9sxtTJszhmqawXXzy+ObPARcDw=="
 }
