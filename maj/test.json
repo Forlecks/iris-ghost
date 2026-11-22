@@ -1,21 +1,21 @@
 {
- "version": "0.4.55",
+ "version": "0.4.56",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.55/iris-app-0.4.55.zip",
-  "sha256": "80de64cc279939638ff3ef8d5814b1a1da918ef21b4cc1d54b09db873b32b6f1",
-  "taille": 3156742
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.56/iris-app-0.4.56.zip",
+  "sha256": "7f0b001054414f7608b1bd68c1ce0e646ed550278c90eda55f9c648d9ffa4ed0",
+  "taille": 3174788
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.55/IrisGhost-Setup.exe",
-  "sha256": "f8b7fb19496fbe88294119f89275b9349274487efaa770fb31106ed990ea5a95",
-  "taille": 31251843
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.56/IrisGhost-Setup.exe",
+  "sha256": "7ef962cd32b9846864dfa85edfbda3629793af053293e5238a2c759f1bc6b164",
+  "taille": 31259435
  },
  "notes": {
-  "fr": "- Builds › Sets : toutes les cartes de set ont la même taille, leurs boutons alignés en bas.",
-  "en": "- Builds › Sets: all set cards are the same size, with their buttons aligned at the bottom."
+  "fr": "- Builds › Sets : une vue rapide d'un set au survol de son nom (liste de gauche, sélecteur et cases des ensembles), une catégorie Favoris toujours là.\n- Le clic droit d'un set propose toutes ses actions, et « Ranger » ouvre un sous-menu.\n- Modifier un set depuis un ensemble le garde dans l'ensemble : ta liste générale n'est pas touchée.",
+  "en": "- Builds › Sets: a quick view of a set when hovering its name (left list, selector and ensemble slots), and an always-there Favorites category.\n- Right-clicking a set offers all its actions, and \"File under\" opens a submenu.\n- Editing a set from an ensemble keeps it in the ensemble: your general list is untouched."
  },
  "canal": "test",
- "signature": "DE+a4tfLRUIwfZ+brFYEcEZ1bYq/iwJlGiKZmPd5SnFL3nS320NC2LmeQPhAPOfqiI9F3qaSM5C/L2lp4quRBA=="
+ "signature": "fjdeR4L6uCG1IC3hS8BC+5YUjDGGOmkEEUIpU70sjgHbUg4pi0SK2X5YLKg4iz3YGmdcSFIKmLitfLblCZwaCg=="
 }
