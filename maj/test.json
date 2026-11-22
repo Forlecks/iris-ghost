@@ -1,21 +1,21 @@
 {
- "version": "0.4.37",
+ "version": "0.4.38",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.37/iris-app-0.4.37.zip",
-  "sha256": "5d7dba188ea06772d52c61c02105564e47289e4f3c3db2ec04e5205dcebf2f75",
-  "taille": 2978462
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.38/iris-app-0.4.38.zip",
+  "sha256": "d90d588da8fe6aae52f56570f5f08e02242ec8d9c62290578ac7ef6dccc3ad4c",
+  "taille": 2978776
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.37/IrisGhost-Setup.exe",
-  "sha256": "43e10d4b210273facf4c94d73e2f622d524aed8896e9f734a800b5b0d51a5794",
-  "taille": 31127099
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.38/IrisGhost-Setup.exe",
+  "sha256": "bc7b58a4b0c1ea1f3ff686f26e3dfe3f455640f6e8819be29bb81590820389f1",
+  "taille": 31128460
  },
  "notes": {
-  "fr": "Nouveautés — l'onglet Règles\n- Vigie des données : si une source du tri se vide d'un coup (relevé PvP, light.gg, wishlists…), Iris te prévient avec les chiffres et ce qu'il faut faire ; le tri continue.\n- Sous chaque règle : combien d'objets elle attrape et pour combien elle décide, avec un repère sur celles qui n'attrapent rien ou sont toujours battues.\n- Simulation : « Pourquoi ça change » montre la règle d'avant à côté de celle d'après.\n- Défaire et rétablir dans le brouillon (Ctrl+Z, Ctrl+Y), et une recherche dans tes règles.",
-  "en": "What's new — the Rules tab\n- Data watch: if a sorting source suddenly empties (PvP survey, light.gg, wishlists…), Iris warns you with the numbers and what to do; sorting keeps going.\n- Under each rule: how many items it catches and how many it decides, with a marker on rules that catch nothing or always lose.\n- Simulation: \"Why it changes\" shows the previous rule next to the new one.\n- Undo and redo in the draft (Ctrl+Z, Ctrl+Y), and a search through your rules."
+  "fr": "Corrections\n- Les boutons qui donnent un fichier (spec pour les IA, export des règles, tableur, journal…) fonctionnent dans la fenêtre d'Iris : le fichier arrive dans tes Téléchargements.\n- Textes : « perk » est accordé au féminin partout (« sa perk », « la perk active »…).",
+  "en": "Fixes\n- Buttons that give you a file (AI spec, rules export, spreadsheet, journal…) now work in the Iris window: the file lands in your Downloads.\n- French texts: grammatical gender fixes."
  },
  "canal": "test",
- "signature": "vRv99mLCKvx26PLK9yS4HpYxqkWUK9Tjpt4nRk8CxCAL6zREYWKzdzcE7SO5BPr6mt4UKTuTHZ9TDvqq44j5Ag=="
+ "signature": "2XauxPkx9JNwmc7VwKS0IHfO7lbkAGgxvGeMFs077BnfqmgH5JP5az3c4TK32kVJ+zrWVqc8qKuiocT9t4PjCQ=="
 }
