@@ -1,21 +1,21 @@
 {
- "version": "0.4.34",
+ "version": "0.4.35",
  "date": "2026-11-22",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.34/iris-app-0.4.34.zip",
-  "sha256": "c7bdb6ad0cd40cad2f558a6a5cfc20f88f78cdff28de1c5ea50e5791a8a8ba23",
-  "taille": 2909592
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.35/iris-app-0.4.35.zip",
+  "sha256": "0f72941c051349bbe181d49fb6790a7b47cf8521f6c1fd84980d3653b81cf98b",
+  "taille": 2949025
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.34/IrisGhost-Setup.exe",
-  "sha256": "a52df86b798cdfc0e831119729d9e79156e16c8d9e84b4a2d2d59ee68873ad3d",
-  "taille": 31086301
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.35/IrisGhost-Setup.exe",
+  "sha256": "28fcbb82df7bbaca6393e5402e6eabd3a17f5c4e11f819c4595ac5c22021b7f2",
+  "taille": 31111648
  },
  "notes": {
-  "fr": "Corrections\n- Triomphes et sceaux : un triomphe terminé et réclamé n'est plus compté comme manquant (fin des « 8/1 »), et les compteurs des sceaux sont justes. Relis tes triomphes chez Bungie (Jalons › Sceaux) pour mettre tes chiffres à jour.\n\nAméliorations\n- Le détail d'un sceau dit ce qu'il faut faire : la description de chaque triomphe, chacun de ses objectifs avec son avancement, et un lien vers sa fiche light.gg.\n\nCette mise à jour fait évoluer la base (une sauvegarde est faite avant).",
-  "en": "Fixes\n- Triumphs and seals: a completed, claimed triumph is no longer counted as missing (no more \"8/1\"), and seal counters are right. Refresh your triumphs from Bungie (Milestones › Seals) to update your numbers.\n\nImprovements\n- A seal's detail tells you what to do: each triumph's description, each of its objectives with its progress, and a link to its light.gg page.\n\nThis update upgrades the database (a backup is made first)."
+  "fr": "Nouveautés — l'onglet Règles\n- La protection des pièces de sets et d'ensembles ne se coupe plus sans le savoir : Iris prévient, dit combien d'objets la perdent, et propose de la remettre.\n- Un premier lancement sans règles propose les modèles ou « Partir de zéro » ; l'éditeur montre la vraie condition de chaque règle, avec un champ « raison ».\n- En écrivant une condition, tu vois combien d'objets elle attrape, avec des exemples ; chaque filtre a son aide.\n- Les termes du jeu partout (« façonnée », « palier », « pièce maîtresse »…), et les archétypes en français fonctionnent (archetype:Rempart).\n- Nouveaux filtres : munition, champion, stat, perk, doublon, dans un set.\n- La simulation se filtre et l'historique dit ce qui a changé d'une version à l'autre ; les listes nommées se gèrent à l'écran.",
+  "en": "What's new — the Rules tab\n- The protection of set and sequence pieces can no longer be turned off unknowingly: Iris warns you, says how many items lose it, and offers to restore it.\n- A first launch without rules offers templates or \"Start from scratch\"; the editor shows each rule's real condition, with a \"reason\" field.\n- While writing a condition, you see how many items it catches, with examples; every filter has its help.\n- Game terms everywhere, and French archetype names now work in searches.\n- New filters: ammo, champion, stat, perk, duplicate, in a set.\n- The simulation can be filtered and the history shows what changed between versions; named lists can be managed on screen."
  },
  "canal": "test",
- "signature": "jzuEzjEy/FqhUw+EitSBSUTdVyTDgGkvvUi6xqa093pqXmSMG2IlpTy5TSghrQHuKWjR0vtU1C1zFvQu2NiqDA=="
+ "signature": "nCiBHezEtSMPr6Vy4Ej/nz5UcvGxoZhM1jhX+pWZ3ghBWx+HNIuq8C3fE0QvPdhAWl4T/4vsYGutAILLLa0UCw=="
 }
