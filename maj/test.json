@@ -1,21 +1,21 @@
 {
- "version": "0.5.1",
+ "version": "0.5.2",
  "date": "2026-11-23",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.1/iris-app-0.5.1.zip",
-  "sha256": "7430c09b9138bf0a2142dbf1c0a34ebdd5f2603bc272df7585b205fe2c7c58f2",
-  "taille": 3617546
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.2/iris-app-0.5.2.zip",
+  "sha256": "b1e9fc7aaaef273302c061e5a72f911929e550ed3c072ed0d86ce504ebc804e8",
+  "taille": 3628874
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.1/IrisGhost-Setup.exe",
-  "sha256": "b11b7aca930ff3e7f8761898611667b4cf950ab25dbaf0d95d1e57419a51135c",
-  "taille": 31547301
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.2/IrisGhost-Setup.exe",
+  "sha256": "b72955a0d846b76acc1ff81ba11830ccd57c9bdc037364ef33e2b5ae148fcbb9",
+  "taille": 31556440
  },
  "notes": {
-  "fr": "- Écran d'un set : un exotique posé est gardé d'office (cadenas) ; le choix d'une pièce montre les exotiques en premier, avec une seule barre de recherche.\n- Options d'Iris (⚙) : exotique imposé, bonus de set, masterwork supposé, filtre d'armure, pièces exclues, mods de source ; vingt propositions à parcourir ; apparence au clic droit d'une case.",
-  "en": "- Set screen: a slotted exotic is kept automatically (padlock); choosing a piece shows exotics first, with a single search bar.\n- Iris options (⚙): forced exotic, set bonuses, assumed masterwork, armor filter, excluded pieces, source mods; twenty proposals to browse; appearance from a slot's right-click."
+  "fr": "- Sets : chaque set garde ses options d'Iris (exotique imposé, bonus de set, masterwork supposé, filtres, exclusions) ; l'auto-entretien calcule exactement comme « Iris choisit » et ne casse plus un bonus de set exigé.\n- Une Iris ne cède plus sa place qu'à une autre Iris de la même installation.",
+  "en": "- Sets: each set keeps its Iris options (forced exotic, set bonuses, assumed masterwork, filters, exclusions); auto-maintenance computes exactly like \"Iris picks\" and no longer breaks a required set bonus.\n- An Iris instance now only yields to another Iris from the same installation."
  },
  "canal": "test",
- "signature": "NPMKRsE2xUm9bwdVG4FxiEfIvmAT+505+4C7PpYyaQEE75j5E4nbipI6DA3b/qSO6q9BGQjhcknaJHvi4diVDA=="
+ "signature": "2iTx94e2uO9Lbk+setvbMinLReAW2StPruZrvC3ot1e3WfiuQJXXDkLpPrmdtRI6EBjtAMVnC7FaugjfCZOWCw=="
 }
