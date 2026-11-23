@@ -1,21 +1,21 @@
 {
- "version": "0.5.2",
+ "version": "0.5.3",
  "date": "2026-11-23",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.2/iris-app-0.5.2.zip",
-  "sha256": "b1e9fc7aaaef273302c061e5a72f911929e550ed3c072ed0d86ce504ebc804e8",
-  "taille": 3628874
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.3/iris-app-0.5.3.zip",
+  "sha256": "95e19039cbc3c4121b479f7932e78721ed19050aaffb36cad73cc168fa47c04e",
+  "taille": 3655726
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.2/IrisGhost-Setup.exe",
-  "sha256": "b72955a0d846b76acc1ff81ba11830ccd57c9bdc037364ef33e2b5ae148fcbb9",
-  "taille": 31556440
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.3/IrisGhost-Setup.exe",
+  "sha256": "1aef5f957647d9b9d6f09c2e32a73d8cbeed94324d71bf7bbbaf7cf28734f7bf",
+  "taille": 31577293
  },
  "notes": {
-  "fr": "- Sets : chaque set garde ses options d'Iris (exotique imposé, bonus de set, masterwork supposé, filtres, exclusions) ; l'auto-entretien calcule exactement comme « Iris choisit » et ne casse plus un bonus de set exigé.\n- Une Iris ne cède plus sa place qu'à une autre Iris de la même installation.",
-  "en": "- Sets: each set keeps its Iris options (forced exotic, set bonuses, assumed masterwork, filters, exclusions); auto-maintenance computes exactly like \"Iris picks\" and no longer breaks a required set bonus.\n- An Iris instance now only yields to another Iris from the same installation."
+  "fr": "- Premier lancement : « Comment tu joues ? » propose cinq profils (ou « À ma façon ») et une barre plus légère ; la visite fait apparaître les onglets un à un, et la bulle de fin présente ceux laissés de côté.\n- Ergonomie : « À démanteler » et « Commis des postes » partout, Iris à la première personne, « Aller au contenu » au clavier, écrans vides qui proposent de synchroniser.\n- Clic droit sur un objet au Coffre et aux Personnages : envoyer, équiper, verrouiller, ta décision, ouvrir la fiche ; la fiche range ses gestes en trois groupes.",
+  "en": "- First launch: \"How do you play?\" offers five profiles (or \"My way\") and a lighter bar; the tour reveals tabs one by one, and the closing bubble presents the ones left aside.\n- Ergonomics: \"To dismantle\" everywhere, Iris speaks in the first person, \"Skip to content\" for the keyboard, empty screens that offer to sync.\n- Right-click an item in Vault and Characters: send, equip, lock, your decision, open the sheet; the sheet groups its actions in three."
  },
  "canal": "test",
- "signature": "2iTx94e2uO9Lbk+setvbMinLReAW2StPruZrvC3ot1e3WfiuQJXXDkLpPrmdtRI6EBjtAMVnC7FaugjfCZOWCw=="
+ "signature": "PgaCb16LIuI/lsjGsql8qvfBMIn3kd11SfML9bKX53sFknxrtEJvKAQgQX5yE673tDq0724++HBrLY6qZ/K5Aw=="
 }
