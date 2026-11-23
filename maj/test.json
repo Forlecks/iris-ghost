@@ -1,21 +1,21 @@
 {
- "version": "0.4.63",
+ "version": "0.4.64",
  "date": "2026-11-23",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.63/iris-app-0.4.63.zip",
-  "sha256": "21ac75ad749bd56bfa6fc642e2e2b9ae8dac581b3d694df2610ff3e75e6d5571",
-  "taille": 3291607
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.64/iris-app-0.4.64.zip",
+  "sha256": "5e578a3b199c74b6fd5814e76e4e1b1ec23d6eab8fd143f3995f7b26966d4fd9",
+  "taille": 3293007
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.63/IrisGhost-Setup.exe",
-  "sha256": "e7e52b81bb06ca7118ff39adb4630641a35cccde5a05f43ba4be0776b1b5f721",
-  "taille": 31336833
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.64/IrisGhost-Setup.exe",
+  "sha256": "2938b4d06dd237881a4ca88fac7f06dec80d86463d42e574e5f53760e61a8c94",
+  "taille": 31336094
  },
  "notes": {
-  "fr": "- Accueil : le tableau des rotations et des loots se met à jour tout seul une fois par semaine, en arrière-plan (environ 76 Ko, rien de ton compte n'est envoyé).",
-  "en": "- Home: the rotations and loot table now refreshes itself once a week in the background (about 76 KB, nothing from your account is sent)."
+  "fr": "- Collectibles : un collectible trouvé sur n'importe quel personnage compte comme trouvé (Lapins de jade, Secteurs oubliés, Crânes anciens) ; le détail par personnage reste en petit.",
+  "en": "- Collectibles: a collectible found on any character counts as found (Jade Rabbits, Lost Sectors, Ancient Skulls); the per-character detail stays in small print."
  },
  "canal": "test",
- "signature": "+itu6uyL/KzDZmsiF0Rnqro6vStyhsxoPP1I54NUkwVjhkFoRLEBHpO6DdUZf76iWehG13XfnTwHIzAAzebnDg=="
+ "signature": "gJlcwhfrOc6IJmRtxXY625kwk2iJ5rFEMiLV/YAJdvWcxDiGVstoteaU6M8kRQJ1Zzk4wAJAg7BGJZ4fqK2PBw=="
 }
