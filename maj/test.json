@@ -1,21 +1,21 @@
 {
- "version": "0.5.6",
+ "version": "0.5.7",
  "date": "2026-11-23",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.6/iris-app-0.5.6.zip",
-  "sha256": "748d9aaa8be7a45085c38a6eafd9511e6c12e67a384fe9ed63b5278ba483cdfe",
-  "taille": 3670510
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.7/iris-app-0.5.7.zip",
+  "sha256": "2a4d88fedaea42bf52e81b5819c765f6d295945570bdb3c32bb1b76339fd0e7b",
+  "taille": 3938560
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.6/IrisGhost-Setup.exe",
-  "sha256": "d4128779b9faf69b9f57418a36f593ae9c54c3476b10c93ca5b6f0f80dfb02a0",
-  "taille": 31583046
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.7/IrisGhost-Setup.exe",
+  "sha256": "e9d51545665926072452cd63c3104cf94845a145ed438d63616cb0e21ffc39a3",
+  "taille": 31757562
  },
  "notes": {
-  "fr": "- Fenêtre étroite (900 px et moins) : la barre passe en bas, avec Accueil, trois groupes et « Plus » (toutes les entrées et la recherche).",
-  "en": "- Narrow window (900 px or less): the bar moves to the bottom, with Home, three groups and \"More\" (every entry and search)."
+  "fr": "- Iris s'appelle Iris partout : la voix, le bot Discord, la visite, l'aide, les règles et leur partage.\n- Boutique : la vue rapide montre l'ornement tel qu'il se voit en jeu ; un clic ouvre l'arme qu'il habille. Elle s'ouvre presque instantanément, aussi dans l'éditeur de sets (ornements et revêtements).\n- Recherche : taper un nom de perk, d'archétype, de champion… propose la commande (par exemple « perk:luciole ») dans l'Armurerie, le Coffre, Personnages, le choix d'une pièce, la liste de courses, la Boutique et Ctrl+K.\n- Coffre : « Ta décision » se précise en Gardé ou À démanteler, aussi en recherche (« decision:garde »).\n- Coffre en blocs : chaque bloc en bande sur toute la largeur, les objets en rangées.\n- Collectibles : plus de carte « le jeu ne dit pas où » ; os d'Ahamkara, statuettes de chats et œufs altérés dans la Cité des Rêves, jouets pingouins dans Europe avec leur zone, enregistrements dans « Rebelles ».\n- Correctif : « Archiver » est bien enregistré même quand le tri est suspendu (pareil pour « À infuser » et éteindre ou rallumer le tri).\n- Compteurs accordés : « 1 objet affiché », « 1 règle »…\n- Système : l'interrupteur de la voix d'Iris sur Discord et ses fichiers (en préparation : il restera grisé tant que les fichiers ne sont pas en ligne).\n- Écran d'un set : on pose des mods même sur une case vide, ils restent quand la pièce arrive. Les stats voulues se règlent sur la page, les options d'Iris s'affichent sous la carte des stats, et les mods « Source de… » se posent à la main comme un exotique.\n- Carte des stats : la priorité se range par la poignée ⋮ seule ; la barre règle la cible.\n- Liste de souhaits : je peux te prévenir par message privé Discord quand un objet souhaité arrive en boutique (Système, carte « Lecture de ton inventaire », éteint par défaut, avec un message d'essai).",
+  "en": "- Iris is called Iris everywhere: the voice, the Discord bot, the tour, help, rules and rule sharing.\n- Shop: the quick view shows the ornament as it looks in game; a click opens the weapon it dresses. It now opens almost instantly, in the set editor too (ornaments and shaders).\n- Search: typing a perk, archetype or champion name suggests the command (for example \"perk:firefly\") in the Armory, Vault, Characters, piece picker, shopping list, Shop and Ctrl+K.\n- Vault: \"Your call\" now splits into Kept and To dismantle, also in search (\"decision:kept\").\n- Vault blocks: each block is a full-width band, items in rows.\n- Collectibles: no more \"the game doesn't say where\" card; Ahamkara bones, cat statues and corrupted eggs under the Dreaming City, penguin toys under Europa with their zone, recordings under \"Renegades\".\n- Fix: \"Archive\" is now saved even when sorting is paused (same for \"To infuse\" and turning sorting off or on).\n- Counters agree in number: \"1 item shown\", \"1 rule\"…\n- System: the switch for Iris's voice on Discord and its files (in preparation: it stays greyed out until the files are online).\n- Set screen: mods can be placed even on an empty slot, and they stay when the piece arrives. Target stats are set on the page, Iris's options sit under the stats card, and Font mods are placed by hand like an exotic.\n- Stats card: priority is reordered with the ⋮ handle only; the bar sets the target.\n- Wish list: I can let you know by Discord direct message when a wished item reaches the shop (System, \"Reading your inventory\" card, off by default, with a test message)."
  },
  "canal": "test",
- "signature": "kZhJleeCC8AOrzNJfqW+6afA5lBURFOnb81sPfURec8BdGqhunlHl7yQgoVJTlrRog1eLMBZ90kXioSYluY3Dg=="
+ "signature": "PeEQOSDQTR/gBtMJJVf1ulwfDL9fLqTS2+4a0b0IyFzouZEuSj+4ap19IjlEGlKfBGFrco18H8Pwf9GsFg3ADw=="
 }
