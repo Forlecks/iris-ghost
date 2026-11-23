@@ -1,21 +1,21 @@
 {
- "version": "0.4.64",
+ "version": "0.5.0",
  "date": "2026-11-23",
  "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.64/iris-app-0.4.64.zip",
-  "sha256": "5e578a3b199c74b6fd5814e76e4e1b1ec23d6eab8fd143f3995f7b26966d4fd9",
-  "taille": 3293007
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.0/iris-app-0.5.0.zip",
+  "sha256": "a5a18be9124c18e50593acf075f651dfd44c7629d280c718c3625471a4071fda",
+  "taille": 3613503
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.64/IrisGhost-Setup.exe",
-  "sha256": "2938b4d06dd237881a4ca88fac7f06dec80d86463d42e574e5f53760e61a8c94",
-  "taille": 31336094
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.5.0/IrisGhost-Setup.exe",
+  "sha256": "bc908a9264de95590e6df8502a32af0ff38dc728cdf457db9b798237c49c8e07",
+  "taille": 31550562
  },
  "notes": {
-  "fr": "- Collectibles : un collectible trouvé sur n'importe quel personnage compte comme trouvé (Lapins de jade, Secteurs oubliés, Crânes anciens) ; le détail par personnage reste en petit.",
-  "en": "- Collectibles: a collectible found on any character counts as found (Jade Rabbits, Lost Sectors, Ancient Skulls); the per-character detail stays in small print."
+  "fr": "Iris 0.5 commence sur le canal Test : on prépare le Spectre sur Discord pour tous.\n- Nouvel onglet Boutique : le catalogue de Tess (poussière brillante et argent), avec une liste de souhaits ; Iris te prévient quand un objet souhaité arrive (bulle Windows et bandeau).\n- Les commandes vocales du Spectre rejoignent le cœur de l'app (étape préparatoire, rien ne change à l'usage).",
+  "en": "Iris 0.5 starts on the Test channel: we are getting the Discord Ghost ready for everyone.\n- New Shop tab: Tess's catalog (Bright Dust and Silver), with a wishlist; Iris lets you know when a wished item shows up (Windows notification and banner).\n- The Ghost's voice commands move into the app's core (preparation step, nothing changes in use)."
  },
  "canal": "test",
- "signature": "gJlcwhfrOc6IJmRtxXY625kwk2iJ5rFEMiLV/YAJdvWcxDiGVstoteaU6M8kRQJ1Zzk4wAJAg7BGJZ4fqK2PBw=="
+ "signature": "AuVu+qGO7YQ/zW4EZkC64QpiYZta6uAHJ+QndQ8ppP8Uw+ssBVLJcFPUi3AxrbjoMAFMzFuLAKwVzvOWFfVpAA=="
 }
