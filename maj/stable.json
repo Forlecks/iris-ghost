@@ -1,20 +1,21 @@
 {
- "version": "0.3.10",
- "date": "2026-11-22",
- "socle": 1,
+ "version": "0.4.65",
+ "date": "2026-11-23",
+ "socle": 4,
  "paquet": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.10/iris-app-0.3.10.zip",
-  "sha256": "5b801128c301d0623a89201993beda1cd6538f71d20dcec929b9278273bb1126",
-  "taille": 1791709
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.65/iris-app-0.4.65.zip",
+  "sha256": "4676b0e7f5f480718c59d9371d335abf2e56cd9b5f62489c6eae6765acff4e6d",
+  "taille": 3293010
  },
  "installateur": {
-  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.3.10/IrisGhost-Setup.exe",
-  "sha256": "1954398563a7954e669c771ff5da0bf65daa0b2271d65b88e49a0e451c55cfc8",
-  "taille": 30177673
+  "url": "https://github.com/Forlecks/iris-ghost/releases/download/v0.4.65/IrisGhost-Setup.exe",
+  "sha256": "025821543a029447e5a75a1d97e9e0901b2a6fd30444e3c954280f8ddb1ea3e8",
+  "taille": 31333310
  },
  "notes": {
-  "fr": "Corrections de la mise à jour, rien d'autre ne change.\n- Une installation faite depuis le site reste sur la version stable. Pour essayer les versions de test : Système › Mises à jour › Canal « Test ».\n- Réinstaller Iris depuis le site remet bien la version téléchargée, même par-dessus une ancienne installation.\n- Passer en Test fonctionne même quand il faut l'installation complète : Iris se ferme, s'installe et revient seule.",
-  "en": "Update fixes, nothing else changes.\n- An install made from the website stays on the stable version. To try test versions: System › Updates › Channel \"Test\".\n- Reinstalling Iris from the website now really puts the downloaded version back, even over an older install.\n- Switching to Test works even when a full install is needed: Iris closes, installs and comes back on its own."
+  "fr": "Iris passe en 0.4 sur la version stable : tout ce qui a été construit depuis la 0.3.\n- Refonte complète de l'interface, visite guidée, Iris qui parle à la première personne.\n- Builds : sets façon écran du personnage, catégories et favoris, Optimiseur à vingt résultats, ensembles de raid avec presets confiés, mods posés sur cinq pièces à la fois.\n- Personnages et Coffre : tuiles lisibles (élément, munitions, champions), coffre en blocs, épingles sur l'Accueil.\n- Règles : éditeur complet, simulation, exotiques et bonus de set à ton choix.\n- Armurerie, Collectibles, Jalons, Carte, Checkpoints, Autres outils ; recherche rapide (Ctrl+K) ; barre de navigation modifiable.\n- Import DIM ; la fenêtre se rouvre au même endroit.\nCette version demande l'installateur complet : Iris le propose dans Système › Mises à jour.",
+  "en": "Iris moves to 0.4 on the stable channel: everything built since 0.3.\n- Full interface redesign, guided tour, Iris speaking in the first person.\n- Builds: sets shown like the in-game character screen, categories and favorites, 20-result Optimizer, raid ensembles with trusted loadouts, mods slotted on five pieces at once.\n- Characters and Vault: readable tiles (element, ammo, champions), vault in blocks, pins on Home.\n- Rules: full editor, simulation, your own exotic and set bonus choices.\n- Armory, Collectibles, Milestones, Map, Checkpoints, Other tools; quick search (Ctrl+K); editable navigation bar.\n- DIM import; the window reopens where you left it.\nThis version needs the full installer: Iris offers it in System › Updates."
  },
- "signature": "rG3JoAI0o4RVH9Q4z0XoRH28ad5t0/nHJxG8G3H+2knRQbpxmsQ1+iGkPxLJR5Y8UDnL9c/vp79zdZovFh+oDw=="
+ "canal": "stable",
+ "signature": "wObkeijV7ecachkDgWvtNxWAyyQslgCWosVvXzNoINrPuk2lnTyVcTm6aVj3VEb+uDLb0jD3Bp97gVj28/yLDg=="
 }
