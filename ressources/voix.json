@@ -1,0 +1,38 @@
+{
+ "genre": "ressources-voix",
+ "format": 1,
+ "date": "2026-11-24",
+ "ressources": [
+  {
+   "nom": "vosk-fr",
+   "version": "0.22",
+   "dossier": "vosk-fr",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-vosk-fr-0.22/vosk-fr-0.22.zip",
+   "sha256": "c6beffa1140888ad45a8260f502797a499bd39c0e27873fa07f21d3153523b4a",
+   "taille": 42832125,
+   "deballe": 68483807
+  },
+  {
+   "nom": "banque-fr",
+   "version": "1",
+   "dossier": "banque-fr",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-banque-fr-1/banque-fr-1.zip",
+   "sha256": "6649f8361fa776c9ceebe4768a4440288f4bbf8149ab498d21a045296c0d8dc2",
+   "taille": 25311160,
+   "deballe": 24950666
+  },
+  {
+   "nom": "whisper-small",
+   "version": "int8-1",
+   "dossier": "whisper-small",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-whisper-small-int8-1/whisper-small-int8-1.zip",
+   "sha256": "649820d1edc4326bfe7bb4899c96193430522c0c6ab736b0d185a9d489351a87",
+   "taille": 210513815,
+   "deballe": 251991831
+  }
+ ],
+ "signature": "CVvBSA8Mb1C68cM8lXvjUZp5BFtbbIa+O8g5WxT3eYuROS3JkCAQspj74Y7PT+pbT7OyQjNSmT9zSBFWsEUKDA=="
+}
