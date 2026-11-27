@@ -1,8 +1,48 @@
 {
  "genre": "ressources-voix",
  "format": 1,
- "date": "2026-11-24",
+ "date": "2026-11-27",
  "ressources": [
+  {
+   "nom": "tts-fr",
+   "version": "1",
+   "dossier": "tts-fr",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-tts-fr-1/tts-fr-1.zip",
+   "sha256": "391fd1dcf667e34fc9a914654133d704ac2204e00397a06c12eb633d3de8857d",
+   "taille": 179254145,
+   "deballe": 255127482
+  },
+  {
+   "nom": "banque-fr-a",
+   "version": "1",
+   "dossier": "banque-fr-a",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-banque-fr-a-1/banque-fr-a-1.zip",
+   "sha256": "62a5c4682fc3f54db44a713e29226087a5bd623fb66f66ded319ea52d58a9700",
+   "taille": 4575254,
+   "deballe": 4547993
+  },
+  {
+   "nom": "banque-fr-b",
+   "version": "1",
+   "dossier": "banque-fr-b",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-banque-fr-b-1/banque-fr-b-1.zip",
+   "sha256": "92f81313182bdd416e4f8e9b2ffd8c62fae9a2e1da4e0a5d1938d3ac63fa7be5",
+   "taille": 4704867,
+   "deballe": 4678533
+  },
+  {
+   "nom": "banque-fr-c",
+   "version": "1",
+   "dossier": "banque-fr-c",
+   "langue": "fr",
+   "url": "https://github.com/Forlecks/iris-ghost/releases/download/voix-banque-fr-c-1/banque-fr-c-1.zip",
+   "sha256": "f0a53384034cc9a49a7a044f318efc2aa2e9443fc1376283def340151a95c0a1",
+   "taille": 4494920,
+   "deballe": 4467405
+  },
   {
    "nom": "vosk-fr",
    "version": "0.22",
@@ -34,5 +74,5 @@
    "deballe": 251991831
   }
  ],
- "signature": "CVvBSA8Mb1C68cM8lXvjUZp5BFtbbIa+O8g5WxT3eYuROS3JkCAQspj74Y7PT+pbT7OyQjNSmT9zSBFWsEUKDA=="
+ "signature": "byJCQIg/gC2eufVcxiZ6rf3Y+1sO3cRXMv/ifrWyzfQi/iQJx4odQaC9VM1ksGG+O1AH6UgkBlyLOO9o/hFYBg=="
 }

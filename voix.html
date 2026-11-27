@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La voix d'Iris : ce qu'il faut savoir</title>
+<meta name="description" content="Ce que la voix d'Iris écoute sur Discord, où passe l'audio, ce qui reste sur ton PC et comment tout couper.">
+<!-- Chaque phrase de cette page vient du code ou de la doc (docs/spectre-relais.md §15.3), pas de mémoire.
+     L'écran Système en reprend l'essentiel (« Ce qu'il faut savoir », catalogue systeme.voix.savoir.*) et
+     renvoie ici, sur #en pour un joueur en anglais. Un fait qui change dans le code change ici aussi. -->
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; font: 16px/1.6 "Segoe UI", system-ui, sans-serif; background: #15161a; color: #e9e9ee; }
+  main { max-width: 42rem; margin: 0 auto; padding: 4rem 1.5rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  .accroche { color: #b9b9c4; margin: 0 0 2rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 .5rem; }
+  p, li { color: #c9c9d4; }
+  li { margin: .35rem 0; }
+  footer { border-top: 1px solid #2a2b33; margin-top: 3rem; padding-top: 1rem; font-size: .85rem; color: #85858f; }
+  a { color: #8ab4ff; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: .85rem; color: #b9b9c4; word-break: break-all; }
+  .discret { font-size: .85rem; color: #85858f; }
+  .langue { border-top: 1px solid #2a2b33; margin-top: 2.5rem; padding-top: 1.5rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>La voix d'Iris : ce qu'il faut savoir</h1>
+  <p class="accroche">Iris peut t'écouter dans un salon vocal Discord, comprendre ce que tu lui demandes et te
+    répondre à voix haute. Voici ce qui se passe, et ce qui ne se passe pas. <a href="#en">English below.</a></p>
+
+  <h2>Ce qu'Iris écoute, et quand</h2>
+  <ul>
+    <li>La voix est <strong>éteinte</strong> tant que tu ne l'allumes pas, dans Système, carte « Iris sur Discord ».</li>
+    <li>Allumée, ton app reçoit ta voix quand tu es dans un salon avec le bot Iris Ghost, et seulement la tienne.</li>
+    <li>Sur ton PC, un petit détecteur cherche le mot « Iris » dans chacune de tes phrases. Une phrase sans ce mot
+      n'est jamais transcrite : il n'en reste que sa durée, dans un fichier de mesures.</li>
+    <li>Une phrase qui contient « Iris » est transcrite, sur ton PC. Celle que tu dis dans les dix secondes après
+      elle, ou après une réponse d'Iris, l'est aussi, même sans « Iris » : c'est ce qui permet de dire « Iris… »
+      puis ta demande, ou de répondre « confirme ».</li>
+    <li>« Spectre », l'ancien nom, la réveille encore pendant la transition.</li>
+    <li>Une phrase qui parle d'Iris sans s'adresser à elle (« l'iris de mon perso ») peut être transcrite. Iris
+      l'écarte ensuite sans y répondre.</li>
+    <li>Iris n'agit que sur ton compte : la voix qui arrive dans ton app ne peut agir que sur le compte de cette
+      app.</li>
+    <li>Pour l'instant, Iris ne comprend que le français.</li>
+  </ul>
+
+  <h2>La voix des autres</h2>
+  <ul>
+    <li>Dans un salon, Discord envoie au bot la voix de chaque personne, comme à tout membre du salon.</li>
+    <li>Le relais ne transmet la voix d'une personne qu'à sa propre app Iris, et seulement si elle a allumé la voix.
+      Toutes les autres voix sont jetées dès leur arrivée : le relais n'en garde rien et compte seulement les
+      paquets jetés, sans noter de qui ils venaient.</li>
+    <li>Ton app ne reçoit donc jamais la voix de tes amis, et la leur ne reçoit jamais la tienne.</li>
+    <li>Quand il peut écouter, le bot entre dans le salon sans l'icône « sourd » : chacun peut le voir dans la
+      liste des membres.</li>
+  </ul>
+
+  <h2>Le chemin de ta voix</h2>
+  <ul>
+    <li>Discord, puis le bot Iris Ghost, que fait tourner le relais d'Iris, puis ton app, par une connexion
+      chiffrée.</li>
+    <li>L'audio reste au format de Discord (Opus) jusqu'à ton PC : le relais ne le décode pas, ne l'écoute pas et ne
+      l'enregistre pas. Il retient seulement l'heure d'arrivée des paquets des trente dernières secondes, pour
+      jouer les réponses dans l'ordre où chacun a fini de parler.</li>
+    <li>Ton app décode ta voix, cherche « Iris », transcrit et comprend ta demande sur ton PC.</li>
+    <li>Si Iris est ouverte sur deux PC, seule celle qui s'est connectée en dernier reçoit ta voix : une commande ne
+      s'exécute pas deux fois.</li>
+  </ul>
+
+  <h2>Ce qu'Iris répond, et où</h2>
+  <ul>
+    <li>Iris répond à voix haute dans le salon : tout le monde dans le salon l'entend.</li>
+    <li>Sa voix est une voix de synthèse, calculée <strong>sur ton PC</strong> par le modèle Pocket TTS de Kyutai,
+      téléchargé avec ses fichiers. Ses phrases habituelles peuvent aussi être déjà enregistrées (réglage « Ma façon
+      de parler » dans Système). Aucune voix n'est fabriquée en ligne, et ce qu'elle dit ne quitte ton PC que pour
+      être joué dans le salon.</li>
+    <li>Ce qu'elle ne peut pas dire en entier, elle l'écrit : le bot poste le texte dans le salon, sous ta mention,
+      sans notifier personne. Ces messages restent dans le salon comme tout message Discord, et tous ceux qui
+      voient ce salon peuvent les lire.</li>
+  </ul>
+
+  <h2>Ce qui reste sur ton PC</h2>
+  <ul>
+    <li><strong>Aucun son</strong> : ni ta voix, ni celle des autres, ni la conversation ne sont enregistrées.</li>
+    <li><strong>En version stable, pas de texte non plus</strong> : ni ce que tu dis, ni ce qu'Iris répond. Il ne
+      reste que des mesures : la durée de chaque phrase, son nombre de mots, les temps de calcul.</li>
+    <li><strong>En version test, Iris garde le texte</strong>, pour qu'on puisse corriger sa transcription. Ses
+      journaux sont dans <code>%APPDATA%\IrisGhost\data</code> :
+      <ul>
+        <li><code>spectre\stt-journal.jsonl</code> : chaque phrase transcrite, avec ce qu'Iris en a compris et ce
+          qu'elle a répondu, y compris celles qu'elle a écartées. Rien ne l'efface tout seul.</li>
+        <li><code>spectre\relais-mesures.jsonl</code> : une ligne par phrase (sa durée, les temps de calcul) et une
+          par minute. Le texte n'y figure que pour une phrase adressée à Iris ; pour une autre phrase transcrite,
+          seulement son nombre de mots. Rien ne l'efface tout seul.</li>
+        <li><code>iris.log</code> : le journal technique d'Iris note aussi les phrases transcrites et le texte de
+          ses réponses. Il ne grossit pas sans fin : au-delà de quelques fichiers d'un demi-mégaoctet, les lignes
+          les plus anciennes s'effacent.</li>
+      </ul>
+      Le « Rapport de diagnostic » de Système emporte la fin de <code>stt-journal.jsonl</code> et de
+      <code>iris.log</code> : si Iris a mal compris une phrase, c'est ce rapport qu'il faut envoyer.
+    </li>
+    <li>Dans les deux versions : les fichiers <code>spectre\rotation-*.json</code> retiennent quelles variantes de
+      ses phrases Iris a déjà dites, pour ne pas répéter toujours la même, et <code>voix\</code> contient les
+      fichiers de la voix (transcription, mot d'éveil, sa voix et ses phrases enregistrées).</li>
+  </ul>
+
+  <h2>Ce que garde le relais</h2>
+  <ul>
+    <li>Ni audio, ni transcription : la transcription ne se fait pas chez lui. Le texte des réponses écrites ne
+      fait qu'y passer pour être posté.</li>
+    <li>Son journal ne contient que des identifiants Discord et des compteurs (paquets reçus, jetés, temps
+      d'attente), jamais un pseudo, un nom de serveur ou de salon. Il est gardé une quinzaine de jours.</li>
+  </ul>
+
+  <h2>Ce qui part vers d'autres services</h2>
+  <ul>
+    <li><strong>Discord</strong> : ta voix y passe comme toute voix de salon ; le bot y joue les réponses et y poste
+      les réponses écrites.</li>
+    <li><strong>GitHub</strong> : les fichiers de la voix se téléchargent depuis les publications GitHub d'Iris,
+      quand tu le demandes. Leur liste vient du site d'Iris, elle est signée, et chaque fichier est vérifié avant
+      d'être installé.</li>
+    <li><strong>Rien d'autre</strong> : aucun service de transcription, aucune voix de synthèse en ligne. La
+      transcription n'a besoin d'aucune connexion.</li>
+  </ul>
+
+  <h2>Ton accord, et comment tout couper</h2>
+  <ul>
+    <li>La première fois que tu allumes la voix, Iris te demande ton accord. Il est gardé avec sa date ; si le sens
+      de cette phrase change un jour, elle te sera redemandée.</li>
+    <li><strong>Éteindre</strong> : l'interrupteur « La voix d'Iris », dans Système. Ton app ne demande plus ta voix
+      au relais, qui la jette dès son arrivée.</li>
+    <li><strong>Supprimer les fichiers</strong> : « Supprimer », sur la ligne « Fichiers de la voix ». La voix
+      s'éteint aussi.</li>
+    <li><strong>Les journaux</strong> (version test) : aucun bouton ne les efface pour l'instant. Tu peux supprimer
+      toi-même <code>stt-journal.jsonl</code> et <code>relais-mesures.jsonl</code> dans
+      <code>%APPDATA%\IrisGhost\data\spectre</code> ; Iris les recrée si tu te sers de nouveau de la voix.</li>
+  </ul>
+
+  <h2>Ton PC</h2>
+  <ul>
+    <li>Le détecteur du mot « Iris » passe sur chacune de tes phrases du salon. Il est léger.</li>
+    <li>Après « Iris », la transcription fait travailler jusqu'à quatre cœurs du processeur pendant quelques
+      secondes, et son modèle occupe de la mémoire.</li>
+    <li>Les fichiers de la voix prennent de la place sur le disque ; leur taille s'affiche avant le
+      téléchargement.</li>
+    <li>L'effet pendant une partie de Destiny 2 n'est pas encore mesuré. Une configuration conseillée viendra
+      après cette mesure.</li>
+  </ul>
+
+  <section class="langue" lang="en" id="en">
+    <h1>Iris's voice: what you should know</h1>
+    <p class="accroche">Iris can listen to you in a Discord voice channel, understand what you ask and answer out
+      loud. Here is what happens, and what does not.</p>
+
+    <h2>What Iris listens to, and when</h2>
+    <ul>
+      <li>The voice is <strong>off</strong> until you turn it on, in System, on the “Iris on Discord” card.</li>
+      <li>Once on, your app receives your voice when you are in a voice channel with the Iris Ghost bot, and only
+        yours.</li>
+      <li>On your PC, a small detector looks for the word “Iris” in each of your sentences. A sentence without it is
+        never transcribed: only its length is kept, in a measurements file.</li>
+      <li>A sentence that contains “Iris” is transcribed, on your PC. The one you say within ten seconds after it,
+        or after one of Iris's answers, is too, even without “Iris”: that is what lets you say “Iris…” then your
+        request, or answer “confirm”.</li>
+      <li>“Spectre”, the old name, still wakes her up during the transition.</li>
+      <li>A sentence that mentions Iris without talking to her may be transcribed. Iris then drops it without
+        answering.</li>
+      <li>Iris only acts on your account: the voice that reaches your app can only act on that app's account.</li>
+      <li>For now, Iris only understands French.</li>
+    </ul>
+
+    <h2>Other people's voices</h2>
+    <ul>
+      <li>In a voice channel, Discord sends the bot each person's voice, as it does to any member of the
+        channel.</li>
+      <li>The relay only passes a person's voice to their own Iris app, and only if they turned the voice on. Every
+        other voice is dropped on arrival: the relay keeps nothing of it and only counts the dropped packets,
+        without noting whose they were.</li>
+      <li>So your app never receives your friends' voices, and theirs never receives yours.</li>
+      <li>When it can listen, the bot joins the channel without the “deafened” icon: anyone can see it in the
+        member list.</li>
+    </ul>
+
+    <h2>The path of your voice</h2>
+    <ul>
+      <li>Discord, then the Iris Ghost bot, run by Iris's relay, then your app, over an encrypted connection.</li>
+      <li>The audio stays in Discord's format (Opus) all the way to your PC: the relay does not decode it, listen
+        to it or record it. It only remembers when the packets of the last thirty seconds arrived, to play the
+        answers in the order people finished speaking.</li>
+      <li>Your app decodes your voice, looks for “Iris”, transcribes and understands your request on your PC.</li>
+      <li>If Iris is open on two PCs, only the one that connected last receives your voice: a command never runs
+        twice.</li>
+    </ul>
+
+    <h2>What Iris answers, and where</h2>
+    <ul>
+      <li>Iris answers out loud in the voice channel: everyone in the channel hears her.</li>
+      <li>Her voice is a synthetic voice, computed <strong>on your PC</strong> by Kyutai's Pocket TTS model,
+        downloaded with her files. Her usual sentences can also be recorded in advance (the “How I speak” setting in
+        System). No voice is generated online, and what she says only leaves your PC to be played in the channel.</li>
+      <li>What she can't say in full, she writes: the bot posts the text in the channel, under your mention,
+        without notifying anyone. Those messages stay in the channel like any Discord message, and everyone who
+        can see that channel can read them.</li>
+    </ul>
+
+    <h2>What stays on your PC</h2>
+    <ul>
+      <li><strong>No sound</strong>: neither your voice, nor anyone else's, nor the conversation is recorded.</li>
+      <li><strong>On the stable version, no text either</strong>: neither what you say nor what Iris answers. Only
+        measurements remain: each sentence's length, its word count, the processing times.</li>
+      <li><strong>On the test version, Iris keeps the text</strong>, so her transcription can be improved. Her logs
+        are in <code>%APPDATA%\IrisGhost\data</code>:
+        <ul>
+          <li><code>spectre\stt-journal.jsonl</code>: every transcribed sentence, with what Iris understood and what
+            she answered, including the ones she dropped. Nothing erases it on its own.</li>
+          <li><code>spectre\relais-mesures.jsonl</code>: one line per sentence (its length, the processing times)
+            and one per minute. The text is only there for a sentence addressed to Iris; for another transcribed
+            sentence, only its word count. Nothing erases it on its own.</li>
+          <li><code>iris.log</code>: Iris's technical log also notes the transcribed sentences and the text of her
+            answers. It does not grow forever: past a few half-megabyte files, the oldest lines are erased.</li>
+        </ul>
+        The “Diagnostic report” in System includes the end of <code>stt-journal.jsonl</code> and of
+        <code>iris.log</code>: if Iris misheard a sentence, that report is the one to send.
+      </li>
+      <li>On both versions: the <code>spectre\rotation-*.json</code> files remember which variants of her sentences
+        Iris has already said, so she doesn't always repeat the same one, and <code>voix\</code> holds the voice files
+        (transcription, wake word, her voice and recorded sentences).</li>
+    </ul>
+
+    <h2>What the relay keeps</h2>
+    <ul>
+      <li>No audio, no transcription: transcription does not happen there. The text of written answers only passes
+        through to be posted.</li>
+      <li>Its log only holds Discord IDs and counters (packets received, dropped, waiting times), never a nickname,
+        a server name or a channel name. It is kept for about fifteen days.</li>
+    </ul>
+
+    <h2>What goes to other services</h2>
+    <ul>
+      <li><strong>Discord</strong>: your voice goes through it like any voice in a channel; the bot plays the answers
+        and posts the written answers there.</li>
+      <li><strong>GitHub</strong>: the voice files download from Iris's GitHub releases, when you ask for them. Their
+        list comes from Iris's website, it is signed, and each file is checked before it is installed.</li>
+      <li><strong>Nothing else</strong>: no online transcription service, no online synthetic voice. Transcription
+        needs no connection.</li>
+    </ul>
+
+    <h2>Your consent, and how to turn it all off</h2>
+    <ul>
+      <li>The first time you turn the voice on, Iris asks for your consent. It is kept with its date; if the meaning
+        of that sentence ever changes, you will be asked again.</li>
+      <li><strong>Turn off</strong>: the “Iris's voice” switch, in System. Your app stops asking the relay for your
+        voice, and the relay drops it on arrival.</li>
+      <li><strong>Delete the files</strong>: “Delete”, on the “Voice files” line. The voice turns off too.</li>
+      <li><strong>The logs</strong> (test version): no button erases them yet. You can delete
+        <code>stt-journal.jsonl</code> and
+        <code>relais-mesures.jsonl</code> yourself in <code>%APPDATA%\IrisGhost\data\spectre</code>; Iris creates
+        them again if you use the voice again.</li>
+    </ul>
+
+    <h2>Your PC</h2>
+    <ul>
+      <li>The “Iris” word detector runs on each of your sentences in the channel. It is light.</li>
+      <li>After “Iris”, transcription keeps up to four processor cores busy for a few seconds, and its model takes
+        up memory.</li>
+      <li>The voice files take disk space; their size is shown before the download.</li>
+      <li>The effect during a Destiny 2 game has not been measured yet. A recommended setup will come after that
+        measurement.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <a href="./">Iris Spectre</a> n'est pas affilié à Bungie, Inc. Destiny et Destiny 2 sont des marques de Bungie.
+  </footer>
+</main>
+</body>
+</html>
